@@ -1,1 +1,1 @@
-A collection of personal projects created by myself, Zac Tressel. 
+A collection of personal projects created by myself, Zac Tressel.
