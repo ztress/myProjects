@@ -122,7 +122,7 @@ public class Card
                     return "KD.png";
                 }
             }
-            else if(suitNum == 2)
+            else if(suitNum == 3)
             {
                 if(rankNum == 0)
                 {
@@ -130,7 +130,7 @@ public class Card
                 }
                 else if(rankNum == 1)
                 {
-                    return "2.pngC";
+                    return "2C.pngC";
                 }
                 else if(rankNum == 2)
                 {
@@ -142,7 +142,7 @@ public class Card
                 }
                 else if(rankNum == 4)
                 {
-                    return "5.pngC";
+                    return "5C.pngC";
                 }
                 else if(rankNum == 5)
                 {
@@ -177,7 +177,7 @@ public class Card
                     return "KC.png";
                 }
             }
-            else if(suitNum == 3)
+            else if(suitNum == 2)
             {
                 if(rankNum == 0)
                 {
@@ -236,11 +236,11 @@ public class Card
             {
                 if(rankNum == 13)
                 {
-                    return "joker.png";
+                    return "joker.jpg";
                 }
                 else
                 {
-                    return "jokerPlus.png";
+                    return "jokerPlus.jpg";
                 }
             }
         }

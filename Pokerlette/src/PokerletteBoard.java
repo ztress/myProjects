@@ -1,16 +1,16 @@
 
 import java.awt.Image;
-import java.awt.List;
-import java.io.File;
-import java.io.IOException;
+//import java.awt.List;
+//import java.io.File;
+//import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
-import java.awt.image.BufferedImage; 
-import javax.imageio.ImageIO;
+//import java.awt.image.BufferedImage; 
+//import javax.imageio.ImageIO;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -1220,6 +1220,11 @@ public class PokerletteBoard extends javax.swing.JFrame {
         put("queenStreet", queenStreetCombo);
         put("kingStreet", kingStreetCombo);
         
+        put("diamonds", diamondsCombo);
+        put("hearts", heartsCombo);
+        put("clubs", clubsCombo);
+        put("spades", spadesCombo);
+        
     }};
     
     
@@ -1231,63 +1236,275 @@ public class PokerletteBoard extends javax.swing.JFrame {
         put("kingToEight", 2);
                 
         
-        put("aceDiamonds", 11);
-        put("aceClubs", 11);
-        put("aceHearts", 11);
-        put("aceSpades", 11);
-        put("twoDiamonds", 11);
-        put("twoClubs", 11);
-        put("twoHearts", 11);
-        put("twoSpades", 11);
-        put("threeDiamonds", 11);
-        put("threeClubs", 11);
-        put("threeHearts", 11);
-        put("threeSpades", 11);
-        put("fourDiamonds", 11);
-        put("fourClubs", 11);
-        put("fourHearts", 11);
-        put("fourSpades", 11);
-        put("fiveDiamonds", 11);
-        put("fiveClubs", 11);
-        put("fiveHearts", 11);
-        put("fiveSpades", 11);
-        put("sixDiamonds", 11);
-        put("sixClubs", 11);
-        put("sixHearts", 11);
-        put("sixSpades", 11);
-        put("sevenDiamonds", 11);
-        put("sevenClubs", 11);
-        put("sevenHearts", 11);
-        put("sevenSpades", 11);
-        put("eightDiamonds", 11);
-        put("eightClubs", 11);
-        put("eightHearts", 11);
-        put("eightSpades", 11);
-        put("nineDiamonds", 11);
-        put("nineClubs", 11);
-        put("nineHearts", 11);
-        put("nineSpades", 11);
-        put("tenDiamonds", 11);
-        put("tenClubs", 11);
-        put("tenHearts", 11);
-        put("tenSpades", 11);
-        put("jackDiamonds", 11);
-        put("jackClubs", 11);
-        put("jackHearts", 11);
-        put("jackSpades", 11);
-        put("queenDiamonds", 11);
-        put("queenClubs", 11);
-        put("queenHearts", 11);
-        put("queenSpades", 11);
-        put("kingDiamonds", 11);
-        put("kingClubs", 11);
-        put("kingHearts", 11);
-        put("kingSpades", 11);
+        put("aceDiamonds", 12);
+        put("aceClubs", 12);
+        put("aceHearts", 12);
+        put("aceSpades", 12);
+        put("twoDiamonds", 12);
+        put("twoClubs", 12);
+        put("twoHearts", 12);
+        put("twoSpades", 12);
+        put("threeDiamonds", 12);
+        put("threeClubs", 12);
+        put("threeHearts", 12);
+        put("threeSpades", 12);
+        put("fourDiamonds", 12);
+        put("fourClubs", 12);
+        put("fourHearts", 12);
+        put("fourSpades", 12);
+        put("fiveDiamonds", 12);
+        put("fiveClubs", 12);
+        put("fiveHearts", 12);
+        put("fiveSpades", 12);
+        put("sixDiamonds", 12);
+        put("sixClubs", 12);
+        put("sixHearts", 12);
+        put("sixSpades", 12);
+        put("sevenDiamonds", 12);
+        put("sevenClubs", 12);
+        put("sevenHearts", 12);
+        put("sevenSpades", 12);
+        put("eightDiamonds", 12);
+        put("eightClubs", 12);
+        put("eightHearts", 12);
+        put("eightSpades", 12);
+        put("nineDiamonds", 12);
+        put("nineClubs", 12);
+        put("nineHearts", 12);
+        put("nineSpades", 12);
+        put("tenDiamonds", 12);
+        put("tenClubs", 12);
+        put("tenHearts", 12);
+        put("tenSpades", 12);
+        put("jackDiamonds", 12);
+        put("jackClubs", 12);
+        put("jackHearts", 12);
+        put("jackSpades", 12);
+        put("queenDiamonds", 12);
+        put("queenClubs", 12);
+        put("queenHearts", 12);
+        put("queenSpades", 12);
+        put("kingDiamonds", 12);
+        put("kingClubs", 12);
+        put("kingHearts", 12);
+        put("kingSpades", 12);
         
-        put("joker", 11);
-        put("jokerPlus", 11);
+        put("joker", 12);
+        put("jokerPlus", 12);
        
 
+        put("split1", 6);
+        put("split2", 6);
+        put("split3", 6);
+        put("split4", 6);
+        put("split5", 6);
+        put("split6", 6);
+        put("split7", 6);
+        put("split8", 6);
+        put("split9", 6);
+        put("split10", 6);
+        put("split11", 6);
+        put("split12", 6);
+        put("split13", 6);
+        put("split14", 6);
+        put("split15", 6);
+        put("split16", 6);
+        put("split17", 6);
+        put("split18", 6);
+        put("split19", 6);
+        put("split20", 6);
+        put("split21", 6);
+        put("split22", 6);
+        put("split23", 6);
+        put("split24", 6);
+        put("split25", 6);
+        put("split26", 6);
+        put("split27", 6);
+        put("split28", 6);
+        put("split29", 6);
+        put("split30", 6);
+        put("split31", 6);
+        put("split32", 6);
+        put("split33", 6);
+        put("split34", 6);
+        put("split35", 6);
+        put("split36", 6);
+        put("split37", 6);
+        put("split38", 6);
+        put("split39", 6);
+        put("split40", 6);
+        put("split41", 6);
+        put("split42", 6);
+        put("split43", 6);
+        put("split44", 6);
+        put("split45", 6);
+        put("split46", 6);
+        put("split47", 6);
+        put("split48", 6);
+        put("split49", 6);
+        put("split50", 6);
+        put("split51", 6);
+        put("split52", 6);
+        put("split53", 6);
+        put("split54", 6);
+        put("split55", 6);
+        put("split56", 6);
+        put("split57", 6);
+        put("split58", 6);
+        put("split59", 6);
+        put("split60", 6);
+        put("split61", 6);
+        put("split62", 6);
+        put("split63", 6);
+        put("split64", 6);
+        put("split65", 6);
+        put("split66", 6);
+        put("split67", 6);
+        put("split68", 6);
+        put("split69", 6);
+        put("split70", 6);
+        put("split71", 6);
+        put("split72", 6);
+        put("split73", 6);
+        put("split74", 6);
+        put("split75", 6);
+        put("split76", 6);
+        put("split77", 6);
+        put("split78", 6);
+        put("split79", 6);
+        put("split80", 6);
+        put("split81", 6);
+        put("split82", 6);
+        put("split83", 6);
+        put("split84", 6);
+        put("split85", 6);
+        put("split86", 6);
+        put("split87", 6);
+        
+        
+        put("aceStreet", 5);
+        put("twoStreet", 5);
+        put("threeStreet", 5);
+        put("fourStreet", 5);
+        put("fiveStreet", 5);
+        put("sixStreet", 5);
+        put("sevenStreet", 5);
+        put("eightStreet", 5);
+        put("nineStreet", 5);
+        put("tenStreet", 5);
+        put("jackStreet", 5);
+        put("queenStreet", 5);
+        put("kingStreet", 5);
+        
+        
+        put("corner1", 5);
+        put("corner2", 5);
+        put("corner3", 5);
+        put("corner4", 5);
+        put("corner5", 5);
+        put("corner6", 5);
+        put("corner7", 5);
+        put("corner8", 5);
+        put("corner9", 5);
+        put("corner10", 5);
+        put("corner11", 5);
+        put("corner12", 5);
+        put("corner13", 5);
+        put("corner14", 5);
+        put("corner15", 5);
+        put("corner16", 5);
+        put("corner17", 5);
+        put("corner18", 5);
+        put("corner19", 5);
+        put("corner20", 5);
+        put("corner21", 5);
+        put("corner22", 5);
+        put("corner23", 5);
+        put("corner24", 5);
+        put("corner25", 5);
+        put("corner26", 5);
+        put("corner27", 5);
+        put("corner28", 5);
+        put("corner29", 5);
+        put("corner30", 5);
+        put("corner31", 5);
+        put("corner32", 5);
+        put("corner33", 5);
+        put("corner34", 5);
+        put("corner35", 5);
+        put("corner36", 5);
+        
+        put("diamonds", 1);
+        put("hearts", 1);
+        put("clubs", 1);
+        put("spades", 1);
+        
+     
+    }};
+
+    
+    Map<String, Integer> otherCardValues = new HashMap<String, Integer>() {{
+        put("reds", 0);
+        put("blacks", 0);
+        put("aceToSix", 0);
+        put("kingToEight", 0);
+        
+        put("aceDiamonds", 10);
+        put("aceClubs", 10);
+        put("aceHearts", 10);
+        put("aceSpades", 10);
+        put("twoDiamonds", 10);
+        put("twoClubs", 10);
+        put("twoHearts", 10);
+        put("twoSpades", 10);
+        put("threeDiamonds", 10);
+        put("threeClubs", 10);
+        put("threeHearts", 10);
+        put("threeSpades", 10);
+        put("fourDiamonds", 10);
+        put("fourClubs", 10);
+        put("fourHearts", 10);
+        put("fourSpades", 10);
+        put("fiveDiamonds", 10);
+        put("fiveClubs", 10);
+        put("fiveHearts", 10);
+        put("fiveSpades", 10);
+        put("sixDiamonds", 10);
+        put("sixClubs", 10);
+        put("sixHearts", 10);
+        put("sixSpades", 10);
+        put("sevenDiamonds", 10);
+        put("sevenClubs", 10);
+        put("sevenHearts", 10);
+        put("sevenSpades", 10);
+        put("eightDiamonds", 10);
+        put("eightClubs", 10);
+        put("eightHearts", 10);
+        put("eightSpades", 10);
+        put("nineDiamonds", 10);
+        put("nineClubs", 10);
+        put("nineHearts", 10);
+        put("nineSpades", 10);
+        put("tenDiamonds", 10);
+        put("tenClubs", 10);
+        put("tenHearts", 10);
+        put("tenSpades", 10);
+        put("jackDiamonds", 10);
+        put("jackClubs", 10);
+        put("jackHearts", 10);
+        put("jackSpades", 10);
+        put("queenDiamonds", 10);
+        put("queenClubs", 10);
+        put("queenHearts", 10);
+        put("queenSpades", 10);
+        put("kingDiamonds", 10);
+        put("kingClubs", 10);
+        put("kingHearts", 10);
+        put("kingSpades", 10);
+       
+        put("joker", 10);
+        put("jokerPlus", 10);
+        
         put("split1", 5);
         put("split2", 5);
         put("split3", 5);
@@ -1375,266 +1592,64 @@ public class PokerletteBoard extends javax.swing.JFrame {
         put("split85", 5);
         put("split86", 5);
         put("split87", 5);
-        
-        
-        put("aceStreet", 4);
-        put("twoStreet", 4);
-        put("threeStreet", 4);
-        put("fourStreet", 4);
-        put("fiveStreet", 4);
-        put("sixStreet", 4);
-        put("sevenStreet", 4);
-        put("eightStreet", 4);
-        put("nineStreet", 4);
-        put("tenStreet", 4);
-        put("jackStreet", 4);
-        put("queenStreet", 4);
-        put("kingStreet", 4);
-        
-        
-        put("corner1", 4);
-        put("corner2", 4);
-        put("corner3", 4);
-        put("corner4", 4);
-        put("corner5", 4);
-        put("corner6", 4);
-        put("corner7", 4);
-        put("corner8", 4);
-        put("corner9", 4);
-        put("corner10", 4);
-        put("corner11", 4);
-        put("corner12", 4);
-        put("corner13", 4);
-        put("corner14", 4);
-        put("corner15", 4);
-        put("corner16", 4);
-        put("corner17", 4);
-        put("corner18", 4);
-        put("corner19", 4);
-        put("corner20", 4);
-        put("corner21", 4);
-        put("corner22", 4);
-        put("corner23", 4);
-        put("corner24", 4);
-        put("corner25", 4);
-        put("corner26", 4);
-        put("corner27", 4);
-        put("corner28", 4);
-        put("corner29", 4);
-        put("corner30", 4);
-        put("corner31", 4);
-        put("corner32", 4);
-        put("corner33", 4);
-        put("corner34", 4);
-        put("corner35", 4);
-        put("corner36", 4);
-        
-     
-    }};
-
-    
-    Map<String, Integer> otherCardValues = new HashMap<String, Integer>() {{
-        put("reds", 0);
-        put("blacks", 0);
-        put("aceToSix", 0);
-        put("kingToEight", 0);
-        
-        put("aceDiamonds", 9);
-        put("aceClubs", 9);
-        put("aceHearts", 9);
-        put("aceSpades", 9);
-        put("twoDiamonds", 9);
-        put("twoClubs", 9);
-        put("twoHearts", 9);
-        put("twoSpades", 9);
-        put("threeDiamonds", 9);
-        put("threeClubs", 9);
-        put("threeHearts", 9);
-        put("threeSpades", 9);
-        put("fourDiamonds", 9);
-        put("fourClubs", 9);
-        put("fourHearts", 9);
-        put("fourSpades", 9);
-        put("fiveDiamonds", 9);
-        put("fiveClubs", 9);
-        put("fiveHearts", 9);
-        put("fiveSpades", 9);
-        put("sixDiamonds", 9);
-        put("sixClubs", 9);
-        put("sixHearts", 9);
-        put("sixSpades", 9);
-        put("sevenDiamonds", 9);
-        put("sevenClubs", 9);
-        put("sevenHearts", 9);
-        put("sevenSpades", 9);
-        put("eightDiamonds", 9);
-        put("eightClubs", 9);
-        put("eightHearts", 9);
-        put("eightSpades", 9);
-        put("nineDiamonds", 9);
-        put("nineClubs", 9);
-        put("nineHearts", 9);
-        put("nineSpades", 9);
-        put("tenDiamonds", 9);
-        put("tenClubs", 9);
-        put("tenHearts", 9);
-        put("tenSpades", 9);
-        put("jackDiamonds", 9);
-        put("jackClubs", 9);
-        put("jackHearts", 9);
-        put("jackSpades", 9);
-        put("queenDiamonds", 9);
-        put("queenClubs", 9);
-        put("queenHearts", 9);
-        put("queenSpades", 9);
-        put("kingDiamonds", 9);
-        put("kingClubs", 9);
-        put("kingHearts", 9);
-        put("kingSpades", 9);
-       
-        put("joker", 9);
-        put("jokerPlus", 9);
-        
-        put("split1", 4);
-        put("split2", 4);
-        put("split3", 4);
-        put("split4", 4);
-        put("split5", 4);
-        put("split6", 4);
-        put("split7", 4);
-        put("split8", 4);
-        put("split9", 4);
-        put("split10", 4);
-        put("split11", 4);
-        put("split12", 4);
-        put("split13", 4);
-        put("split14", 4);
-        put("split15", 4);
-        put("split16", 4);
-        put("split17", 4);
-        put("split18", 4);
-        put("split19", 4);
-        put("split20", 4);
-        put("split21", 4);
-        put("split22", 4);
-        put("split23", 4);
-        put("split24", 4);
-        put("split25", 4);
-        put("split26", 4);
-        put("split27", 4);
-        put("split28", 4);
-        put("split29", 4);
-        put("split30", 4);
-        put("split31", 4);
-        put("split32", 4);
-        put("split33", 4);
-        put("split34", 4);
-        put("split35", 4);
-        put("split36", 4);
-        put("split37", 4);
-        put("split38", 4);
-        put("split39", 4);
-        put("split40", 4);
-        put("split41", 4);
-        put("split42", 4);
-        put("split43", 4);
-        put("split44", 4);
-        put("split45", 4);
-        put("split46", 4);
-        put("split47", 4);
-        put("split48", 4);
-        put("split49", 4);
-        put("split50", 4);
-        put("split51", 4);
-        put("split52", 4);
-        put("split53", 4);
-        put("split54", 4);
-        put("split55", 4);
-        put("split56", 4);
-        put("split57", 4);
-        put("split58", 4);
-        put("split59", 4);
-        put("split60", 4);
-        put("split61", 4);
-        put("split62", 4);
-        put("split63", 4);
-        put("split64", 4);
-        put("split65", 4);
-        put("split66", 4);
-        put("split67", 4);
-        put("split68", 4);
-        put("split69", 4);
-        put("split70", 4);
-        put("split71", 4);
-        put("split72", 4);
-        put("split73", 4);
-        put("split74", 4);
-        put("split75", 4);
-        put("split76", 4);
-        put("split77", 4);
-        put("split78", 4);
-        put("split79", 4);
-        put("split80", 4);
-        put("split81", 4);
-        put("split82", 4);
-        put("split83", 4);
-        put("split84", 4);
-        put("split85", 4);
-        put("split86", 4);
-        put("split87", 4);
        
         
-        put("aceStreet", 1);
-        put("twoStreet", 1);
-        put("threeStreet", 1);
-        put("fourStreet", 1);
-        put("fiveStreet", 1);
-        put("sixStreet", 1);
-        put("sevenStreet", 1);
-        put("eightStreet", 1);
-        put("nineStreet", 1);
-        put("tenStreet", 1);
-        put("jackStreet", 1);
-        put("queenStreet", 1);
-        put("kingStreet", 1);
+        put("aceStreet", 2);
+        put("twoStreet", 2);
+        put("threeStreet", 2);
+        put("fourStreet", 2);
+        put("fiveStreet", 2);
+        put("sixStreet", 2);
+        put("sevenStreet", 2);
+        put("eightStreet", 2);
+        put("nineStreet", 2);
+        put("tenStreet", 2);
+        put("jackStreet", 2);
+        put("queenStreet", 2);
+        put("kingStreet", 2);
         
         
-        put("corner1", 1);
-        put("corner2", 1);
-        put("corner3", 1);
-        put("corner4", 1);
-        put("corner5", 1);
-        put("corner6", 1);
-        put("corner7", 1);
-        put("corner8", 1);
-        put("corner9", 1);
-        put("corner10", 1);
-        put("corner11", 1);
-        put("corner12", 1);
-        put("corner13", 1);
-        put("corner14", 1);
-        put("corner15", 1);
-        put("corner16", 1);
-        put("corner17", 1);
-        put("corner18", 1);
-        put("corner19", 1);
-        put("corner20", 1);
-        put("corner21", 1);
-        put("corner22", 1);
-        put("corner23", 1);
-        put("corner24", 1);
-        put("corner25", 1);
-        put("corner26", 1);
-        put("corner27", 1);
-        put("corner28", 1);
-        put("corner29", 1);
-        put("corner30", 1);
-        put("corner31", 1);
-        put("corner32", 1);
-        put("corner33", 1);
-        put("corner34", 1);
-        put("corner35", 1);
-        put("corner36", 1);
+        put("corner1", 2);
+        put("corner2", 2);
+        put("corner3", 2);
+        put("corner4", 2);
+        put("corner5", 2);
+        put("corner6", 2);
+        put("corner7", 2);
+        put("corner8", 2);
+        put("corner9", 2);
+        put("corner10", 2);
+        put("corner11", 2);
+        put("corner12", 2);
+        put("corner13", 2);
+        put("corner14", 2);
+        put("corner15", 2);
+        put("corner16", 2);
+        put("corner17", 2);
+        put("corner18", 2);
+        put("corner19", 2);
+        put("corner20", 2);
+        put("corner21", 2);
+        put("corner22", 2);
+        put("corner23", 2);
+        put("corner24", 2);
+        put("corner25", 2);
+        put("corner26", 2);
+        put("corner27", 2);
+        put("corner28", 2);
+        put("corner29", 2);
+        put("corner30", 2);
+        put("corner31", 2);
+        put("corner32", 2);
+        put("corner33", 2);
+        put("corner34", 2);
+        put("corner35", 2);
+        put("corner36", 2);
+        
+        put("diamonds", 0);
+        put("hearts", 0);
+        put("clubs", 0);
+        put("spades", 0);
         
      
     }};
@@ -9681,6 +9696,78 @@ public class PokerletteBoard extends javax.swing.JFrame {
             else if(myBets.get(i).equals("blacks"))
             {
                 s= "<br/>" + "Blacks";
+            }
+            else if(myBets.get(i).equals("diamonds"))
+            {
+                s= "<br/>" + "Diamonds";
+            }
+            else if(myBets.get(i).equals("hearts"))
+            {
+                s= "<br/>" + "Hearts";
+            }
+            else if(myBets.get(i).equals("clubs"))
+            {
+                s= "<br/>" + "Clubs";
+            }
+            else if(myBets.get(i).equals("spades"))
+            {
+                s= "<br/>" + "Spades";
+            }
+            else if(myBets.get(i).equals("aceStreet"))
+            {
+                s= "<br/>" + "Aces";
+            }
+            else if(myBets.get(i).equals("twoStreet"))
+            {
+                s= "<br/>" + "Twos";
+            }
+            else if(myBets.get(i).equals("threeStreet"))
+            {
+                s= "<br/>" + "Threes";
+            }
+            else if(myBets.get(i).equals("fourStreet"))
+            {
+                s= "<br/>" + "Fours";
+            }
+            else if(myBets.get(i).equals("fiveStreet"))
+            {
+                s= "<br/>" + "Fives";
+            }
+            else if(myBets.get(i).equals("sixStreet"))
+            {
+                s= "<br/>" + "Sixes";
+            }
+            else if(myBets.get(i).equals("sevenStreet"))
+            {
+                s= "<br/>" + "Sevens";
+            }
+            else if(myBets.get(i).equals("eightStreet"))
+            {
+                s= "<br/>" + "Eights";
+            }
+            else if(myBets.get(i).equals("nineStreet"))
+            {
+                s= "<br/>" + "Nines";
+            }
+            else if(myBets.get(i).equals("aceStreet"))
+            {
+                s= "<br/>" + "Aces";
+            }
+            else if(myBets.get(i).equals("tenStreet"))
+            {
+                s= "<br/>" + "Tens";
+            }
+            else if(myBets.get(i).equals("jackStreet"))
+            {
+                s= "<br/>" + "Jacks";
+            }
+            else if(myBets.get(i).equals("queenStreet"))
+            {
+                s= "<br/>" + "Queens";
+            }
+            else if(myBets.get(i).equals("kingStreet"))
+            {
+                s= "<br/>" + "Kings";
             }
             else
             {
