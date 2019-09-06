@@ -52,7 +52,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner36ActionPerformed"/>
@@ -73,7 +72,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner13ActionPerformed"/>
@@ -94,7 +92,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner12ActionPerformed"/>
@@ -115,7 +112,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner11ActionPerformed"/>
@@ -136,7 +132,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner14ActionPerformed"/>
@@ -157,7 +152,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner35ActionPerformed"/>
@@ -178,7 +172,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner34ActionPerformed"/>
@@ -199,7 +192,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner15ActionPerformed"/>
@@ -220,7 +212,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner10ActionPerformed"/>
@@ -241,7 +232,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner32ActionPerformed"/>
@@ -262,7 +252,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner17ActionPerformed"/>
@@ -283,7 +272,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner8ActionPerformed"/>
@@ -304,7 +292,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner7ActionPerformed"/>
@@ -325,7 +312,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner18ActionPerformed"/>
@@ -346,7 +332,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner31ActionPerformed"/>
@@ -367,7 +352,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner6ActionPerformed"/>
@@ -388,7 +372,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner19ActionPerformed"/>
@@ -409,7 +392,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner30ActionPerformed"/>
@@ -430,7 +412,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner5ActionPerformed"/>
@@ -451,7 +432,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner20ActionPerformed"/>
@@ -472,7 +452,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner29ActionPerformed"/>
@@ -493,7 +472,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner4ActionPerformed"/>
@@ -514,7 +492,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner21ActionPerformed"/>
@@ -535,7 +512,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner28ActionPerformed"/>
@@ -556,7 +532,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner3ActionPerformed"/>
@@ -577,7 +552,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner22ActionPerformed"/>
@@ -598,7 +572,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner27ActionPerformed"/>
@@ -619,7 +592,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner2ActionPerformed"/>
@@ -640,7 +612,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner23ActionPerformed"/>
@@ -661,7 +632,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner26ActionPerformed"/>
@@ -682,7 +652,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner25ActionPerformed"/>
@@ -703,7 +672,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner24ActionPerformed"/>
@@ -724,7 +692,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner1ActionPerformed"/>
@@ -745,7 +712,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner9ActionPerformed"/>
@@ -766,7 +732,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner33ActionPerformed"/>
@@ -787,7 +752,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="corner16ActionPerformed"/>
@@ -808,7 +772,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split1ActionPerformed"/>
@@ -829,7 +792,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split2ActionPerformed"/>
@@ -850,7 +812,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split3ActionPerformed"/>
@@ -871,7 +832,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split4ActionPerformed"/>
@@ -892,7 +852,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split5ActionPerformed"/>
@@ -913,7 +872,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split6ActionPerformed"/>
@@ -934,7 +892,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split7ActionPerformed"/>
@@ -955,7 +912,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split8ActionPerformed"/>
@@ -976,7 +932,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split9ActionPerformed"/>
@@ -997,7 +952,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split10ActionPerformed"/>
@@ -1018,7 +972,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split11ActionPerformed"/>
@@ -1039,7 +992,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split12ActionPerformed"/>
@@ -1060,7 +1012,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split13ActionPerformed"/>
@@ -1081,7 +1032,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split14ActionPerformed"/>
@@ -1102,7 +1052,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split15ActionPerformed"/>
@@ -1123,7 +1072,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split16ActionPerformed"/>
@@ -1144,7 +1092,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split17ActionPerformed"/>
@@ -1165,7 +1112,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split18ActionPerformed"/>
@@ -1186,7 +1132,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split19ActionPerformed"/>
@@ -1207,7 +1152,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split20ActionPerformed"/>
@@ -1228,7 +1172,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split21ActionPerformed"/>
@@ -1249,7 +1192,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split22ActionPerformed"/>
@@ -1270,7 +1212,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split23ActionPerformed"/>
@@ -1291,7 +1232,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split24ActionPerformed"/>
@@ -1312,7 +1252,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split25ActionPerformed"/>
@@ -1333,7 +1272,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split26ActionPerformed"/>
@@ -1354,7 +1292,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split27ActionPerformed"/>
@@ -1375,7 +1312,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split28ActionPerformed"/>
@@ -1396,7 +1332,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split29ActionPerformed"/>
@@ -1417,7 +1352,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split30ActionPerformed"/>
@@ -1438,7 +1372,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split31ActionPerformed"/>
@@ -1459,7 +1392,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split32ActionPerformed"/>
@@ -1480,7 +1412,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split33ActionPerformed"/>
@@ -1501,7 +1432,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split34ActionPerformed"/>
@@ -1522,7 +1452,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split35ActionPerformed"/>
@@ -1543,7 +1472,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split36ActionPerformed"/>
@@ -1564,7 +1492,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split37ActionPerformed"/>
@@ -1585,7 +1512,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split38ActionPerformed"/>
@@ -1606,7 +1532,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split39ActionPerformed"/>
@@ -1627,7 +1552,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split40ActionPerformed"/>
@@ -1648,7 +1572,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split63ActionPerformed"/>
@@ -1669,7 +1592,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split64ActionPerformed"/>
@@ -1690,7 +1612,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split87ActionPerformed"/>
@@ -1711,7 +1632,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split41ActionPerformed"/>
@@ -1732,7 +1652,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split62ActionPerformed"/>
@@ -1753,7 +1672,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split65ActionPerformed"/>
@@ -1774,7 +1692,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split86ActionPerformed"/>
@@ -1795,7 +1712,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split42ActionPerformed"/>
@@ -1816,7 +1732,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split61ActionPerformed"/>
@@ -1837,7 +1752,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split66ActionPerformed"/>
@@ -1858,7 +1772,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split85ActionPerformed"/>
@@ -1879,7 +1792,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split43ActionPerformed"/>
@@ -1900,7 +1812,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split60ActionPerformed"/>
@@ -1921,7 +1832,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split67ActionPerformed"/>
@@ -1942,7 +1852,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split84ActionPerformed"/>
@@ -1963,7 +1872,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split44ActionPerformed"/>
@@ -1984,7 +1892,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split59ActionPerformed"/>
@@ -2005,7 +1912,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split68ActionPerformed"/>
@@ -2026,7 +1932,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split83ActionPerformed"/>
@@ -2047,7 +1952,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split45ActionPerformed"/>
@@ -2068,7 +1972,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split58ActionPerformed"/>
@@ -2089,7 +1992,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split69ActionPerformed"/>
@@ -2110,7 +2012,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split82ActionPerformed"/>
@@ -2131,7 +2032,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split46ActionPerformed"/>
@@ -2152,7 +2052,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split57ActionPerformed"/>
@@ -2173,7 +2072,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split70ActionPerformed"/>
@@ -2194,7 +2092,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split81ActionPerformed"/>
@@ -2215,7 +2112,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split47ActionPerformed"/>
@@ -2236,7 +2132,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split56ActionPerformed"/>
@@ -2257,7 +2152,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split71ActionPerformed"/>
@@ -2278,7 +2172,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split80ActionPerformed"/>
@@ -2299,7 +2192,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split48ActionPerformed"/>
@@ -2320,7 +2212,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split55ActionPerformed"/>
@@ -2341,7 +2232,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split72ActionPerformed"/>
@@ -2362,7 +2252,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split79ActionPerformed"/>
@@ -2383,7 +2272,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split49ActionPerformed"/>
@@ -2404,7 +2292,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split54ActionPerformed"/>
@@ -2425,7 +2312,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split73ActionPerformed"/>
@@ -2446,7 +2332,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split78ActionPerformed"/>
@@ -2467,7 +2352,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split50ActionPerformed"/>
@@ -2488,7 +2372,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split53ActionPerformed"/>
@@ -2509,7 +2392,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split74ActionPerformed"/>
@@ -2530,7 +2412,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split77ActionPerformed"/>
@@ -2551,7 +2432,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split51ActionPerformed"/>
@@ -2572,7 +2452,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split52ActionPerformed"/>
@@ -2593,7 +2472,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split75ActionPerformed"/>
@@ -2614,7 +2492,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="split76ActionPerformed"/>
@@ -2635,7 +2512,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="twoStreetActionPerformed"/>
@@ -2656,7 +2532,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="threeStreetActionPerformed"/>
@@ -2677,7 +2552,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fourStreetActionPerformed"/>
@@ -2698,7 +2572,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fiveStreetActionPerformed"/>
@@ -2719,7 +2592,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sixStreetActionPerformed"/>
@@ -2740,7 +2612,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sevenStreetActionPerformed"/>
@@ -2761,7 +2632,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="eightStreetActionPerformed"/>
@@ -2782,7 +2652,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nineStreetActionPerformed"/>
@@ -2803,7 +2672,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tenStreetActionPerformed"/>
@@ -2824,7 +2692,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jackStreetActionPerformed"/>
@@ -2845,7 +2712,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -2863,7 +2729,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kingStreetActionPerformed"/>
@@ -2884,7 +2749,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="queenStreetActionPerformed"/>
@@ -2905,7 +2769,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aceStreetActionPerformed"/>
@@ -2926,7 +2789,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aceToSixActionPerformed"/>
@@ -2947,7 +2809,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="redSpotActionPerformed"/>
@@ -2968,7 +2829,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -2986,7 +2846,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="blackSpotActionPerformed"/>
@@ -3007,7 +2866,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="eightToKingActionPerformed"/>
@@ -3028,7 +2886,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -3046,7 +2903,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="diamondsRowActionPerformed"/>
@@ -3067,7 +2923,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clubsRowActionPerformed"/>
@@ -3088,7 +2943,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="heartsRowActionPerformed"/>
@@ -3109,7 +2963,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="spadesRowActionPerformed"/>
@@ -3216,7 +3069,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aceHeartsActionPerformed"/>
@@ -3237,7 +3089,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aceSpadesActionPerformed"/>
@@ -3258,7 +3109,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="twoDiamondsActionPerformed"/>
@@ -3279,7 +3129,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="twoClubsActionPerformed"/>
@@ -3300,7 +3149,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="twoHeartsActionPerformed"/>
@@ -3321,7 +3169,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="twoSpadesActionPerformed"/>
@@ -3342,7 +3189,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="threeDiamondsActionPerformed"/>
@@ -3363,7 +3209,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="threeClubsActionPerformed"/>
@@ -3384,7 +3229,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="threeHeartsActionPerformed"/>
@@ -3405,7 +3249,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="threeSpadesActionPerformed"/>
@@ -3426,7 +3269,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fourDiamondsActionPerformed"/>
@@ -3447,7 +3289,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fourClubsActionPerformed"/>
@@ -3468,7 +3309,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fourHeartsActionPerformed"/>
@@ -3489,7 +3329,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fourSpadesActionPerformed"/>
@@ -3510,7 +3349,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fiveDiamondsActionPerformed"/>
@@ -3531,7 +3369,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fiveClubsActionPerformed"/>
@@ -3552,7 +3389,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fiveHeartsActionPerformed"/>
@@ -3573,7 +3409,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fiveSpadesActionPerformed"/>
@@ -3594,7 +3429,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sixDiamondsActionPerformed"/>
@@ -3615,7 +3449,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -3633,7 +3466,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sixClubsActionPerformed"/>
@@ -3654,7 +3486,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sixHeartsActionPerformed"/>
@@ -3675,7 +3506,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sixSpadesActionPerformed"/>
@@ -3696,7 +3526,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sevenDiamondsActionPerformed"/>
@@ -3717,7 +3546,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sevenClubsActionPerformed"/>
@@ -3738,7 +3566,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sevenHeartsActionPerformed"/>
@@ -3759,7 +3586,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="eightDiamondsActionPerformed"/>
@@ -3780,7 +3606,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sevenSpadesActionPerformed"/>
@@ -3801,7 +3626,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="eightClubsActionPerformed"/>
@@ -3822,7 +3646,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="eightHeartsActionPerformed"/>
@@ -3843,7 +3666,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="eightSpadesActionPerformed"/>
@@ -3864,7 +3686,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nineDiamondsActionPerformed"/>
@@ -3885,7 +3706,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nineClubsActionPerformed"/>
@@ -3906,7 +3726,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nineHeartsActionPerformed"/>
@@ -3927,7 +3746,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nineSpadesActionPerformed"/>
@@ -3948,7 +3766,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tenDiamondsActionPerformed"/>
@@ -3969,7 +3786,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tenClubsActionPerformed"/>
@@ -3990,7 +3806,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tenHeartsActionPerformed"/>
@@ -4011,7 +3826,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tenSpadesActionPerformed"/>
@@ -4032,7 +3846,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jackDiamondsActionPerformed"/>
@@ -4053,7 +3866,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jackClubsActionPerformed"/>
@@ -4074,7 +3886,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jackHeartsActionPerformed"/>
@@ -4095,7 +3906,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jackSpadesActionPerformed"/>
@@ -4116,7 +3926,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="queenDiamondsActionPerformed"/>
@@ -4137,7 +3946,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="queenClubsActionPerformed"/>
@@ -4158,7 +3966,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="queenHeartsActionPerformed"/>
@@ -4179,7 +3986,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="queenSpadesActionPerformed"/>
@@ -4200,7 +4006,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kingDiamondsActionPerformed"/>
@@ -4221,7 +4026,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kingClubsActionPerformed"/>
@@ -4242,7 +4046,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kingHeartsActionPerformed"/>
@@ -4263,7 +4066,6 @@
             </Property>
             <Property name="alignmentY" type="float" value="0.0"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kingSpadesActionPerformed"/>

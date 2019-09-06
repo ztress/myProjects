@@ -1,10 +1,16 @@
 
+import java.awt.Image;
 import java.awt.List;
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
+import java.awt.image.BufferedImage; 
+import javax.imageio.ImageIO;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -1906,7 +1912,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner36.setForeground(new java.awt.Color(255, 255, 255));
         corner36.setAlignmentY(0.0F);
         corner36.setContentAreaFilled(false);
-        corner36.setOpaque(false);
         corner36.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner36ActionPerformed(evt);
@@ -1918,7 +1923,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner13.setForeground(new java.awt.Color(255, 255, 255));
         corner13.setAlignmentY(0.0F);
         corner13.setContentAreaFilled(false);
-        corner13.setOpaque(false);
         corner13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner13ActionPerformed(evt);
@@ -1930,7 +1934,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner12.setForeground(new java.awt.Color(255, 255, 255));
         corner12.setAlignmentY(0.0F);
         corner12.setContentAreaFilled(false);
-        corner12.setOpaque(false);
         corner12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner12ActionPerformed(evt);
@@ -1942,7 +1945,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner11.setForeground(new java.awt.Color(255, 255, 255));
         corner11.setAlignmentY(0.0F);
         corner11.setContentAreaFilled(false);
-        corner11.setOpaque(false);
         corner11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner11ActionPerformed(evt);
@@ -1954,7 +1956,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner14.setForeground(new java.awt.Color(255, 255, 255));
         corner14.setAlignmentY(0.0F);
         corner14.setContentAreaFilled(false);
-        corner14.setOpaque(false);
         corner14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner14ActionPerformed(evt);
@@ -1966,7 +1967,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner35.setForeground(new java.awt.Color(255, 255, 255));
         corner35.setAlignmentY(0.0F);
         corner35.setContentAreaFilled(false);
-        corner35.setOpaque(false);
         corner35.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner35ActionPerformed(evt);
@@ -1978,7 +1978,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner34.setForeground(new java.awt.Color(255, 255, 255));
         corner34.setAlignmentY(0.0F);
         corner34.setContentAreaFilled(false);
-        corner34.setOpaque(false);
         corner34.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner34ActionPerformed(evt);
@@ -1990,7 +1989,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner15.setForeground(new java.awt.Color(255, 255, 255));
         corner15.setAlignmentY(0.0F);
         corner15.setContentAreaFilled(false);
-        corner15.setOpaque(false);
         corner15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner15ActionPerformed(evt);
@@ -2002,7 +2000,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner10.setForeground(new java.awt.Color(255, 255, 255));
         corner10.setAlignmentY(0.0F);
         corner10.setContentAreaFilled(false);
-        corner10.setOpaque(false);
         corner10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner10ActionPerformed(evt);
@@ -2014,7 +2011,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner32.setForeground(new java.awt.Color(255, 255, 255));
         corner32.setAlignmentY(0.0F);
         corner32.setContentAreaFilled(false);
-        corner32.setOpaque(false);
         corner32.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner32ActionPerformed(evt);
@@ -2026,7 +2022,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner17.setForeground(new java.awt.Color(255, 255, 255));
         corner17.setAlignmentY(0.0F);
         corner17.setContentAreaFilled(false);
-        corner17.setOpaque(false);
         corner17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner17ActionPerformed(evt);
@@ -2038,7 +2033,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner8.setForeground(new java.awt.Color(255, 255, 255));
         corner8.setAlignmentY(0.0F);
         corner8.setContentAreaFilled(false);
-        corner8.setOpaque(false);
         corner8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner8ActionPerformed(evt);
@@ -2050,7 +2044,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner7.setForeground(new java.awt.Color(255, 255, 255));
         corner7.setAlignmentY(0.0F);
         corner7.setContentAreaFilled(false);
-        corner7.setOpaque(false);
         corner7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner7ActionPerformed(evt);
@@ -2062,7 +2055,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner18.setForeground(new java.awt.Color(255, 255, 255));
         corner18.setAlignmentY(0.0F);
         corner18.setContentAreaFilled(false);
-        corner18.setOpaque(false);
         corner18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner18ActionPerformed(evt);
@@ -2074,7 +2066,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner31.setForeground(new java.awt.Color(255, 255, 255));
         corner31.setAlignmentY(0.0F);
         corner31.setContentAreaFilled(false);
-        corner31.setOpaque(false);
         corner31.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner31ActionPerformed(evt);
@@ -2086,7 +2077,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner6.setForeground(new java.awt.Color(255, 255, 255));
         corner6.setAlignmentY(0.0F);
         corner6.setContentAreaFilled(false);
-        corner6.setOpaque(false);
         corner6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner6ActionPerformed(evt);
@@ -2098,7 +2088,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner19.setForeground(new java.awt.Color(255, 255, 255));
         corner19.setAlignmentY(0.0F);
         corner19.setContentAreaFilled(false);
-        corner19.setOpaque(false);
         corner19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner19ActionPerformed(evt);
@@ -2110,7 +2099,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner30.setForeground(new java.awt.Color(255, 255, 255));
         corner30.setAlignmentY(0.0F);
         corner30.setContentAreaFilled(false);
-        corner30.setOpaque(false);
         corner30.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner30ActionPerformed(evt);
@@ -2122,7 +2110,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner5.setForeground(new java.awt.Color(255, 255, 255));
         corner5.setAlignmentY(0.0F);
         corner5.setContentAreaFilled(false);
-        corner5.setOpaque(false);
         corner5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner5ActionPerformed(evt);
@@ -2134,7 +2121,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner20.setForeground(new java.awt.Color(255, 255, 255));
         corner20.setAlignmentY(0.0F);
         corner20.setContentAreaFilled(false);
-        corner20.setOpaque(false);
         corner20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner20ActionPerformed(evt);
@@ -2146,7 +2132,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner29.setForeground(new java.awt.Color(255, 255, 255));
         corner29.setAlignmentY(0.0F);
         corner29.setContentAreaFilled(false);
-        corner29.setOpaque(false);
         corner29.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner29ActionPerformed(evt);
@@ -2158,7 +2143,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner4.setForeground(new java.awt.Color(255, 255, 255));
         corner4.setAlignmentY(0.0F);
         corner4.setContentAreaFilled(false);
-        corner4.setOpaque(false);
         corner4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner4ActionPerformed(evt);
@@ -2170,7 +2154,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner21.setForeground(new java.awt.Color(255, 255, 255));
         corner21.setAlignmentY(0.0F);
         corner21.setContentAreaFilled(false);
-        corner21.setOpaque(false);
         corner21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner21ActionPerformed(evt);
@@ -2182,7 +2165,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner28.setForeground(new java.awt.Color(255, 255, 255));
         corner28.setAlignmentY(0.0F);
         corner28.setContentAreaFilled(false);
-        corner28.setOpaque(false);
         corner28.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner28ActionPerformed(evt);
@@ -2194,7 +2176,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner3.setForeground(new java.awt.Color(255, 255, 255));
         corner3.setAlignmentY(0.0F);
         corner3.setContentAreaFilled(false);
-        corner3.setOpaque(false);
         corner3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner3ActionPerformed(evt);
@@ -2206,7 +2187,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner22.setForeground(new java.awt.Color(255, 255, 255));
         corner22.setAlignmentY(0.0F);
         corner22.setContentAreaFilled(false);
-        corner22.setOpaque(false);
         corner22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner22ActionPerformed(evt);
@@ -2218,7 +2198,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner27.setForeground(new java.awt.Color(255, 255, 255));
         corner27.setAlignmentY(0.0F);
         corner27.setContentAreaFilled(false);
-        corner27.setOpaque(false);
         corner27.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner27ActionPerformed(evt);
@@ -2230,7 +2209,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner2.setForeground(new java.awt.Color(255, 255, 255));
         corner2.setAlignmentY(0.0F);
         corner2.setContentAreaFilled(false);
-        corner2.setOpaque(false);
         corner2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner2ActionPerformed(evt);
@@ -2242,7 +2220,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner23.setForeground(new java.awt.Color(255, 255, 255));
         corner23.setAlignmentY(0.0F);
         corner23.setContentAreaFilled(false);
-        corner23.setOpaque(false);
         corner23.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner23ActionPerformed(evt);
@@ -2254,7 +2231,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner26.setForeground(new java.awt.Color(255, 255, 255));
         corner26.setAlignmentY(0.0F);
         corner26.setContentAreaFilled(false);
-        corner26.setOpaque(false);
         corner26.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner26ActionPerformed(evt);
@@ -2266,7 +2242,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner25.setForeground(new java.awt.Color(255, 255, 255));
         corner25.setAlignmentY(0.0F);
         corner25.setContentAreaFilled(false);
-        corner25.setOpaque(false);
         corner25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner25ActionPerformed(evt);
@@ -2278,7 +2253,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner24.setForeground(new java.awt.Color(255, 255, 255));
         corner24.setAlignmentY(0.0F);
         corner24.setContentAreaFilled(false);
-        corner24.setOpaque(false);
         corner24.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner24ActionPerformed(evt);
@@ -2290,7 +2264,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner1.setForeground(new java.awt.Color(255, 255, 255));
         corner1.setAlignmentY(0.0F);
         corner1.setContentAreaFilled(false);
-        corner1.setOpaque(false);
         corner1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner1ActionPerformed(evt);
@@ -2302,7 +2275,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner9.setForeground(new java.awt.Color(255, 255, 255));
         corner9.setAlignmentY(0.0F);
         corner9.setContentAreaFilled(false);
-        corner9.setOpaque(false);
         corner9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner9ActionPerformed(evt);
@@ -2314,7 +2286,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner33.setForeground(new java.awt.Color(255, 255, 255));
         corner33.setAlignmentY(0.0F);
         corner33.setContentAreaFilled(false);
-        corner33.setOpaque(false);
         corner33.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner33ActionPerformed(evt);
@@ -2326,7 +2297,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         corner16.setForeground(new java.awt.Color(255, 255, 255));
         corner16.setAlignmentY(0.0F);
         corner16.setContentAreaFilled(false);
-        corner16.setOpaque(false);
         corner16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 corner16ActionPerformed(evt);
@@ -2338,7 +2308,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split1.setForeground(new java.awt.Color(255, 255, 255));
         split1.setAlignmentY(0.0F);
         split1.setContentAreaFilled(false);
-        split1.setOpaque(false);
         split1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split1ActionPerformed(evt);
@@ -2350,7 +2319,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split2.setForeground(new java.awt.Color(255, 255, 255));
         split2.setAlignmentY(0.0F);
         split2.setContentAreaFilled(false);
-        split2.setOpaque(false);
         split2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split2ActionPerformed(evt);
@@ -2362,7 +2330,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split3.setForeground(new java.awt.Color(255, 255, 255));
         split3.setAlignmentY(0.0F);
         split3.setContentAreaFilled(false);
-        split3.setOpaque(false);
         split3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split3ActionPerformed(evt);
@@ -2374,7 +2341,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split4.setForeground(new java.awt.Color(255, 255, 255));
         split4.setAlignmentY(0.0F);
         split4.setContentAreaFilled(false);
-        split4.setOpaque(false);
         split4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split4ActionPerformed(evt);
@@ -2386,7 +2352,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split5.setForeground(new java.awt.Color(255, 255, 255));
         split5.setAlignmentY(0.0F);
         split5.setContentAreaFilled(false);
-        split5.setOpaque(false);
         split5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split5ActionPerformed(evt);
@@ -2398,7 +2363,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split6.setForeground(new java.awt.Color(255, 255, 255));
         split6.setAlignmentY(0.0F);
         split6.setContentAreaFilled(false);
-        split6.setOpaque(false);
         split6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split6ActionPerformed(evt);
@@ -2410,7 +2374,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split7.setForeground(new java.awt.Color(255, 255, 255));
         split7.setAlignmentY(0.0F);
         split7.setContentAreaFilled(false);
-        split7.setOpaque(false);
         split7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split7ActionPerformed(evt);
@@ -2422,7 +2385,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split8.setForeground(new java.awt.Color(255, 255, 255));
         split8.setAlignmentY(0.0F);
         split8.setContentAreaFilled(false);
-        split8.setOpaque(false);
         split8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split8ActionPerformed(evt);
@@ -2434,7 +2396,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split9.setForeground(new java.awt.Color(255, 255, 255));
         split9.setAlignmentY(0.0F);
         split9.setContentAreaFilled(false);
-        split9.setOpaque(false);
         split9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split9ActionPerformed(evt);
@@ -2446,7 +2407,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split10.setForeground(new java.awt.Color(255, 255, 255));
         split10.setAlignmentY(0.0F);
         split10.setContentAreaFilled(false);
-        split10.setOpaque(false);
         split10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split10ActionPerformed(evt);
@@ -2458,7 +2418,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split11.setForeground(new java.awt.Color(255, 255, 255));
         split11.setAlignmentY(0.0F);
         split11.setContentAreaFilled(false);
-        split11.setOpaque(false);
         split11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split11ActionPerformed(evt);
@@ -2470,7 +2429,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split12.setForeground(new java.awt.Color(255, 255, 255));
         split12.setAlignmentY(0.0F);
         split12.setContentAreaFilled(false);
-        split12.setOpaque(false);
         split12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split12ActionPerformed(evt);
@@ -2482,7 +2440,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split13.setForeground(new java.awt.Color(255, 255, 255));
         split13.setAlignmentY(0.0F);
         split13.setContentAreaFilled(false);
-        split13.setOpaque(false);
         split13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split13ActionPerformed(evt);
@@ -2494,7 +2451,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split14.setForeground(new java.awt.Color(255, 255, 255));
         split14.setAlignmentY(0.0F);
         split14.setContentAreaFilled(false);
-        split14.setOpaque(false);
         split14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split14ActionPerformed(evt);
@@ -2506,7 +2462,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split15.setForeground(new java.awt.Color(255, 255, 255));
         split15.setAlignmentY(0.0F);
         split15.setContentAreaFilled(false);
-        split15.setOpaque(false);
         split15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split15ActionPerformed(evt);
@@ -2518,7 +2473,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split16.setForeground(new java.awt.Color(255, 255, 255));
         split16.setAlignmentY(0.0F);
         split16.setContentAreaFilled(false);
-        split16.setOpaque(false);
         split16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split16ActionPerformed(evt);
@@ -2530,7 +2484,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split17.setForeground(new java.awt.Color(255, 255, 255));
         split17.setAlignmentY(0.0F);
         split17.setContentAreaFilled(false);
-        split17.setOpaque(false);
         split17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split17ActionPerformed(evt);
@@ -2542,7 +2495,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split18.setForeground(new java.awt.Color(255, 255, 255));
         split18.setAlignmentY(0.0F);
         split18.setContentAreaFilled(false);
-        split18.setOpaque(false);
         split18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split18ActionPerformed(evt);
@@ -2554,7 +2506,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split19.setForeground(new java.awt.Color(255, 255, 255));
         split19.setAlignmentY(0.0F);
         split19.setContentAreaFilled(false);
-        split19.setOpaque(false);
         split19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split19ActionPerformed(evt);
@@ -2566,7 +2517,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split20.setForeground(new java.awt.Color(255, 255, 255));
         split20.setAlignmentY(0.0F);
         split20.setContentAreaFilled(false);
-        split20.setOpaque(false);
         split20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split20ActionPerformed(evt);
@@ -2578,7 +2528,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split21.setForeground(new java.awt.Color(255, 255, 255));
         split21.setAlignmentY(0.0F);
         split21.setContentAreaFilled(false);
-        split21.setOpaque(false);
         split21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split21ActionPerformed(evt);
@@ -2590,7 +2539,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split22.setForeground(new java.awt.Color(255, 255, 255));
         split22.setAlignmentY(0.0F);
         split22.setContentAreaFilled(false);
-        split22.setOpaque(false);
         split22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split22ActionPerformed(evt);
@@ -2602,7 +2550,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split23.setForeground(new java.awt.Color(255, 255, 255));
         split23.setAlignmentY(0.0F);
         split23.setContentAreaFilled(false);
-        split23.setOpaque(false);
         split23.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split23ActionPerformed(evt);
@@ -2614,7 +2561,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split24.setForeground(new java.awt.Color(255, 255, 255));
         split24.setAlignmentY(0.0F);
         split24.setContentAreaFilled(false);
-        split24.setOpaque(false);
         split24.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split24ActionPerformed(evt);
@@ -2626,7 +2572,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split25.setForeground(new java.awt.Color(255, 255, 255));
         split25.setAlignmentY(0.0F);
         split25.setContentAreaFilled(false);
-        split25.setOpaque(false);
         split25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split25ActionPerformed(evt);
@@ -2638,7 +2583,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split26.setForeground(new java.awt.Color(255, 255, 255));
         split26.setAlignmentY(0.0F);
         split26.setContentAreaFilled(false);
-        split26.setOpaque(false);
         split26.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split26ActionPerformed(evt);
@@ -2650,7 +2594,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split27.setForeground(new java.awt.Color(255, 255, 255));
         split27.setAlignmentY(0.0F);
         split27.setContentAreaFilled(false);
-        split27.setOpaque(false);
         split27.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split27ActionPerformed(evt);
@@ -2662,7 +2605,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split28.setForeground(new java.awt.Color(255, 255, 255));
         split28.setAlignmentY(0.0F);
         split28.setContentAreaFilled(false);
-        split28.setOpaque(false);
         split28.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split28ActionPerformed(evt);
@@ -2674,7 +2616,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split29.setForeground(new java.awt.Color(255, 255, 255));
         split29.setAlignmentY(0.0F);
         split29.setContentAreaFilled(false);
-        split29.setOpaque(false);
         split29.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split29ActionPerformed(evt);
@@ -2686,7 +2627,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split30.setForeground(new java.awt.Color(255, 255, 255));
         split30.setAlignmentY(0.0F);
         split30.setContentAreaFilled(false);
-        split30.setOpaque(false);
         split30.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split30ActionPerformed(evt);
@@ -2698,7 +2638,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split31.setForeground(new java.awt.Color(255, 255, 255));
         split31.setAlignmentY(0.0F);
         split31.setContentAreaFilled(false);
-        split31.setOpaque(false);
         split31.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split31ActionPerformed(evt);
@@ -2710,7 +2649,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split32.setForeground(new java.awt.Color(255, 255, 255));
         split32.setAlignmentY(0.0F);
         split32.setContentAreaFilled(false);
-        split32.setOpaque(false);
         split32.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split32ActionPerformed(evt);
@@ -2722,7 +2660,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split33.setForeground(new java.awt.Color(255, 255, 255));
         split33.setAlignmentY(0.0F);
         split33.setContentAreaFilled(false);
-        split33.setOpaque(false);
         split33.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split33ActionPerformed(evt);
@@ -2734,7 +2671,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split34.setForeground(new java.awt.Color(255, 255, 255));
         split34.setAlignmentY(0.0F);
         split34.setContentAreaFilled(false);
-        split34.setOpaque(false);
         split34.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split34ActionPerformed(evt);
@@ -2746,7 +2682,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split35.setForeground(new java.awt.Color(255, 255, 255));
         split35.setAlignmentY(0.0F);
         split35.setContentAreaFilled(false);
-        split35.setOpaque(false);
         split35.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split35ActionPerformed(evt);
@@ -2758,7 +2693,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split36.setForeground(new java.awt.Color(255, 255, 255));
         split36.setAlignmentY(0.0F);
         split36.setContentAreaFilled(false);
-        split36.setOpaque(false);
         split36.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split36ActionPerformed(evt);
@@ -2770,7 +2704,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split37.setForeground(new java.awt.Color(255, 255, 255));
         split37.setAlignmentY(0.0F);
         split37.setContentAreaFilled(false);
-        split37.setOpaque(false);
         split37.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split37ActionPerformed(evt);
@@ -2782,7 +2715,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split38.setForeground(new java.awt.Color(255, 255, 255));
         split38.setAlignmentY(0.0F);
         split38.setContentAreaFilled(false);
-        split38.setOpaque(false);
         split38.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split38ActionPerformed(evt);
@@ -2794,7 +2726,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split39.setForeground(new java.awt.Color(255, 255, 255));
         split39.setAlignmentY(0.0F);
         split39.setContentAreaFilled(false);
-        split39.setOpaque(false);
         split39.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split39ActionPerformed(evt);
@@ -2806,7 +2737,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split40.setForeground(new java.awt.Color(255, 255, 255));
         split40.setAlignmentY(0.0F);
         split40.setContentAreaFilled(false);
-        split40.setOpaque(false);
         split40.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split40ActionPerformed(evt);
@@ -2818,7 +2748,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split63.setForeground(new java.awt.Color(255, 255, 255));
         split63.setAlignmentY(0.0F);
         split63.setContentAreaFilled(false);
-        split63.setOpaque(false);
         split63.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split63ActionPerformed(evt);
@@ -2830,7 +2759,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split64.setForeground(new java.awt.Color(255, 255, 255));
         split64.setAlignmentY(0.0F);
         split64.setContentAreaFilled(false);
-        split64.setOpaque(false);
         split64.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split64ActionPerformed(evt);
@@ -2842,7 +2770,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split87.setForeground(new java.awt.Color(255, 255, 255));
         split87.setAlignmentY(0.0F);
         split87.setContentAreaFilled(false);
-        split87.setOpaque(false);
         split87.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split87ActionPerformed(evt);
@@ -2854,7 +2781,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split41.setForeground(new java.awt.Color(255, 255, 255));
         split41.setAlignmentY(0.0F);
         split41.setContentAreaFilled(false);
-        split41.setOpaque(false);
         split41.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split41ActionPerformed(evt);
@@ -2866,7 +2792,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split62.setForeground(new java.awt.Color(255, 255, 255));
         split62.setAlignmentY(0.0F);
         split62.setContentAreaFilled(false);
-        split62.setOpaque(false);
         split62.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split62ActionPerformed(evt);
@@ -2878,7 +2803,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split65.setForeground(new java.awt.Color(255, 255, 255));
         split65.setAlignmentY(0.0F);
         split65.setContentAreaFilled(false);
-        split65.setOpaque(false);
         split65.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split65ActionPerformed(evt);
@@ -2890,7 +2814,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split86.setForeground(new java.awt.Color(255, 255, 255));
         split86.setAlignmentY(0.0F);
         split86.setContentAreaFilled(false);
-        split86.setOpaque(false);
         split86.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split86ActionPerformed(evt);
@@ -2902,7 +2825,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split42.setForeground(new java.awt.Color(255, 255, 255));
         split42.setAlignmentY(0.0F);
         split42.setContentAreaFilled(false);
-        split42.setOpaque(false);
         split42.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split42ActionPerformed(evt);
@@ -2914,7 +2836,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split61.setForeground(new java.awt.Color(255, 255, 255));
         split61.setAlignmentY(0.0F);
         split61.setContentAreaFilled(false);
-        split61.setOpaque(false);
         split61.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split61ActionPerformed(evt);
@@ -2926,7 +2847,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split66.setForeground(new java.awt.Color(255, 255, 255));
         split66.setAlignmentY(0.0F);
         split66.setContentAreaFilled(false);
-        split66.setOpaque(false);
         split66.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split66ActionPerformed(evt);
@@ -2938,7 +2858,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split85.setForeground(new java.awt.Color(255, 255, 255));
         split85.setAlignmentY(0.0F);
         split85.setContentAreaFilled(false);
-        split85.setOpaque(false);
         split85.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split85ActionPerformed(evt);
@@ -2950,7 +2869,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split43.setForeground(new java.awt.Color(255, 255, 255));
         split43.setAlignmentY(0.0F);
         split43.setContentAreaFilled(false);
-        split43.setOpaque(false);
         split43.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split43ActionPerformed(evt);
@@ -2962,7 +2880,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split60.setForeground(new java.awt.Color(255, 255, 255));
         split60.setAlignmentY(0.0F);
         split60.setContentAreaFilled(false);
-        split60.setOpaque(false);
         split60.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split60ActionPerformed(evt);
@@ -2974,7 +2891,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split67.setForeground(new java.awt.Color(255, 255, 255));
         split67.setAlignmentY(0.0F);
         split67.setContentAreaFilled(false);
-        split67.setOpaque(false);
         split67.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split67ActionPerformed(evt);
@@ -2986,7 +2902,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split84.setForeground(new java.awt.Color(255, 255, 255));
         split84.setAlignmentY(0.0F);
         split84.setContentAreaFilled(false);
-        split84.setOpaque(false);
         split84.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split84ActionPerformed(evt);
@@ -2998,7 +2913,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split44.setForeground(new java.awt.Color(255, 255, 255));
         split44.setAlignmentY(0.0F);
         split44.setContentAreaFilled(false);
-        split44.setOpaque(false);
         split44.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split44ActionPerformed(evt);
@@ -3010,7 +2924,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split59.setForeground(new java.awt.Color(255, 255, 255));
         split59.setAlignmentY(0.0F);
         split59.setContentAreaFilled(false);
-        split59.setOpaque(false);
         split59.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split59ActionPerformed(evt);
@@ -3022,7 +2935,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split68.setForeground(new java.awt.Color(255, 255, 255));
         split68.setAlignmentY(0.0F);
         split68.setContentAreaFilled(false);
-        split68.setOpaque(false);
         split68.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split68ActionPerformed(evt);
@@ -3034,7 +2946,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split83.setForeground(new java.awt.Color(255, 255, 255));
         split83.setAlignmentY(0.0F);
         split83.setContentAreaFilled(false);
-        split83.setOpaque(false);
         split83.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split83ActionPerformed(evt);
@@ -3046,7 +2957,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split45.setForeground(new java.awt.Color(255, 255, 255));
         split45.setAlignmentY(0.0F);
         split45.setContentAreaFilled(false);
-        split45.setOpaque(false);
         split45.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split45ActionPerformed(evt);
@@ -3058,7 +2968,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split58.setForeground(new java.awt.Color(255, 255, 255));
         split58.setAlignmentY(0.0F);
         split58.setContentAreaFilled(false);
-        split58.setOpaque(false);
         split58.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split58ActionPerformed(evt);
@@ -3070,7 +2979,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split69.setForeground(new java.awt.Color(255, 255, 255));
         split69.setAlignmentY(0.0F);
         split69.setContentAreaFilled(false);
-        split69.setOpaque(false);
         split69.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split69ActionPerformed(evt);
@@ -3082,7 +2990,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split82.setForeground(new java.awt.Color(255, 255, 255));
         split82.setAlignmentY(0.0F);
         split82.setContentAreaFilled(false);
-        split82.setOpaque(false);
         split82.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split82ActionPerformed(evt);
@@ -3094,7 +3001,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split46.setForeground(new java.awt.Color(255, 255, 255));
         split46.setAlignmentY(0.0F);
         split46.setContentAreaFilled(false);
-        split46.setOpaque(false);
         split46.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split46ActionPerformed(evt);
@@ -3106,7 +3012,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split57.setForeground(new java.awt.Color(255, 255, 255));
         split57.setAlignmentY(0.0F);
         split57.setContentAreaFilled(false);
-        split57.setOpaque(false);
         split57.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split57ActionPerformed(evt);
@@ -3118,7 +3023,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split70.setForeground(new java.awt.Color(255, 255, 255));
         split70.setAlignmentY(0.0F);
         split70.setContentAreaFilled(false);
-        split70.setOpaque(false);
         split70.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split70ActionPerformed(evt);
@@ -3130,7 +3034,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split81.setForeground(new java.awt.Color(255, 255, 255));
         split81.setAlignmentY(0.0F);
         split81.setContentAreaFilled(false);
-        split81.setOpaque(false);
         split81.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split81ActionPerformed(evt);
@@ -3142,7 +3045,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split47.setForeground(new java.awt.Color(255, 255, 255));
         split47.setAlignmentY(0.0F);
         split47.setContentAreaFilled(false);
-        split47.setOpaque(false);
         split47.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split47ActionPerformed(evt);
@@ -3154,7 +3056,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split56.setForeground(new java.awt.Color(255, 255, 255));
         split56.setAlignmentY(0.0F);
         split56.setContentAreaFilled(false);
-        split56.setOpaque(false);
         split56.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split56ActionPerformed(evt);
@@ -3166,7 +3067,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split71.setForeground(new java.awt.Color(255, 255, 255));
         split71.setAlignmentY(0.0F);
         split71.setContentAreaFilled(false);
-        split71.setOpaque(false);
         split71.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split71ActionPerformed(evt);
@@ -3178,7 +3078,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split80.setForeground(new java.awt.Color(255, 255, 255));
         split80.setAlignmentY(0.0F);
         split80.setContentAreaFilled(false);
-        split80.setOpaque(false);
         split80.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split80ActionPerformed(evt);
@@ -3190,7 +3089,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split48.setForeground(new java.awt.Color(255, 255, 255));
         split48.setAlignmentY(0.0F);
         split48.setContentAreaFilled(false);
-        split48.setOpaque(false);
         split48.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split48ActionPerformed(evt);
@@ -3202,7 +3100,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split55.setForeground(new java.awt.Color(255, 255, 255));
         split55.setAlignmentY(0.0F);
         split55.setContentAreaFilled(false);
-        split55.setOpaque(false);
         split55.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split55ActionPerformed(evt);
@@ -3214,7 +3111,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split72.setForeground(new java.awt.Color(255, 255, 255));
         split72.setAlignmentY(0.0F);
         split72.setContentAreaFilled(false);
-        split72.setOpaque(false);
         split72.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split72ActionPerformed(evt);
@@ -3226,7 +3122,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split79.setForeground(new java.awt.Color(255, 255, 255));
         split79.setAlignmentY(0.0F);
         split79.setContentAreaFilled(false);
-        split79.setOpaque(false);
         split79.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split79ActionPerformed(evt);
@@ -3238,7 +3133,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split49.setForeground(new java.awt.Color(255, 255, 255));
         split49.setAlignmentY(0.0F);
         split49.setContentAreaFilled(false);
-        split49.setOpaque(false);
         split49.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split49ActionPerformed(evt);
@@ -3250,7 +3144,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split54.setForeground(new java.awt.Color(255, 255, 255));
         split54.setAlignmentY(0.0F);
         split54.setContentAreaFilled(false);
-        split54.setOpaque(false);
         split54.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split54ActionPerformed(evt);
@@ -3262,7 +3155,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split73.setForeground(new java.awt.Color(255, 255, 255));
         split73.setAlignmentY(0.0F);
         split73.setContentAreaFilled(false);
-        split73.setOpaque(false);
         split73.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split73ActionPerformed(evt);
@@ -3274,7 +3166,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split78.setForeground(new java.awt.Color(255, 255, 255));
         split78.setAlignmentY(0.0F);
         split78.setContentAreaFilled(false);
-        split78.setOpaque(false);
         split78.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split78ActionPerformed(evt);
@@ -3286,7 +3177,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split50.setForeground(new java.awt.Color(255, 255, 255));
         split50.setAlignmentY(0.0F);
         split50.setContentAreaFilled(false);
-        split50.setOpaque(false);
         split50.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split50ActionPerformed(evt);
@@ -3298,7 +3188,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split53.setForeground(new java.awt.Color(255, 255, 255));
         split53.setAlignmentY(0.0F);
         split53.setContentAreaFilled(false);
-        split53.setOpaque(false);
         split53.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split53ActionPerformed(evt);
@@ -3310,7 +3199,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split74.setForeground(new java.awt.Color(255, 255, 255));
         split74.setAlignmentY(0.0F);
         split74.setContentAreaFilled(false);
-        split74.setOpaque(false);
         split74.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split74ActionPerformed(evt);
@@ -3322,7 +3210,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split77.setForeground(new java.awt.Color(255, 255, 255));
         split77.setAlignmentY(0.0F);
         split77.setContentAreaFilled(false);
-        split77.setOpaque(false);
         split77.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split77ActionPerformed(evt);
@@ -3334,7 +3221,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split51.setForeground(new java.awt.Color(255, 255, 255));
         split51.setAlignmentY(0.0F);
         split51.setContentAreaFilled(false);
-        split51.setOpaque(false);
         split51.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split51ActionPerformed(evt);
@@ -3346,7 +3232,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split52.setForeground(new java.awt.Color(255, 255, 255));
         split52.setAlignmentY(0.0F);
         split52.setContentAreaFilled(false);
-        split52.setOpaque(false);
         split52.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split52ActionPerformed(evt);
@@ -3358,7 +3243,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split75.setForeground(new java.awt.Color(255, 255, 255));
         split75.setAlignmentY(0.0F);
         split75.setContentAreaFilled(false);
-        split75.setOpaque(false);
         split75.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split75ActionPerformed(evt);
@@ -3370,7 +3254,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         split76.setForeground(new java.awt.Color(255, 255, 255));
         split76.setAlignmentY(0.0F);
         split76.setContentAreaFilled(false);
-        split76.setOpaque(false);
         split76.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 split76ActionPerformed(evt);
@@ -3382,7 +3265,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         twoStreet.setForeground(new java.awt.Color(255, 255, 255));
         twoStreet.setAlignmentY(0.0F);
         twoStreet.setContentAreaFilled(false);
-        twoStreet.setOpaque(false);
         twoStreet.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 twoStreetActionPerformed(evt);
@@ -3394,7 +3276,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         threeStreet.setForeground(new java.awt.Color(255, 255, 255));
         threeStreet.setAlignmentY(0.0F);
         threeStreet.setContentAreaFilled(false);
-        threeStreet.setOpaque(false);
         threeStreet.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 threeStreetActionPerformed(evt);
@@ -3406,7 +3287,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         fourStreet.setForeground(new java.awt.Color(255, 255, 255));
         fourStreet.setAlignmentY(0.0F);
         fourStreet.setContentAreaFilled(false);
-        fourStreet.setOpaque(false);
         fourStreet.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 fourStreetActionPerformed(evt);
@@ -3418,7 +3298,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         fiveStreet.setForeground(new java.awt.Color(255, 255, 255));
         fiveStreet.setAlignmentY(0.0F);
         fiveStreet.setContentAreaFilled(false);
-        fiveStreet.setOpaque(false);
         fiveStreet.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 fiveStreetActionPerformed(evt);
@@ -3430,7 +3309,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         sixStreet.setForeground(new java.awt.Color(255, 255, 255));
         sixStreet.setAlignmentY(0.0F);
         sixStreet.setContentAreaFilled(false);
-        sixStreet.setOpaque(false);
         sixStreet.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sixStreetActionPerformed(evt);
@@ -3442,7 +3320,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         sevenStreet.setForeground(new java.awt.Color(255, 255, 255));
         sevenStreet.setAlignmentY(0.0F);
         sevenStreet.setContentAreaFilled(false);
-        sevenStreet.setOpaque(false);
         sevenStreet.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sevenStreetActionPerformed(evt);
@@ -3454,7 +3331,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         eightStreet.setForeground(new java.awt.Color(255, 255, 255));
         eightStreet.setAlignmentY(0.0F);
         eightStreet.setContentAreaFilled(false);
-        eightStreet.setOpaque(false);
         eightStreet.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 eightStreetActionPerformed(evt);
@@ -3466,7 +3342,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         nineStreet.setForeground(new java.awt.Color(255, 255, 255));
         nineStreet.setAlignmentY(0.0F);
         nineStreet.setContentAreaFilled(false);
-        nineStreet.setOpaque(false);
         nineStreet.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nineStreetActionPerformed(evt);
@@ -3478,7 +3353,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         tenStreet.setForeground(new java.awt.Color(255, 255, 255));
         tenStreet.setAlignmentY(0.0F);
         tenStreet.setContentAreaFilled(false);
-        tenStreet.setOpaque(false);
         tenStreet.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tenStreetActionPerformed(evt);
@@ -3490,7 +3364,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         jackStreet.setForeground(new java.awt.Color(255, 255, 255));
         jackStreet.setAlignmentY(0.0F);
         jackStreet.setContentAreaFilled(false);
-        jackStreet.setOpaque(false);
         jackStreet.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jackStreetActionPerformed(evt);
@@ -3502,14 +3375,12 @@ public class PokerletteBoard extends javax.swing.JFrame {
         firstThreeCards.setForeground(new java.awt.Color(255, 255, 255));
         firstThreeCards.setAlignmentY(0.0F);
         firstThreeCards.setContentAreaFilled(false);
-        firstThreeCards.setOpaque(false);
         jPanel1.add(firstThreeCards, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 460, 80, 40));
 
         kingStreet.setBackground(new java.awt.Color(255, 255, 255));
         kingStreet.setForeground(new java.awt.Color(255, 255, 255));
         kingStreet.setAlignmentY(0.0F);
         kingStreet.setContentAreaFilled(false);
-        kingStreet.setOpaque(false);
         kingStreet.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 kingStreetActionPerformed(evt);
@@ -3521,7 +3392,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         queenStreet.setForeground(new java.awt.Color(255, 255, 255));
         queenStreet.setAlignmentY(0.0F);
         queenStreet.setContentAreaFilled(false);
-        queenStreet.setOpaque(false);
         queenStreet.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 queenStreetActionPerformed(evt);
@@ -3533,7 +3403,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         aceStreet.setForeground(new java.awt.Color(255, 255, 255));
         aceStreet.setAlignmentY(0.0F);
         aceStreet.setContentAreaFilled(false);
-        aceStreet.setOpaque(false);
         aceStreet.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 aceStreetActionPerformed(evt);
@@ -3545,7 +3414,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         aceToSix.setForeground(new java.awt.Color(255, 255, 255));
         aceToSix.setAlignmentY(0.0F);
         aceToSix.setContentAreaFilled(false);
-        aceToSix.setOpaque(false);
         aceToSix.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 aceToSixActionPerformed(evt);
@@ -3557,7 +3425,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         redSpot.setForeground(new java.awt.Color(255, 255, 255));
         redSpot.setAlignmentY(0.0F);
         redSpot.setContentAreaFilled(false);
-        redSpot.setOpaque(false);
         redSpot.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 redSpotActionPerformed(evt);
@@ -3569,14 +3436,12 @@ public class PokerletteBoard extends javax.swing.JFrame {
         luckySevens.setForeground(new java.awt.Color(255, 255, 255));
         luckySevens.setAlignmentY(0.0F);
         luckySevens.setContentAreaFilled(false);
-        luckySevens.setOpaque(false);
         jPanel1.add(luckySevens, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 460, 50, 40));
 
         blackSpot.setBackground(new java.awt.Color(255, 255, 255));
         blackSpot.setForeground(new java.awt.Color(255, 255, 255));
         blackSpot.setAlignmentY(0.0F);
         blackSpot.setContentAreaFilled(false);
-        blackSpot.setOpaque(false);
         blackSpot.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 blackSpotActionPerformed(evt);
@@ -3588,7 +3453,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         eightToKing.setForeground(new java.awt.Color(255, 255, 255));
         eightToKing.setAlignmentY(0.0F);
         eightToKing.setContentAreaFilled(false);
-        eightToKing.setOpaque(false);
         eightToKing.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 eightToKingActionPerformed(evt);
@@ -3600,14 +3464,12 @@ public class PokerletteBoard extends javax.swing.JFrame {
         allFiveCards.setForeground(new java.awt.Color(255, 255, 255));
         allFiveCards.setAlignmentY(0.0F);
         allFiveCards.setContentAreaFilled(false);
-        allFiveCards.setOpaque(false);
         jPanel1.add(allFiveCards, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 460, 80, 40));
 
         diamondsRow.setBackground(new java.awt.Color(255, 255, 255));
         diamondsRow.setForeground(new java.awt.Color(255, 255, 255));
         diamondsRow.setAlignmentY(0.0F);
         diamondsRow.setContentAreaFilled(false);
-        diamondsRow.setOpaque(false);
         diamondsRow.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 diamondsRowActionPerformed(evt);
@@ -3619,7 +3481,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         clubsRow.setForeground(new java.awt.Color(255, 255, 255));
         clubsRow.setAlignmentY(0.0F);
         clubsRow.setContentAreaFilled(false);
-        clubsRow.setOpaque(false);
         clubsRow.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 clubsRowActionPerformed(evt);
@@ -3631,7 +3492,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         heartsRow.setForeground(new java.awt.Color(255, 255, 255));
         heartsRow.setAlignmentY(0.0F);
         heartsRow.setContentAreaFilled(false);
-        heartsRow.setOpaque(false);
         heartsRow.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 heartsRowActionPerformed(evt);
@@ -3643,7 +3503,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         spadesRow.setForeground(new java.awt.Color(255, 255, 255));
         spadesRow.setAlignmentY(0.0F);
         spadesRow.setContentAreaFilled(false);
-        spadesRow.setOpaque(false);
         spadesRow.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 spadesRowActionPerformed(evt);
@@ -3703,7 +3562,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         aceHearts.setForeground(new java.awt.Color(255, 255, 255));
         aceHearts.setAlignmentY(0.0F);
         aceHearts.setContentAreaFilled(false);
-        aceHearts.setOpaque(false);
         aceHearts.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 aceHeartsActionPerformed(evt);
@@ -3715,7 +3573,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         aceSpades.setForeground(new java.awt.Color(255, 255, 255));
         aceSpades.setAlignmentY(0.0F);
         aceSpades.setContentAreaFilled(false);
-        aceSpades.setOpaque(false);
         aceSpades.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 aceSpadesActionPerformed(evt);
@@ -3727,7 +3584,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         twoDiamonds.setForeground(new java.awt.Color(255, 255, 255));
         twoDiamonds.setAlignmentY(0.0F);
         twoDiamonds.setContentAreaFilled(false);
-        twoDiamonds.setOpaque(false);
         twoDiamonds.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 twoDiamondsActionPerformed(evt);
@@ -3739,7 +3595,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         twoClubs.setForeground(new java.awt.Color(255, 255, 255));
         twoClubs.setAlignmentY(0.0F);
         twoClubs.setContentAreaFilled(false);
-        twoClubs.setOpaque(false);
         twoClubs.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 twoClubsActionPerformed(evt);
@@ -3751,7 +3606,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         twoHearts.setForeground(new java.awt.Color(255, 255, 255));
         twoHearts.setAlignmentY(0.0F);
         twoHearts.setContentAreaFilled(false);
-        twoHearts.setOpaque(false);
         twoHearts.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 twoHeartsActionPerformed(evt);
@@ -3763,7 +3617,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         twoSpades.setForeground(new java.awt.Color(255, 255, 255));
         twoSpades.setAlignmentY(0.0F);
         twoSpades.setContentAreaFilled(false);
-        twoSpades.setOpaque(false);
         twoSpades.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 twoSpadesActionPerformed(evt);
@@ -3775,7 +3628,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         threeDiamonds.setForeground(new java.awt.Color(255, 255, 255));
         threeDiamonds.setAlignmentY(0.0F);
         threeDiamonds.setContentAreaFilled(false);
-        threeDiamonds.setOpaque(false);
         threeDiamonds.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 threeDiamondsActionPerformed(evt);
@@ -3787,7 +3639,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         threeClubs.setForeground(new java.awt.Color(255, 255, 255));
         threeClubs.setAlignmentY(0.0F);
         threeClubs.setContentAreaFilled(false);
-        threeClubs.setOpaque(false);
         threeClubs.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 threeClubsActionPerformed(evt);
@@ -3799,7 +3650,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         threeHearts.setForeground(new java.awt.Color(255, 255, 255));
         threeHearts.setAlignmentY(0.0F);
         threeHearts.setContentAreaFilled(false);
-        threeHearts.setOpaque(false);
         threeHearts.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 threeHeartsActionPerformed(evt);
@@ -3811,7 +3661,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         threeSpades.setForeground(new java.awt.Color(255, 255, 255));
         threeSpades.setAlignmentY(0.0F);
         threeSpades.setContentAreaFilled(false);
-        threeSpades.setOpaque(false);
         threeSpades.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 threeSpadesActionPerformed(evt);
@@ -3823,7 +3672,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         fourDiamonds.setForeground(new java.awt.Color(255, 255, 255));
         fourDiamonds.setAlignmentY(0.0F);
         fourDiamonds.setContentAreaFilled(false);
-        fourDiamonds.setOpaque(false);
         fourDiamonds.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 fourDiamondsActionPerformed(evt);
@@ -3835,7 +3683,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         fourClubs.setForeground(new java.awt.Color(255, 255, 255));
         fourClubs.setAlignmentY(0.0F);
         fourClubs.setContentAreaFilled(false);
-        fourClubs.setOpaque(false);
         fourClubs.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 fourClubsActionPerformed(evt);
@@ -3847,7 +3694,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         fourHearts.setForeground(new java.awt.Color(255, 255, 255));
         fourHearts.setAlignmentY(0.0F);
         fourHearts.setContentAreaFilled(false);
-        fourHearts.setOpaque(false);
         fourHearts.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 fourHeartsActionPerformed(evt);
@@ -3859,7 +3705,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         fourSpades.setForeground(new java.awt.Color(255, 255, 255));
         fourSpades.setAlignmentY(0.0F);
         fourSpades.setContentAreaFilled(false);
-        fourSpades.setOpaque(false);
         fourSpades.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 fourSpadesActionPerformed(evt);
@@ -3871,7 +3716,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         fiveDiamonds.setForeground(new java.awt.Color(255, 255, 255));
         fiveDiamonds.setAlignmentY(0.0F);
         fiveDiamonds.setContentAreaFilled(false);
-        fiveDiamonds.setOpaque(false);
         fiveDiamonds.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 fiveDiamondsActionPerformed(evt);
@@ -3883,7 +3727,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         fiveClubs.setForeground(new java.awt.Color(255, 255, 255));
         fiveClubs.setAlignmentY(0.0F);
         fiveClubs.setContentAreaFilled(false);
-        fiveClubs.setOpaque(false);
         fiveClubs.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 fiveClubsActionPerformed(evt);
@@ -3895,7 +3738,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         fiveHearts.setForeground(new java.awt.Color(255, 255, 255));
         fiveHearts.setAlignmentY(0.0F);
         fiveHearts.setContentAreaFilled(false);
-        fiveHearts.setOpaque(false);
         fiveHearts.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 fiveHeartsActionPerformed(evt);
@@ -3907,7 +3749,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         fiveSpades.setForeground(new java.awt.Color(255, 255, 255));
         fiveSpades.setAlignmentY(0.0F);
         fiveSpades.setContentAreaFilled(false);
-        fiveSpades.setOpaque(false);
         fiveSpades.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 fiveSpadesActionPerformed(evt);
@@ -3919,7 +3760,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         sixDiamonds.setForeground(new java.awt.Color(255, 255, 255));
         sixDiamonds.setAlignmentY(0.0F);
         sixDiamonds.setContentAreaFilled(false);
-        sixDiamonds.setOpaque(false);
         sixDiamonds.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sixDiamondsActionPerformed(evt);
@@ -3931,14 +3771,12 @@ public class PokerletteBoard extends javax.swing.JFrame {
         jButton203.setForeground(new java.awt.Color(255, 255, 255));
         jButton203.setAlignmentY(0.0F);
         jButton203.setContentAreaFilled(false);
-        jButton203.setOpaque(false);
         jPanel1.add(jButton203, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 250, 20, 50));
 
         sixClubs.setBackground(new java.awt.Color(255, 255, 255));
         sixClubs.setForeground(new java.awt.Color(255, 255, 255));
         sixClubs.setAlignmentY(0.0F);
         sixClubs.setContentAreaFilled(false);
-        sixClubs.setOpaque(false);
         sixClubs.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sixClubsActionPerformed(evt);
@@ -3950,7 +3788,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         sixHearts.setForeground(new java.awt.Color(255, 255, 255));
         sixHearts.setAlignmentY(0.0F);
         sixHearts.setContentAreaFilled(false);
-        sixHearts.setOpaque(false);
         sixHearts.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sixHeartsActionPerformed(evt);
@@ -3962,7 +3799,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         sixSpades.setForeground(new java.awt.Color(255, 255, 255));
         sixSpades.setAlignmentY(0.0F);
         sixSpades.setContentAreaFilled(false);
-        sixSpades.setOpaque(false);
         sixSpades.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sixSpadesActionPerformed(evt);
@@ -3974,7 +3810,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         sevenDiamonds.setForeground(new java.awt.Color(255, 255, 255));
         sevenDiamonds.setAlignmentY(0.0F);
         sevenDiamonds.setContentAreaFilled(false);
-        sevenDiamonds.setOpaque(false);
         sevenDiamonds.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sevenDiamondsActionPerformed(evt);
@@ -3986,7 +3821,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         sevenClubs.setForeground(new java.awt.Color(255, 255, 255));
         sevenClubs.setAlignmentY(0.0F);
         sevenClubs.setContentAreaFilled(false);
-        sevenClubs.setOpaque(false);
         sevenClubs.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sevenClubsActionPerformed(evt);
@@ -3998,7 +3832,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         sevenHearts.setForeground(new java.awt.Color(255, 255, 255));
         sevenHearts.setAlignmentY(0.0F);
         sevenHearts.setContentAreaFilled(false);
-        sevenHearts.setOpaque(false);
         sevenHearts.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sevenHeartsActionPerformed(evt);
@@ -4010,7 +3843,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         eightDiamonds.setForeground(new java.awt.Color(255, 255, 255));
         eightDiamonds.setAlignmentY(0.0F);
         eightDiamonds.setContentAreaFilled(false);
-        eightDiamonds.setOpaque(false);
         eightDiamonds.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 eightDiamondsActionPerformed(evt);
@@ -4022,7 +3854,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         sevenSpades.setForeground(new java.awt.Color(255, 255, 255));
         sevenSpades.setAlignmentY(0.0F);
         sevenSpades.setContentAreaFilled(false);
-        sevenSpades.setOpaque(false);
         sevenSpades.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sevenSpadesActionPerformed(evt);
@@ -4034,7 +3865,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         eightClubs.setForeground(new java.awt.Color(255, 255, 255));
         eightClubs.setAlignmentY(0.0F);
         eightClubs.setContentAreaFilled(false);
-        eightClubs.setOpaque(false);
         eightClubs.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 eightClubsActionPerformed(evt);
@@ -4046,7 +3876,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         eightHearts.setForeground(new java.awt.Color(255, 255, 255));
         eightHearts.setAlignmentY(0.0F);
         eightHearts.setContentAreaFilled(false);
-        eightHearts.setOpaque(false);
         eightHearts.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 eightHeartsActionPerformed(evt);
@@ -4058,7 +3887,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         eightSpades.setForeground(new java.awt.Color(255, 255, 255));
         eightSpades.setAlignmentY(0.0F);
         eightSpades.setContentAreaFilled(false);
-        eightSpades.setOpaque(false);
         eightSpades.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 eightSpadesActionPerformed(evt);
@@ -4070,7 +3898,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         nineDiamonds.setForeground(new java.awt.Color(255, 255, 255));
         nineDiamonds.setAlignmentY(0.0F);
         nineDiamonds.setContentAreaFilled(false);
-        nineDiamonds.setOpaque(false);
         nineDiamonds.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nineDiamondsActionPerformed(evt);
@@ -4082,7 +3909,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         nineClubs.setForeground(new java.awt.Color(255, 255, 255));
         nineClubs.setAlignmentY(0.0F);
         nineClubs.setContentAreaFilled(false);
-        nineClubs.setOpaque(false);
         nineClubs.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nineClubsActionPerformed(evt);
@@ -4094,7 +3920,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         nineHearts.setForeground(new java.awt.Color(255, 255, 255));
         nineHearts.setAlignmentY(0.0F);
         nineHearts.setContentAreaFilled(false);
-        nineHearts.setOpaque(false);
         nineHearts.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nineHeartsActionPerformed(evt);
@@ -4106,7 +3931,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         nineSpades.setForeground(new java.awt.Color(255, 255, 255));
         nineSpades.setAlignmentY(0.0F);
         nineSpades.setContentAreaFilled(false);
-        nineSpades.setOpaque(false);
         nineSpades.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nineSpadesActionPerformed(evt);
@@ -4118,7 +3942,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         tenDiamonds.setForeground(new java.awt.Color(255, 255, 255));
         tenDiamonds.setAlignmentY(0.0F);
         tenDiamonds.setContentAreaFilled(false);
-        tenDiamonds.setOpaque(false);
         tenDiamonds.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tenDiamondsActionPerformed(evt);
@@ -4130,7 +3953,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         tenClubs.setForeground(new java.awt.Color(255, 255, 255));
         tenClubs.setAlignmentY(0.0F);
         tenClubs.setContentAreaFilled(false);
-        tenClubs.setOpaque(false);
         tenClubs.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tenClubsActionPerformed(evt);
@@ -4142,7 +3964,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         tenHearts.setForeground(new java.awt.Color(255, 255, 255));
         tenHearts.setAlignmentY(0.0F);
         tenHearts.setContentAreaFilled(false);
-        tenHearts.setOpaque(false);
         tenHearts.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tenHeartsActionPerformed(evt);
@@ -4154,7 +3975,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         tenSpades.setForeground(new java.awt.Color(255, 255, 255));
         tenSpades.setAlignmentY(0.0F);
         tenSpades.setContentAreaFilled(false);
-        tenSpades.setOpaque(false);
         tenSpades.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tenSpadesActionPerformed(evt);
@@ -4166,7 +3986,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         jackDiamonds.setForeground(new java.awt.Color(255, 255, 255));
         jackDiamonds.setAlignmentY(0.0F);
         jackDiamonds.setContentAreaFilled(false);
-        jackDiamonds.setOpaque(false);
         jackDiamonds.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jackDiamondsActionPerformed(evt);
@@ -4178,7 +3997,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         jackClubs.setForeground(new java.awt.Color(255, 255, 255));
         jackClubs.setAlignmentY(0.0F);
         jackClubs.setContentAreaFilled(false);
-        jackClubs.setOpaque(false);
         jackClubs.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jackClubsActionPerformed(evt);
@@ -4190,7 +4008,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         jackHearts.setForeground(new java.awt.Color(255, 255, 255));
         jackHearts.setAlignmentY(0.0F);
         jackHearts.setContentAreaFilled(false);
-        jackHearts.setOpaque(false);
         jackHearts.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jackHeartsActionPerformed(evt);
@@ -4202,7 +4019,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         jackSpades.setForeground(new java.awt.Color(255, 255, 255));
         jackSpades.setAlignmentY(0.0F);
         jackSpades.setContentAreaFilled(false);
-        jackSpades.setOpaque(false);
         jackSpades.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jackSpadesActionPerformed(evt);
@@ -4214,7 +4030,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         queenDiamonds.setForeground(new java.awt.Color(255, 255, 255));
         queenDiamonds.setAlignmentY(0.0F);
         queenDiamonds.setContentAreaFilled(false);
-        queenDiamonds.setOpaque(false);
         queenDiamonds.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 queenDiamondsActionPerformed(evt);
@@ -4226,7 +4041,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         queenClubs.setForeground(new java.awt.Color(255, 255, 255));
         queenClubs.setAlignmentY(0.0F);
         queenClubs.setContentAreaFilled(false);
-        queenClubs.setOpaque(false);
         queenClubs.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 queenClubsActionPerformed(evt);
@@ -4238,7 +4052,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         queenHearts.setForeground(new java.awt.Color(255, 255, 255));
         queenHearts.setAlignmentY(0.0F);
         queenHearts.setContentAreaFilled(false);
-        queenHearts.setOpaque(false);
         queenHearts.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 queenHeartsActionPerformed(evt);
@@ -4250,7 +4063,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         queenSpades.setForeground(new java.awt.Color(255, 255, 255));
         queenSpades.setAlignmentY(0.0F);
         queenSpades.setContentAreaFilled(false);
-        queenSpades.setOpaque(false);
         queenSpades.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 queenSpadesActionPerformed(evt);
@@ -4262,7 +4074,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         kingDiamonds.setForeground(new java.awt.Color(255, 255, 255));
         kingDiamonds.setAlignmentY(0.0F);
         kingDiamonds.setContentAreaFilled(false);
-        kingDiamonds.setOpaque(false);
         kingDiamonds.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 kingDiamondsActionPerformed(evt);
@@ -4274,7 +4085,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         kingClubs.setForeground(new java.awt.Color(255, 255, 255));
         kingClubs.setAlignmentY(0.0F);
         kingClubs.setContentAreaFilled(false);
-        kingClubs.setOpaque(false);
         kingClubs.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 kingClubsActionPerformed(evt);
@@ -4286,7 +4096,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         kingHearts.setForeground(new java.awt.Color(255, 255, 255));
         kingHearts.setAlignmentY(0.0F);
         kingHearts.setContentAreaFilled(false);
-        kingHearts.setOpaque(false);
         kingHearts.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 kingHeartsActionPerformed(evt);
@@ -4298,7 +4107,6 @@ public class PokerletteBoard extends javax.swing.JFrame {
         kingSpades.setForeground(new java.awt.Color(255, 255, 255));
         kingSpades.setAlignmentY(0.0F);
         kingSpades.setContentAreaFilled(false);
-        kingSpades.setOpaque(false);
         kingSpades.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 kingSpadesActionPerformed(evt);
@@ -4511,11 +4319,56 @@ public class PokerletteBoard extends javax.swing.JFrame {
             d.fillDeck();
             d.shuffle();
             Card[] thisDeck = d.deal();
-            firstCardSpot.setText(thisDeck[0].toString());
-            secondCardSpot.setText(thisDeck[1].toString());
-            thirdCardSpot.setText(thisDeck[2].toString());
-            fourthCardSpot.setText(thisDeck[3].toString());
-            fifthCardSpot.setText(thisDeck[4].toString());
+            
+           
+            String cardImages = "Card Images/";
+            String sOne = thisDeck[0].imageString();
+            String sTwo = thisDeck[1].imageString();
+            String sThree = thisDeck[2].imageString();
+            String sFour = thisDeck[3].imageString();
+            String sFive = thisDeck[4].imageString();
+            
+        
+            
+            String path = "C:\\Users\\zactr\\Documents\\repos\\myProjects\\Pokerlette\\CardImages\\";
+            //String path = "C:\\Users\\zactr\\Downloads\\CardImages\\KC.png";
+            
+            String imageString = "";    
+            
+            imageString = path + sOne;            
+            ImageIcon im = new ImageIcon(imageString);
+            Image img = im.getImage();
+            Image newimg = img.getScaledInstance(firstCardSpot.getWidth(), firstCardSpot.getHeight(), Image.SCALE_SMOOTH);
+            ImageIcon image = new ImageIcon(newimg);
+            firstCardSpot.setIcon(image);
+            
+            imageString = path + sTwo;            
+            im = new ImageIcon(imageString);
+            img = im.getImage();
+            newimg = img.getScaledInstance(secondCardSpot.getWidth(), secondCardSpot.getHeight(), Image.SCALE_SMOOTH);
+            image = new ImageIcon(newimg);
+            secondCardSpot.setIcon(image);
+            
+            imageString = path + sThree;            
+            im = new ImageIcon(imageString);
+            img = im.getImage();
+            newimg = img.getScaledInstance(thirdCardSpot.getWidth(), thirdCardSpot.getHeight(), Image.SCALE_SMOOTH);
+            image = new ImageIcon(newimg);
+            thirdCardSpot.setIcon(image);
+            
+            imageString = path + sFour;            
+            im = new ImageIcon(imageString);
+            img = im.getImage();
+            newimg = img.getScaledInstance(fourthCardSpot.getWidth(), fourthCardSpot.getHeight(), Image.SCALE_SMOOTH);
+            image = new ImageIcon(newimg);
+            fourthCardSpot.setIcon(image);
+            
+            imageString = path + sFive;            
+            im = new ImageIcon(imageString);
+            img = im.getImage();
+            newimg = img.getScaledInstance(fifthCardSpot.getWidth(), fifthCardSpot.getHeight(), Image.SCALE_SMOOTH);
+            image = new ImageIcon(newimg);
+            fifthCardSpot.setIcon(image);
             
             for(int i=0; i<5; i++)
             {
@@ -4822,15 +4675,24 @@ public class PokerletteBoard extends javax.swing.JFrame {
          myBets.clear();
          updateMyBetsLabel();
          // setBalance(getBalance() + sum);
-         firstCardSpot.setText("");
-         secondCardSpot.setText("");
-         thirdCardSpot.setText("");
-         fourthCardSpot.setText("");
-         fifthCardSpot.setText("");
+         firstCardSpot.setIcon(null);
+         secondCardSpot.setIcon(null);
+         thirdCardSpot.setIcon(null);
+         fourthCardSpot.setIcon(null);
+         fifthCardSpot.setIcon(null);
          payoutPanel.setVisible(false);
          
          theseCards.clear();
          betButton.setVisible(true);
+         
+         if(balance < 10)
+         {
+            
+             int result = JOptionPane.showConfirmDialog(null,
+                "You don't have enough money to continue. \n You finished with $" + balance,
+                "End of Game", JOptionPane.DEFAULT_OPTION);
+        if (result == 0) System.exit(0);
+         }
     }//GEN-LAST:event_continueButtonActionPerformed
 
     private void fourDiamondsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fourDiamondsActionPerformed
