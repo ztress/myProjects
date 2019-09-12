@@ -1,21 +1,17 @@
+/*
+    * This class represents the Start Menu GUI
+    * The Start Menu, which appears at the beginning, allows the user to enter
+    * their name and starting balance (minimum $10)
+ */
 
-import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author zactr
- */
 public class StartMenu extends javax.swing.JFrame {
 
     public static String playerName = "";
     public static int startingBalance = 0;
+    
     /**
      * Creates new form StartMenu
      */
@@ -30,7 +26,8 @@ public class StartMenu extends javax.swing.JFrame {
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
+    private void initComponents()
+    {
 
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -51,35 +48,23 @@ public class StartMenu extends javax.swing.JFrame {
 
         jLabel3.setText("Starting Balance");
 
-        jLabel4.setText("(Over $10)");
-
-        nameField.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                nameFieldActionPerformed(evt);
-            }
-        });
+        jLabel4.setText("(Min. $10)");
 
         startButton.setText("Start");
-        startButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        startButton.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 startButtonActionPerformed(evt);
-            }
-        });
-        startButton.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
-                startButtonKeyPressed(evt);
             }
         });
 
         cancelButton.setText("Cancel");
-        cancelButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        cancelButton.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 cancelButtonActionPerformed(evt);
-            }
-        });
-        cancelButton.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
-                cancelButtonKeyPressed(evt);
             }
         });
 
@@ -129,18 +114,12 @@ public class StartMenu extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void nameFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nameFieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_nameFieldActionPerformed
-
-    private void cancelButtonKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_cancelButtonKeyPressed
-        System.exit(0);
-    }//GEN-LAST:event_cancelButtonKeyPressed
-
-    private void startButtonKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_startButtonKeyPressed
-       
-    }//GEN-LAST:event_startButtonKeyPressed
-
+    /**
+     * This function occurs when the start menu is pressed.
+     * If the balance entered is not a number, an error message will be shown
+     * If the balance is less than $10, a message will tell the user to reenter
+     * a balance above $10. 
+     */
     private void startButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_startButtonActionPerformed
         try
         {
@@ -150,26 +129,14 @@ public class StartMenu extends javax.swing.JFrame {
             }
             else
             {
-                this.setVisible(false);
+                this.setVisible(false); // Hides the start menu
                 
+                // Setting the name and balance display based on arguments
                 playerName = nameField.getText();
                 startingBalance = Integer.parseInt(balanceField.getText());
                 
                 String[] args = new String[0];
-                PokerletteBoard.main(args);
-                
-                /*
-                PokerletteBoard b = new PokerletteBoard();
-                b.setExtendedState(JFrame.MAXIMIZED_BOTH);
-                b.setVisible(true);
-                this.setVisible(false);
-                Player p = new Player(nameField.getText(), Integer.parseInt(balanceField.getText()));
-                b.setName(p.getName());
-                b.setBalance(p.getBalance());
-                */      
-            
-               
-                
+                PokerletteBoard.main(args); // Runs the main of PokerletteBoard
             }
         }
         catch(Exception e)
@@ -183,9 +150,7 @@ public class StartMenu extends javax.swing.JFrame {
         System.exit(0);
     }//GEN-LAST:event_cancelButtonActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">

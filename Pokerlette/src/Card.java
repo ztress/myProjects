@@ -1,17 +1,25 @@
+/**
+ * This class is used to represent a playing card
+ * Each playing card has a rank and suit, other than the two jokers
+ */
+
 public class Card
 {
-  // I.V.s are suit and rank
-	public int suitNum;
-	public int rankNum;
+	public int suitNum;     // Used as index in suitValues to get suit
+	public int rankNum;     // Used as index in rankValues to get rank
 
-	public String[] suitValues = {"Hearts", "Diamonds", "Spades", "Clubs", ""};
+	public String[] suitValues = {"Hearts", "Diamonds", "Spades", "Clubs", ""};     // All Possible suits of cards. "" is used for jokers
 	public String[] rankValues = {"ace", "two", "three", "four", "five", "six", "seven", "eight", 
-                                       "nine", "ten", "jack", "queen", "king", "joker", "jokerPlus"};
+                                       "nine", "ten", "jack", "queen", "king", "joker", "jokerPlus"};    // All possible ranks of cards
 	
-        
-        public String imageString()
+        /*
+        A function that returns the string that corresponds with that card's
+        image. This is concatenated onto the path of the location of the card
+        images and later displayed as the cards are dealt. 
+        */
+        public String imageString()     
         {
-            if(suitNum == 0)
+            if(suitNum == 0)        // Hearts
             {
                 if(rankNum == 0)
                 {
@@ -67,7 +75,7 @@ public class Card
                 }
                 
             }
-            else if(suitNum == 1)
+            else if(suitNum == 1)       // Diamonds
             {
                 if(rankNum == 0)
                 {
@@ -122,7 +130,7 @@ public class Card
                     return "KD.png";
                 }
             }
-            else if(suitNum == 3)
+            else if(suitNum == 3)       // Clubs
             {
                 if(rankNum == 0)
                 {
@@ -130,7 +138,7 @@ public class Card
                 }
                 else if(rankNum == 1)
                 {
-                    return "2C.pngC";
+                    return "2C.png";
                 }
                 else if(rankNum == 2)
                 {
@@ -142,7 +150,7 @@ public class Card
                 }
                 else if(rankNum == 4)
                 {
-                    return "5C.pngC";
+                    return "5C.png";
                 }
                 else if(rankNum == 5)
                 {
@@ -177,7 +185,7 @@ public class Card
                     return "KC.png";
                 }
             }
-            else if(suitNum == 2)
+            else if(suitNum == 2)           // Spades
             {
                 if(rankNum == 0)
                 {
@@ -232,7 +240,7 @@ public class Card
                     return "KS.png";
                 }
             }
-            else
+            else        // Jokers
             {
                 if(rankNum == 13)
                 {
@@ -245,6 +253,10 @@ public class Card
             }
         }
         
+        /*
+        To string function to print out what cards have been dealt. 
+        Used for debugging
+        */
         
 	@Override
 	public String toString() 
@@ -265,9 +277,6 @@ public class Card
                 {
                     return "jokerPlus";
                 }
-            }
-            
+            }   
 	}
-	
-
 }

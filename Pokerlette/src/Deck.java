@@ -1,21 +1,22 @@
-
-/***********************
+/*
  *  Adapted from Andreas Hadjigeorgiou's code
  *  https://github.com/andyxhadji/Simple-Poker/blob/master/Deck.java
+ *  
+ *  This class represents the 54 card Deck that the game will use 
  */
 
 import java.util.Random;
 
-public class Deck extends Card
+public class Deck extends Card          // Inherits the Card Class
 {
-    private final int DECK_SIZE = 54;
-    private final int SHUFFLE_EXCHANGES = 2000;
-    private final int HAND_SIZE = 5;
+    private final int DECK_SIZE = 54;           // There are 54 cards in a deck
+    private final int SHUFFLE_EXCHANGES = 2000;     // Number of shuffles
+    private final int HAND_SIZE = 5;    // 5 cards will be dealt each round
 
     Card[] deck = new Card[DECK_SIZE];
     Random r = new Random();
 
-    // fill deck with cards
+    // Fills the deck with cards, one of everything
     public void fillDeck() 
     {
         int counter = 0;
@@ -30,15 +31,15 @@ public class Deck extends Card
             }
         }
         
-        deck[52] = new Card();
+        deck[52] = new Card(); // Joker
         deck[52].suitNum = 4;
         deck[52].rankNum = 13;
-        deck[53] = new Card();
+        deck[53] = new Card(); // Joker Plus
         deck[53].suitNum = 4;
         deck[53].rankNum = 14;
     }
 
-    // shuffle deck
+    // Shuffles the deck. This occurs every round
     public void shuffle() 
     {
         for (int x = 0; x <= SHUFFLE_EXCHANGES; x++) 
@@ -51,7 +52,7 @@ public class Deck extends Card
         }
     }
 
-    // deals 5 cards
+    // Deals 5 cards
     public Card[] deal() 
     {
         Card[] hand = new Card[HAND_SIZE];
@@ -63,5 +64,4 @@ public class Deck extends Card
         
         return hand;
     }
-    
 }

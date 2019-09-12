@@ -1,3 +1,7 @@
+/**
+ * This class represents the person who is playing the game
+ */
+
 public class Player
 {
     private String name;
@@ -9,7 +13,6 @@ public class Player
         balance = b;
     }
     
-
     public void setName(String n)
     {
         name = n;

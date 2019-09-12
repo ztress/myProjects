@@ -1,25 +1,13 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+    Main beginning file for the Pokerlette game. 
+    Created by Zac Tressel
+*/
+public class Pokerlette 
+{
 
-/**
- *
- * @author zactr
- */
-public class Pokerlette {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        StartMenu s = new StartMenu();
-        s.setVisible(true);
-        
-        
-       
-    }
-    
+    public static void main(String[] args) 
+    {        
+        StartMenu s = new StartMenu(); // Creates the start menu
+        s.setVisible(true);         // Makes the start menu visible    
+    }   
 }
