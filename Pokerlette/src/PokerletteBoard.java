@@ -4688,7 +4688,7 @@ public class PokerletteBoard extends javax.swing.JFrame {
         jPanel1.add(payoutPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 450, 220, 180));
 
         boardImage.setBackground(new java.awt.Color(0, 0, 0));
-        boardImage.setIcon(new javax.swing.ImageIcon("C:\\Users\\zactr\\Downloads\\Pokerlette Board.jpg")); // NOI18N
+        boardImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pokerlette Board.jpg"))); // NOI18N
         boardImage.setOpaque(true);
         jPanel1.add(boardImage, new org.netbeans.lib.awtextra.AbsoluteConstraints(26, 0, 1250, 652));
 
@@ -4804,6 +4804,7 @@ public class PokerletteBoard extends javax.swing.JFrame {
             }
             
             int payout = calculatePayout();     // Calculates payout of round
+            payoutPanel.setVisible(true);
             betButton.setVisible(false);        // Hides bet button
         }
     }//GEN-LAST:event_betButtonActionPerformed
