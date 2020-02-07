@@ -15,6 +15,8 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.event.ChangeListener;
 import javax.swing.event.ChangeEvent;
+import java.awt.event.ItemListener;
+import java.awt.event.ItemEvent;
 
 public class PracticeWindow {
 
@@ -307,18 +309,8 @@ public class PracticeWindow {
 		panel.add(calcCheckbox);
 		
 		JCheckBox noCalcCheckbox = new JCheckBox("No Calculator");
-		noCalcCheckbox.addChangeListener(new ChangeListener() {
-			public void stateChanged(ChangeEvent arg0) {
-				if(style[1] == 0)
-				{
-					style[1] = 1;
-				}
-				else
-				{
-					style[1] = 0;
-				}
-			}
-		});
+		
+		
 		noCalcCheckbox.setBounds(728, 319, 145, 29);
 		panel.add(noCalcCheckbox);
 		
@@ -328,6 +320,11 @@ public class PracticeWindow {
 				
 				boolean a = false;
 				boolean b = false;
+				
+				if(noCalcCheckbox.isSelected())
+				{
+					style[1] = 1;
+				}
 				
 				for(int i=0; i<13; i++)
 				{
@@ -348,6 +345,7 @@ public class PracticeWindow {
 				{
 					frame.setVisible(false);
 					String[] args = new String[0];
+					Questions q = new Questions(type, style);
 	                Questions.main(args); // Runs the main of Practice Window
 				}
 				else
@@ -366,6 +364,7 @@ public class PracticeWindow {
 			public void actionPerformed(ActionEvent e) {
 				frame.setVisible(false);
 				String[] args = new String[0];
+				
                 MainScreen.main(args); // Goes back to the main screen
 			}
 		});
