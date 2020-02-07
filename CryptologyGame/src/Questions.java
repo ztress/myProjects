@@ -27,7 +27,9 @@ public class Questions {
 	private Map<Integer, HashMap<String, String>> questionListCalc = new HashMap<Integer, HashMap<String, String>>();
 	private Map<Integer, HashMap<String, String>> questionListNoCalc = new HashMap<Integer, HashMap<String, String>>();
 	private Map<String, String> activeQuestions = new HashMap<String, String>();
+	private String currentQuestion;
 	
+	/*
 	private HashMap<String, String> q0 = new HashMap<String, String>
 	q0.put();
 	q0.put()
@@ -186,10 +188,7 @@ public class Questions {
 	q12c.put()
 	q12c.put();
 	q12c.put();
-	
-	
-	
-
+	*/
 	
 	
 	public Questions(int[] t, int [] s)
@@ -242,6 +241,7 @@ public class Questions {
 			}
 		}	
 	}
+	
 	
 	/**
 	 * Launch the application.
@@ -327,6 +327,7 @@ public class Questions {
 		showAnswerButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				answerLabel.setVisible(true);
+				answerLabel.setText(activeQuestions.get(currentQuestion));
 			}
 		});
 		showAnswerButton.setFont(new Font("Tahoma", Font.PLAIN, 30));
