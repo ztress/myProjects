@@ -22,7 +22,7 @@ import java.util.Iterator;
 
 public class Questions {
 
-	private JFrame frame;
+	private static JFrame frame;
 	private int[] type = PracticeWindow.getType();
 	private int[] style = PracticeWindow.getStyle();
 	private Map<Integer, HashMap<String, String>> questionListCalc = new HashMap<Integer, HashMap<String, String>>();
@@ -32,6 +32,10 @@ public class Questions {
 	private static Map<String, String> q0 = new HashMap<String, String>();
 	private static JLabel questionLabel;
 	private static JLabel answerLabel;
+	private static boolean a = true;
+	private static String [] arr;
+	private static ArrayList<String> usedQuestions;
+	private static Set<String> s;
 	
 	public void fill()
 	{
@@ -326,7 +330,13 @@ public class Questions {
 		nextButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				answerLabel.setVisible(false);
+				System.out.println("Hit next");
 				chooseQuestion(questionLabel);
+				System.out.println("After");
+				
+				
+				
+				
 			}
 		});
 		nextButton.setFont(new Font("Tahoma", Font.PLAIN, 30));
@@ -355,26 +365,43 @@ public class Questions {
 	
 	public static void chooseQuestion(JLabel questionLabel)
 	{
-		Set<String> s = activeQuestions.keySet();
-		System.out.println("Size: " + s.size());
-		System.out.println("Size: " + q0.size());
-		ArrayList<String> usedQuestions = new ArrayList<String>();
-		String [] arr = new String[q0.size()];
-		s.toArray(arr);
-		for(int i=0; i<arr.length; i++)
+		
+		if(a)
 		{
-			System.out.println("Printing");
-			System.out.println(arr[i]);
-			System.out.println(activeQuestions.get(arr[i]));
+			s = activeQuestions.keySet();
+			System.out.println("Size: " + s.size());
+			System.out.println("Size: " + q0.size());
+			usedQuestions = new ArrayList<String>();
+			arr = new String[q0.size()];
+			s.toArray(arr);
+			for(int i=0; i<arr.length; i++)
+			{
+				System.out.println("Printing");
+				System.out.println(arr[i]);
+				System.out.println(activeQuestions.get(arr[i]));
+			}
+			
+			a = false;
 		}
-		int index = (int)Math.random() * s.size();
+		
+		int index = (int)(Math.random() * s.size());
 		question = arr[index];
-		System.out.println(question);
-		System.out.println(activeQuestions.get(question));
-		while(usedQuestions.contains(question))
+		//System.out.println(question);
+		//System.out.println(activeQuestions.get(question));
+		if(usedQuestions.size() == activeQuestions.size())
 		{
-			index = (int)Math.random() * s.size();
-			question = arr[index];
+			JOptionPane.showMessageDialog(frame, "Out of Questions!");
+		}
+		else
+		{
+			while(usedQuestions.contains(question))
+			{
+				index = (int)(Math.random() * s.size());
+				//System.out.println("Size: " + s.size());
+				System.out.println("Index: " + index);
+				question = arr[index];
+			}
+			System.out.println("H");
 		}
 		
 		
@@ -387,10 +414,12 @@ public class Questions {
 		//this.questionLabel.setText("HI");
 		questionLabel.setText(question);
 		answerLabel.setText(activeQuestions.get(question));
-		System.out.println(question);
-		System.out.println(activeQuestions.get(question));
+		//System.out.println(question);
+		//System.out.println(activeQuestions.get(question));
 		usedQuestions.add(question);
 	}
+	
+	
 	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
