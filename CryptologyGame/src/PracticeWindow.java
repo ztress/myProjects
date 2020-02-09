@@ -21,13 +21,23 @@ import java.awt.event.ItemEvent;
 public class PracticeWindow {
 
 	private JFrame frame;
-	private int[] type = new int[13];
-	private int[] style = new int[2];
+	static int[] type = new int[13];
+	static int[] style = new int[2];
 	
 
 	/**
 	 * Launch the application.
 	 */
+	public static int[] getType()
+	{
+		return type;
+	}
+	
+	public static int[] getStyle()
+	{
+		return style;
+	}
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -346,6 +356,9 @@ public class PracticeWindow {
 					frame.setVisible(false);
 					String[] args = new String[0];
 					Questions q = new Questions(type, style);
+					q.setStyle(style);
+					q.setType(type);
+					System.out.println("FIEWOi " + style[1]);
 	                Questions.main(args); // Runs the main of Practice Window
 				}
 				else

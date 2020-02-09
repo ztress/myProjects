@@ -16,18 +16,33 @@ import java.awt.event.ActionEvent;
 
 import java.util.Map;
 import java.util.Set;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 
 public class Questions {
 
 	private JFrame frame;
-	private int[] type = new int[13];
-	private int[] style = new int[2];
+	private int[] type = PracticeWindow.getType();
+	private int[] style = PracticeWindow.getStyle();
 	private Map<Integer, HashMap<String, String>> questionListCalc = new HashMap<Integer, HashMap<String, String>>();
 	private Map<Integer, HashMap<String, String>> questionListNoCalc = new HashMap<Integer, HashMap<String, String>>();
-	private Map<String, String> activeQuestions = new HashMap<String, String>();
-	private String currentQuestion;
+	private static Map<String, String> activeQuestions = new HashMap<String, String>();
+	private static String question;
+	private static Map<String, String> q0 = new HashMap<String, String>();
+	private static JLabel questionLabel;
+	private static JLabel answerLabel;
+	
+	public void fill()
+	{
+		questionListNoCalc.put(0, (HashMap<String, String>) q0);
+		q0.put("Perform an encryption with a shift cipher (k=6) on the following: "
+				+ "This is my homework", "ZNOY OY SE NUSKCUXQ");	
+		q0.put("Decrypt the following, given the shift cipher key is 5: Bjhqtrj", "Welcome");
+		//q0.put("Find the encryption key of the shift cipher given the plaintext is \"Hello users\" and the ciphertext is \"Wtaad jhtgh\"", "k = 15");
+		q0.put("Encrypt \"Tricky question\" with a shift cipher key of 26", "Tricky question");
+		System.out.println("Filling");
+	}
 	
 	/*
 	private HashMap<String, String> q0 = new HashMap<String, String>
@@ -199,8 +214,10 @@ public class Questions {
 	
 	public void fillQuestions()
 	{
+		System.out.println("Starting fill Questions");
 		if(style[0] == 1)
 		{
+			System.out.println("LLL");
 			for(int i=0; i<type.length; i++)
 			{
 				if(type[i] == 1)
@@ -219,15 +236,19 @@ public class Questions {
 				}
 			}
 		}
-		
+		System.out.println("Continuing fill Questions");
+		System.out.println("Style[1] "+style[1]);
 		if(style[1] == 1)
 		{
+			System.out.println("IN");
 			for(int i=0; i<type.length; i++)
 			{
 				if(type[i] == 1)
 				{
+					System.out.println("HERE");
 					HashMap<String, String> a = questionListNoCalc.get(i);
 					Set<String> s = a.keySet();
+					System.out.println("Test: "+s.size());
 					
 					Iterator<String> itr = s.iterator();
 
@@ -235,7 +256,9 @@ public class Questions {
 					System.out.println("Traversing over Set using Iterator");
 					while(itr.hasNext())
 					{
-						activeQuestions.put(itr.next(), a.get(itr.next()));
+						String n = itr.next();
+						System.out.println("AYOO "+ n);
+						activeQuestions.put(n, a.get(n));
 					}
 				}
 			}
@@ -246,23 +269,9 @@ public class Questions {
 	/**
 	 * Launch the application.
 	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-			
-			
-		});
-		Questions q = new Questions();
-		q.frame.setVisible(true);
-		q.fillQuestions();
-		
-	}
+	
+	
+	
 
 	/**
 	 * Create the application.
@@ -298,15 +307,15 @@ public class Questions {
 		btnNewButton.setBounds(15, 16, 125, 43);
 		panel.add(btnNewButton);
 		
-		JLabel questionLabel = new JLabel("Put Question Here");
+		questionLabel = new JLabel("Put Question Here");
 		questionLabel.setFont(new Font("Tahoma", Font.PLAIN, 28));
 		questionLabel.setForeground(Color.RED);
-		questionLabel.setBounds(71, 115, 819, 282);
+		questionLabel.setBounds(71, 75, 819, 322);
 		panel.add(questionLabel);
 		
 		
 		
-		JLabel answerLabel = new JLabel("New label");
+		answerLabel = new JLabel("New label");
 		answerLabel.setVisible(false);
 		answerLabel.setForeground(Color.GREEN);
 		answerLabel.setFont(new Font("Tahoma", Font.PLAIN, 40));
@@ -317,6 +326,7 @@ public class Questions {
 		nextButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				answerLabel.setVisible(false);
+				chooseQuestion(questionLabel);
 			}
 		});
 		nextButton.setFont(new Font("Tahoma", Font.PLAIN, 30));
@@ -327,7 +337,7 @@ public class Questions {
 		showAnswerButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				answerLabel.setVisible(true);
-				answerLabel.setText(activeQuestions.get(currentQuestion));
+				//answerLabel.setText(activeQuestions.get(currentQuestion));
 			}
 		});
 		showAnswerButton.setFont(new Font("Tahoma", Font.PLAIN, 30));
@@ -341,5 +351,64 @@ public class Questions {
 
 	public void setType(int[] type) {
 		this.type = type;
+	}
+	
+	public static void chooseQuestion(JLabel questionLabel)
+	{
+		Set<String> s = activeQuestions.keySet();
+		System.out.println("Size: " + s.size());
+		System.out.println("Size: " + q0.size());
+		ArrayList<String> usedQuestions = new ArrayList<String>();
+		String [] arr = new String[q0.size()];
+		s.toArray(arr);
+		for(int i=0; i<arr.length; i++)
+		{
+			System.out.println("Printing");
+			System.out.println(arr[i]);
+			System.out.println(activeQuestions.get(arr[i]));
+		}
+		int index = (int)Math.random() * s.size();
+		question = arr[index];
+		System.out.println(question);
+		System.out.println(activeQuestions.get(question));
+		while(usedQuestions.contains(question))
+		{
+			index = (int)Math.random() * s.size();
+			question = arr[index];
+		}
+		
+		
+		//questionLabel.setText("Hi");
+		//questionLabel.setText(activeQuestions.get(keysAsArray.get(r.next(keysAsArray.size()))));
+		//Random random = new Random();
+		//List<String> keys = new ArrayList<String>(activeQuestions.keySet());
+		//String randomKey = keys.get(random.next(keys.size()));
+		
+		//this.questionLabel.setText("HI");
+		questionLabel.setText(question);
+		answerLabel.setText(activeQuestions.get(question));
+		System.out.println(question);
+		System.out.println(activeQuestions.get(question));
+		usedQuestions.add(question);
+	}
+	
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+			
+			
+		});
+		Questions q = new Questions();
+		q.frame.setVisible(true);
+		q.fill();
+		q.fillQuestions();
+		chooseQuestion(questionLabel);
+		
 	}
 }
