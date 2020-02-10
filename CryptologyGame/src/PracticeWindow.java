@@ -21,8 +21,8 @@ import java.awt.event.ItemEvent;
 public class PracticeWindow {
 
 	private JFrame frame;
-	static int[] type = new int[13];
-	static int[] style = new int[2];
+	static int[] type = new int[13];	// Array that holds selections for each type of problem checkbox 
+	static int[] style = new int[2];	// Array that holds selections for each style checkbox (Calc vs no calc)
 	
 
 	/**
@@ -73,6 +73,8 @@ public class PracticeWindow {
 		frame.getContentPane().add(panel);
 		panel.setLayout(null);
 		
+		// When the state of any checkbox is changed, its value in the respective array is changed
+		// 1 represents selected, 0 not selected
 		JCheckBox phiCheckbox = new JCheckBox("Phi Function");
 		phiCheckbox.addChangeListener(new ChangeListener() {
 			public void stateChanged(ChangeEvent arg0) {
@@ -324,6 +326,7 @@ public class PracticeWindow {
 		noCalcCheckbox.setBounds(728, 319, 145, 29);
 		panel.add(noCalcCheckbox);
 		
+		// Start button moves the application to the Questions window
 		JButton btnNewButton = new JButton("Start");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -336,7 +339,7 @@ public class PracticeWindow {
 					style[1] = 1;
 				}
 				
-				for(int i=0; i<13; i++)
+				for(int i=0; i<13; i++)	// Checks every checkbox
 				{
 					if(type[i] == 1)
 					{
@@ -350,7 +353,7 @@ public class PracticeWindow {
 					b = true;
 				}
 		
-				
+				// At least one type checkbox and one style checkbox must be selected to begin
 				if(a && b)
 				{
 					frame.setVisible(false);
@@ -372,6 +375,7 @@ public class PracticeWindow {
 		btnNewButton.setBounds(665, 467, 208, 66);
 		panel.add(btnNewButton);
 		
+		// Back button sends the application back to the main screen
 		JButton button = new JButton("Back");
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {

@@ -23,20 +23,46 @@ import java.util.Iterator;
 public class Questions {
 
 	private static JFrame frame;
-	private int[] type = PracticeWindow.getType();
-	private int[] style = PracticeWindow.getStyle();
-	private Map<Integer, HashMap<String, String>> questionListCalc = new HashMap<Integer, HashMap<String, String>>();
-	private Map<Integer, HashMap<String, String>> questionListNoCalc = new HashMap<Integer, HashMap<String, String>>();
-	private static Map<String, String> activeQuestions = new HashMap<String, String>();
+	private int[] type = PracticeWindow.getType();	// Gets type array from previous window
+	private int[] style = PracticeWindow.getStyle(); // Gets style array from previous window
+	private Map<Integer, HashMap<String, String>> questionListCalc = new HashMap<Integer, HashMap<String, String>>();	// A dictionary containing questions for the calculator selection
+	private Map<Integer, HashMap<String, String>> questionListNoCalc = new HashMap<Integer, HashMap<String, String>>(); // A dictionary containing questions for the no-calculator selection
+	private static Map<String, String> activeQuestions = new HashMap<String, String>();		// Reflects questions that can be chosen due to selections made by user
 	private static String question;
-	private static Map<String, String> q0 = new HashMap<String, String>();
-	private static JLabel questionLabel;
-	private static JLabel answerLabel;
-	private static boolean a = true;
-	private static String [] arr;
-	private static ArrayList<String> usedQuestions;
-	private static Set<String> s;
+	private static Map<String, String> q0 = new HashMap<String, String>();	// Shift Cipher questions with no calculator
+	private static Map<String, String> q1 = new HashMap<String, String>();	// Affine Cipher questions with no calculator
+	private static Map<String, String> q2 = new HashMap<String, String>();	// Vigenere Cipher questions with no calculator
+	private static Map<String, String> q3 = new HashMap<String, String>();	// Hill Cipher questions with no calculator
+	private static Map<String, String> q4 = new HashMap<String, String>();	// RSA Cipher questions with no calculator
+	private static Map<String, String> q5 = new HashMap<String, String>();	// El Gammal Cipher questions with no calculator
+	private static Map<String, String> q6 = new HashMap<String, String>();	// Phi Function questions with no calculator
+	private static Map<String, String> q7 = new HashMap<String, String>();	// Arithmetic Mod N questions with no calculator
+	private static Map<String, String> q8 = new HashMap<String, String>();	// Inverses Mod N questions with no calculator
+	private static Map<String, String> q9 = new HashMap<String, String>();	// Roots Mod N questions with no calculator
+	private static Map<String, String> q10 = new HashMap<String, String>();	// Index of Coincidence questions with no calculator
+	private static Map<String, String> q11 = new HashMap<String, String>();	// Primitive Roots questions with no calculator
+	private static Map<String, String> q12 = new HashMap<String, String>();	// Multiplicative Inverse questions with no calculator
+	private static Map<String, String> q0c = new HashMap<String, String>();	// What the respective variable is above but with a calculator
+	private static Map<String, String> q1c = new HashMap<String, String>();
+	private static Map<String, String> q2c = new HashMap<String, String>();
+	private static Map<String, String> q3c = new HashMap<String, String>();
+	private static Map<String, String> q4c = new HashMap<String, String>();
+	private static Map<String, String> q5c = new HashMap<String, String>();
+	private static Map<String, String> q6c = new HashMap<String, String>();
+	private static Map<String, String> q7c = new HashMap<String, String>();
+	private static Map<String, String> q8c = new HashMap<String, String>();
+	private static Map<String, String> q9c = new HashMap<String, String>();
+	private static Map<String, String> q10c = new HashMap<String, String>();
+	private static Map<String, String> q11c = new HashMap<String, String>();
+	private static Map<String, String> q12c = new HashMap<String, String>();
+	private static JLabel questionLabel;	// Question JLabel that gets updated
+	private static JLabel answerLabel;		// Answer JLabel that gets updated	
+	private static boolean a = true;		// Only true for first question, used in chooseQuestion
+	private static String [] arr;			// List of questions
+	private static ArrayList<String> usedQuestions;		// Questions that have been used
+	private static Set<String> s;		// Set of questions
 	
+	// Fills dictionaries with all questions
 	public void fill()
 	{
 		questionListNoCalc.put(0, (HashMap<String, String>) q0);
@@ -48,166 +74,6 @@ public class Questions {
 		System.out.println("Filling");
 	}
 	
-	/*
-	private HashMap<String, String> q0 = new HashMap<String, String>
-	q0.put();
-	q0.put()
-	q0.put();
-	q0.put();
-	
-	private HashMap<String, String> q1 = new HashMap<String, String>
-	q1.put();
-	q1.put()
-	q1.put();
-	q1.put();
-	
-	private HashMap<String, String> q2 = new HashMap<String, String>
-	q2.put();
-	q2.put()
-	q2.put();
-	q2.put();
-	
-	private HashMap<String, String> q3 = new HashMap<String, String>
-	q3.put();
-	q3.put()
-	q3.put();
-	q3.put();
-	
-	private HashMap<String, String> q4 = new HashMap<String, String>
-	q4.put();
-	q4.put()
-	q4.put();
-	q4.put();
-	
-	private HashMap<String, String> q5 = new HashMap<String, String>
-	q5.put();
-	q5.put()
-	q5.put();
-	q5.put();
-	
-	private HashMap<String, String> q6 = new HashMap<String, String>
-	q6.put();
-	q6.put()
-	q6.put();
-	q6.put();
-	
-	private HashMap<String, String> q7 = new HashMap<String, String>
-	q7.put();
-	q7.put()
-	q7.put();
-	q7.put();
-	
-	private HashMap<String, String> q8 = new HashMap<String, String>
-	q8.put();
-	q8.put()
-	q8.put();
-	q8.put();
-	
-	private HashMap<String, String> q9 = new HashMap<String, String>
-	q9.put();
-	q9.put()
-	q9.put();
-	q9.put();
-	
-	private HashMap<String, String> q10 = new HashMap<String, String>
-	q10.put();
-	q10.put()
-	q10.put();
-	q10.put();
-	
-	private HashMap<String, String> q11 = new HashMap<String, String>
-	q11.put();
-	q11.put()
-	q11.put();
-	q11.put();
-	
-	private HashMap<String, String> q12 = new HashMap<String, String>
-	q12.put();
-	q12.put()
-	q12.put();
-	q12.put();
-	
-	
-	
-	// Calculator
-	private HashMap<String, String> q0c = new HashMap<String, String>
-	q0c.put();
-	q0c.put()
-	q0c.put();
-	q0c.put();
-	
-	private HashMap<String, String> q1c = new HashMap<String, String>
-	q1c.put();
-	q1c.put()
-	q1c.put();
-	q1c.put();
-	
-	private HashMap<String, String> q2c = new HashMap<String, String>
-	q2c.put();
-	q2c.put()
-	q2c.put();
-	q2c.put();
-	
-	private HashMap<String, String> q3c = new HashMap<String, String>
-	q3c.put();
-	q3c.put()
-	q3c.put();
-	q3c.put();
-	
-	private HashMap<String, String> q4c = new HashMap<String, String>
-	q4c.put();
-	q4c.put()
-	q4c.put();
-	q4c.put();
-	
-	private HashMap<String, String> q5c = new HashMap<String, String>
-	q5c.put();
-	q5c.put()
-	q5c.put();
-	q5c.put();
-	
-	private HashMap<String, String> q6c = new HashMap<String, String>
-	q6c.put();
-	q6c.put()
-	q6c.put();
-	q6c.put();
-	
-	private HashMap<String, String> q7c = new HashMap<String, String>
-	q7c.put();
-	q7c.put()
-	q7c.put();
-	q7c.put();
-	
-	private HashMap<String, String> q8c = new HashMap<String, String>
-	q8c.put();
-	q8c.put()
-	q8c.put();
-	q8c.put();
-	
-	private HashMap<String, String> q9c = new HashMap<String, String>
-	q9c.put();
-	q9c.put()
-	q9c.put();
-	q9c.put();
-	
-	private HashMap<String, String> q10c = new HashMap<String, String>
-	q10c.put();
-	q10c.put()
-	q10c.put();
-	q10c.put();
-	
-	private HashMap<String, String> q11c = new HashMap<String, String>
-	q11c.put();
-	q11c.put()
-	q11c.put();
-	q11c.put();
-	
-	private HashMap<String, String> q12c = new HashMap<String, String>
-	q12c.put();
-	q12c.put()
-	q12c.put();
-	q12c.put();
-	*/
 	
 	
 	public Questions(int[] t, int [] s)
@@ -216,13 +82,14 @@ public class Questions {
 		style = s;
 	}
 	
+	// Fills activeQuestions array with possible questions based on user's selections
 	public void fillQuestions()
 	{
 		System.out.println("Starting fill Questions");
 		if(style[0] == 1)
 		{
 			System.out.println("LLL");
-			for(int i=0; i<type.length; i++)
+			for(int i=0; i<type.length; i++)	// Iterates through all possible types and adds questions for that type if selected
 			{
 				if(type[i] == 1)
 				{
@@ -299,6 +166,7 @@ public class Questions {
 		frame.getContentPane().add(panel);
 		panel.setLayout(null);
 		
+		// Back button goes back to the PracticeWindow screen. Used for changing selections
 		JButton btnNewButton = new JButton("Back");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -326,6 +194,7 @@ public class Questions {
 		answerLabel.setBounds(317, 489, 392, 78);
 		panel.add(answerLabel);
 		
+		// Next button goes to the next question
 		JButton nextButton = new JButton("Next");
 		nextButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -333,16 +202,13 @@ public class Questions {
 				System.out.println("Hit next");
 				chooseQuestion(questionLabel);
 				System.out.println("After");
-				
-				
-				
-				
 			}
 		});
 		nextButton.setFont(new Font("Tahoma", Font.PLAIN, 30));
 		nextButton.setBounds(799, 489, 154, 65);
 		panel.add(nextButton);
 		
+		// Show Answer button shows the answer for the current question
 		JButton showAnswerButton = new JButton("Show Answer");
 		showAnswerButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -363,9 +229,10 @@ public class Questions {
 		this.type = type;
 	}
 	
+	// Chooses the question from possible questions, which are stored in activeQuestions
 	public static void chooseQuestion(JLabel questionLabel)
 	{
-		
+		// If it is the first question
 		if(a)
 		{
 			s = activeQuestions.keySet();
@@ -384,17 +251,17 @@ public class Questions {
 			a = false;
 		}
 		
-		int index = (int)(Math.random() * s.size());
+		int index = (int)(Math.random() * s.size());		// Randomly selects next question
 		question = arr[index];
 		//System.out.println(question);
 		//System.out.println(activeQuestions.get(question));
-		if(usedQuestions.size() == activeQuestions.size())
+		if(usedQuestions.size() == activeQuestions.size())		// Checks if all quesitons have been asked
 		{
 			JOptionPane.showMessageDialog(frame, "Out of Questions!");
 		}
 		else
 		{
-			while(usedQuestions.contains(question))
+			while(usedQuestions.contains(question))		// Keeps looking through possible questions until it finds a new one
 			{
 				index = (int)(Math.random() * s.size());
 				//System.out.println("Size: " + s.size());
