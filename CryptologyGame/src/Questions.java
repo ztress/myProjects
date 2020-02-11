@@ -116,11 +116,9 @@ public class Questions {
 			{
 				if(type[i] == 1)
 				{
-					System.out.println("HERE");
 					HashMap<String, String> a = questionListNoCalc.get(i);
 					Set<String> s = a.keySet();
-					System.out.println("Test: "+s.size());
-					
+	
 					Iterator<String> itr = s.iterator();
 
 					// traversing over HashSet
@@ -128,7 +126,6 @@ public class Questions {
 					while(itr.hasNext())
 					{
 						String n = itr.next();
-						System.out.println("AYOO "+ n);
 						activeQuestions.put(n, a.get(n));
 					}
 				}
@@ -241,12 +238,14 @@ public class Questions {
 			usedQuestions = new ArrayList<String>();
 			arr = new String[q0.size()];
 			s.toArray(arr);
+			/*
 			for(int i=0; i<arr.length; i++)
 			{
 				System.out.println("Printing");
 				System.out.println(arr[i]);
 				System.out.println(activeQuestions.get(arr[i]));
 			}
+			*/
 			
 			a = false;
 		}
