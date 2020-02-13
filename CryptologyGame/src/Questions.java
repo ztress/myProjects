@@ -71,7 +71,196 @@ public class Questions {
 		q0.put("Decrypt the following, given the shift cipher key is 5: Bjhqtrj", "Welcome");
 		//q0.put("Find the encryption key of the shift cipher given the plaintext is \"Hello users\" and the ciphertext is \"Wtaad jhtgh\"", "k = 15");
 		q0.put("Encrypt \"Tricky question\" with a shift cipher key of 26", "Tricky question");
-		System.out.println("Filling");
+		
+		
+		questionListNoCalc.put(1, (HashMap<String, String>) q1);
+		q1.put(,);
+		q1.put(,);
+		q1.put(,);
+		q1.put(,);
+		q1.put(,);
+		
+		
+		questionListNoCalc.put(2, (HashMap<String, String>) q2);
+		q2.put(,);
+		q2.put(,);
+		q2.put(,);
+		q2.put(,);
+		q2.put(,);
+		
+		
+		questionListNoCalc.put(3, (HashMap<String, String>) q3);
+		q3.put(,);
+		q3.put(,);
+		q3.put(,);
+		q3.put(,);
+		q3.put(,);
+		
+		
+		questionListNoCalc.put(4, (HashMap<String, String>) q4);
+		q4.put(,);
+		q4.put(,);
+		q4.put(,);
+		q4.put(,);
+		q4.put(,);
+		
+		
+		questionListNoCalc.put(5, (HashMap<String, String>) q5);
+		q5.put(,);
+		q5.put(,);
+		q5.put(,);
+		q5.put(,);
+		q5.put(,);
+		
+		questionListNoCalc.put(6, (HashMap<String, String>) q6);
+		q6.put(,);
+		q6.put(,);
+		q6.put(,);
+		q6.put(,);
+		q6.put(,);
+		
+		
+		questionListNoCalc.put(7, (HashMap<String, String>) q7);
+		q7.put(,);
+		q7.put(,);
+		q7.put(,);
+		q7.put(,);
+		q7.put(,);
+		
+		
+		questionListNoCalc.put(8, (HashMap<String, String>) q8);
+		q8.put(,);
+		q8.put(,);
+		q8.put(,);
+		q8.put(,);
+		q8.put(,);
+		
+		
+		questionListNoCalc.put(9, (HashMap<String, String>) q9);
+		q9.put(,);
+		q9.put(,);
+		q9.put(,);
+		q9.put(,);
+		q9.put(,);
+		
+		
+		questionListNoCalc.put(10, (HashMap<String, String>) q10);
+		q10.put(,);
+		q10.put(,);
+		q10.put(,);
+		q10.put(,);
+		q10.put(,);
+		
+		
+		questionListNoCalc.put(11, (HashMap<String, String>) q11);
+		q11.put(,);
+		q11.put(,);
+		q11.put(,);
+		q11.put(,);
+		q11.put(,);
+		
+		
+		questionListNoCalc.put(12, (HashMap<String, String>) q12);
+		q12.put(,);
+		q12.put(,);
+		q12.put(,);
+		q12.put(,);
+		q12.put(,);
+		
+		
+		questionListCalc.put(101, (HashMap<String, String>) q1c);
+		q1c.put(,);
+		q1c.put(,);
+		q1c.put(,);
+		q1c.put(,);
+		q1c.put(,);
+		
+		
+		questionListCalc.put(102, (HashMap<String, String>) q2c);
+		q2c.put(,);
+		q2c.put(,);
+		q2c.put(,);
+		q2c.put(,);
+		q2c.put(,);
+		
+		
+		questionListCalc.put(103, (HashMap<String, String>) q3c);
+		q3c.put(,);
+		q3c.put(,);
+		q3c.put(,);
+		q3c.put(,);
+		q3c.put(,);
+		
+		
+		questionListCalc.put(104, (HashMap<String, String>) q4c);
+		q4c.put(,);
+		q4c.put(,);
+		q4c.put(,);
+		q4c.put(,);
+		q4c.put(,);
+		
+		
+		questionListCalc.put(105, (HashMap<String, String>) q5c);
+		q5c.put(,);
+		q5c.put(,);
+		q5c.put(,);
+		q5c.put(,);
+		q5c.put(,);
+		
+		questionListCalc.put(106, (HashMap<String, String>) q6c);
+		q6c.put(,);
+		q6c.put(,);
+		q6c.put(,);
+		q6c.put(,);
+		q6c.put(,);
+		
+		
+		questionListCalc.put(107, (HashMap<String, String>) q7c);
+		q7c.put(,);
+		q7c.put(,);
+		q7c.put(,);
+		q7c.put(,);
+		q7c.put(,);
+		
+		
+		questionListCalc.put(108, (HashMap<String, String>) q8c);
+		q8c.put(,);
+		q8c.put(,);
+		q8c.put(,);
+		q8c.put(,);
+		q8c.put(,);
+		
+		
+		questionListCalc.put(109, (HashMap<String, String>) q9c);
+		q9c.put(,);
+		q9c.put(,);
+		q9c.put(,);
+		q9c.put(,);
+		q9c.put(,);
+		
+		
+		questionListCalc.put(110, (HashMap<String, String>) q10c);
+		q10c.put(,);
+		q10c.put(,);
+		q10c.put(,);
+		q10c.put(,);
+		q10c.put(,);
+		
+		
+		questionListCalc.put(111, (HashMap<String, String>) q11c);
+		q11c.put(,);
+		q11c.put(,);
+		q11c.put(,);
+		q11c.put(,);
+		q11c.put(,);
+		
+		
+		questionListCalc.put(112, (HashMap<String, String>) q12c);
+		q12c.put(,);
+		q12c.put(,);
+		q12c.put(,);
+		q12c.put(,);
+		q12c.put(,);		
 	}
 	
 	
@@ -85,10 +274,10 @@ public class Questions {
 	// Fills activeQuestions array with possible questions based on user's selections
 	public void fillQuestions()
 	{
-		System.out.println("Starting fill Questions");
+		//System.out.println("Starting fill Questions");
 		if(style[0] == 1)
 		{
-			System.out.println("LLL");
+			//System.out.println("LLL");
 			for(int i=0; i<type.length; i++)	// Iterates through all possible types and adds questions for that type if selected
 			{
 				if(type[i] == 1)
@@ -99,7 +288,7 @@ public class Questions {
 					Iterator<String> itr = s.iterator();
 
 					// traversing over HashSet
-					System.out.println("Traversing over Set using Iterator");
+					//System.out.println("Traversing over Set using Iterator");
 					while(itr.hasNext())
 					{
 						activeQuestions.put(itr.next(), a.get(itr.next()));
@@ -107,11 +296,11 @@ public class Questions {
 				}
 			}
 		}
-		System.out.println("Continuing fill Questions");
-		System.out.println("Style[1] "+style[1]);
+		//System.out.println("Continuing fill Questions");
+		//System.out.println("Style[1] "+style[1]);
 		if(style[1] == 1)
 		{
-			System.out.println("IN");
+			//System.out.println("IN");
 			for(int i=0; i<type.length; i++)
 			{
 				if(type[i] == 1)
@@ -122,7 +311,7 @@ public class Questions {
 					Iterator<String> itr = s.iterator();
 
 					// traversing over HashSet
-					System.out.println("Traversing over Set using Iterator");
+					//System.out.println("Traversing over Set using Iterator");
 					while(itr.hasNext())
 					{
 						String n = itr.next();
@@ -196,9 +385,9 @@ public class Questions {
 		nextButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				answerLabel.setVisible(false);
-				System.out.println("Hit next");
+				//System.out.println("Hit next");
 				chooseQuestion(questionLabel);
-				System.out.println("After");
+				//System.out.println("After");
 			}
 		});
 		nextButton.setFont(new Font("Tahoma", Font.PLAIN, 30));
@@ -233,8 +422,8 @@ public class Questions {
 		if(a)
 		{
 			s = activeQuestions.keySet();
-			System.out.println("Size: " + s.size());
-			System.out.println("Size: " + q0.size());
+			//System.out.println("Size: " + s.size());
+			//System.out.println("Size: " + q0.size());
 			usedQuestions = new ArrayList<String>();
 			arr = new String[q0.size()];
 			s.toArray(arr);
@@ -254,7 +443,7 @@ public class Questions {
 		question = arr[index];
 		//System.out.println(question);
 		//System.out.println(activeQuestions.get(question));
-		if(usedQuestions.size() == activeQuestions.size())		// Checks if all quesitons have been asked
+		if(usedQuestions.size() == activeQuestions.size())		// Checks if all questions have been asked
 		{
 			JOptionPane.showMessageDialog(frame, "Out of Questions!");
 		}
@@ -264,10 +453,10 @@ public class Questions {
 			{
 				index = (int)(Math.random() * s.size());
 				//System.out.println("Size: " + s.size());
-				System.out.println("Index: " + index);
+				//System.out.println("Index: " + index);
 				question = arr[index];
 			}
-			System.out.println("H");
+			//System.out.println("H");
 		}
 		
 		
