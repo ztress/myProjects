@@ -69,24 +69,23 @@ public class Questions {
 		q0.put("Perform an encryption with a shift cipher (k=6) on the following: "
 				+ "This is my homework", "ZNOY OY SE NUSKCUXQ");	
 		q0.put("Decrypt the following, given the shift cipher key is 5: Bjhqtrj", "Welcome");
-		//q0.put("Find the encryption key of the shift cipher given the plaintext is \"Hello users\" and the ciphertext is \"Wtaad jhtgh\"", "k = 15");
 		q0.put("Encrypt \"Tricky question\" with a shift cipher key of 26", "Tricky question");
+		q0.put("Encrypt the message \"exams are no fun\" witha a shift cipher (k=2", "GZCOU CTG PQ HWP");
+		q0.put("Given that \"Go Giants\" encrypts to \"Qy Qskxdc\", decrypt \"ROVVY WI XKWO SC JKM", "Hello my name is Zac");
+		
+		questionListNoCalc.put(2, (HashMap<String, String>) q2);
+		q2.put("Encrypt the message  \"Today is Tuesday\" with a Vigenere cipher with key \"gopher\"" , "ZCSHC ZY HJLWUGM");
+		q2.put("Knowing the Vignere cipher key is \"Giants\", decrypt the following: \"NMLYH XXQEAWK\"", "Hello friends");
+		q2.put("Encrypt the message  \"Have a nice day\" with a Vigenere cipher with key \"Abe\"" , "HBZE B RIDI DBC");
+		q2.put("Knowing the Vignere cipher key is \"Zoo\", decrypt the following: \"KSOQBWMU WR QCNZ\"", "Learning is cool");
 		
 		
 		questionListNoCalc.put(1, (HashMap<String, String>) q1);
-		q1.put(,);
-		q1.put(,);
-		q1.put(,);
-		q1.put(,);
-		q1.put(,);
-		
-		
-		questionListNoCalc.put(2, (HashMap<String, String>) q2);
-		q2.put(,);
-		q2.put(,);
-		q2.put(,);
-		q2.put(,);
-		q2.put(,);
+		q1.put("Decrypt \"BQQZON\" given the affine cipher key is (3,1)", "Affine");
+		q1.put("Encrypt \"Hello\" with an affine cipher key of (1,1)", "IFMMP");
+		q1.put("Decrypt \"AGFRT UPRKTGJ\" given the affine cipher key is (3,7)", "Prime Numbers");
+		q1.put("Encrypt \"Hello\" with an affine cipher key of (2,4)", "SMAAG");
+		q1.put("What is the decryption function of the affine cipher E(x) = (ax + b) % 26?", "D(x) = ((x-b)/a) % 26");
 		
 		
 		questionListNoCalc.put(3, (HashMap<String, String>) q3);
@@ -168,20 +167,25 @@ public class Questions {
 		q12.put(,);
 		
 		
+		questionListCalc.put(100, (HashMap<String, String>) q0c);
+		q0c.put("Find the encryption key of the shift cipher given the plaintext is \"Hello users\" and the ciphertext is \"Wtaad jhtgh\"", "k = 15");
+		q0c.put("Find the encryption key of the shift cipher and the decoded message given the encoded message is \"Ivmvijv\"", "Reverse	k = 17");
+		q0c.put("Find the encryption key of the shift cipher given the plaintext is \"Hello world\" and the ciphertext is \"KHOOR ZRUOG\"", "k = 3");
+		q0c.put("Find the encryption key of the shift cipher and the decoded message given the encoded message is \"AWBBSGCHO UCZRSB UCDVSFG\"", "Minnesota Golden Gophers	k = 14");
+		
+		questionListCalc.put(102, (HashMap<String, String>) q2c);
+		q2c.put("Find the encryption key for the Vignere cipher given \"I like strawberries\" encrypts to \"U LBRQ SMYMWULDRBLE\"" , "MATH");
+		q2c.put("Find the encryption key for the Vignere cipher given \"What is it\" encrypts to \"GLYD MQ SX\"" , "KEY");
+		q2c.put("Find the encryption key for the Vignere cipher given \"I like superheroes\" encrypts to \"P PZYL WLDLVYSYSVG\"" , "HERO");
+		q2c.put("Find the encryption key for the Vignere cipher given \"More practice\" encrypts to \"MPTE QTADVIDG\"" , "ABC");
+		
+		
 		questionListCalc.put(101, (HashMap<String, String>) q1c);
 		q1c.put(,);
 		q1c.put(,);
 		q1c.put(,);
 		q1c.put(,);
 		q1c.put(,);
-		
-		
-		questionListCalc.put(102, (HashMap<String, String>) q2c);
-		q2c.put(,);
-		q2c.put(,);
-		q2c.put(,);
-		q2c.put(,);
-		q2c.put(,);
 		
 		
 		questionListCalc.put(103, (HashMap<String, String>) q3c);
