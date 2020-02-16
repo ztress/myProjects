@@ -87,18 +87,18 @@ public class Questions {
 		q1.put("Encrypt \"Hello\" with an affine cipher key of (2,4)", "SMAAG");
 		q1.put("What is the decryption function of the affine cipher E(x) = (ax + b) % 26?", "D(x) = ((x-b)/a) % 26");
 		
-		/*
+		
 		questionListNoCalc.put(3, (HashMap<String, String>) q3);
-		q3.put(,);
-		q3.put(,);
-		q3.put(,);
-		q3.put(,);
-		q3.put(,);
+		q3.put("Which matrix can be used for a Hill Cipher? K1: [[1,0,2],[0,1,1],[3,0,1]] or K2: [[0,0,1],[2,0,5],[1,1,8]]", "K1");
+		q3.put("Which matrix can be used for a Hill Cipher? K1: [[1,1],[0,1]] or K2: [[1,1],[0,2]]", "K1");
+		q3.put("Suppose \"bead\" gets encrypted using a Hill Cipher and the result is \"FGDD\". What is the key?", "[[1,1],[2,1]]");
+		q3.put("Encrypt \"Michigan\" with the Hill Cipher key of [[1,1],[0,1]]" , "UIJHOGNN");
+		q3.put("Encrypt \"let there be songs to fill the air\" with the Hill Cipher key of [[1,0,2],[0,1,1],[3,0,1]]" , "XXA BLJTF AG GAXYF DT KEWJ BLJ IZR");
 		
 		
 		questionListNoCalc.put(4, (HashMap<String, String>) q4);
-		q4.put(,);
-		q4.put(,);
+		q4.put("If you are using an RSA Cipher and your secret primes are 3 and 13, is either 5 or 7 a valid choice for a public encryption exponent?","Only 7");
+		q4.put("If you are using an RSA Cipher your secret primes are 3 and 1, and your public encryption exponent is 7, what is the prviate decryption key?", "3");
 		q4.put(,);
 		q4.put(,);
 		q4.put(,);
@@ -112,11 +112,17 @@ public class Questions {
 		q5.put(,);
 		
 		questionListNoCalc.put(6, (HashMap<String, String>) q6);
-		q6.put(,);
-		q6.put(,);
-		q6.put(,);
-		q6.put(,);
-		q6.put(,);
+		q6.put("What is φ(2)?","1");
+		q6.put("What is φ(3)?","2");
+		q6.put("What is φ(4)?","2");
+		q6.put("What is φ(5)?","4");
+		q6.put("What is φ(6)?","2");
+		q6.put("What is φ(7)?","6");
+		q6.put("What is φ(8)?","4");
+		q6.put("What is φ(9)?","6");
+		q6.put("What is φ(67)?","66");
+		q6.put("What is φ(37)?","36");
+		q6.put("What is φ(103)?","102");
 		
 		
 		questionListNoCalc.put(7, (HashMap<String, String>) q7);
@@ -144,11 +150,11 @@ public class Questions {
 		
 		
 		questionListNoCalc.put(10, (HashMap<String, String>) q10);
-		q10.put(,);
-		q10.put(,);
-		q10.put(,);
-		q10.put(,);
-		q10.put(,);
+		q10.put("Compute the index of coincidence between \"blue\" and \"talk\"", "0/4");
+		q10.put("Compute the index of coincidence between \"cheese\" and \"please\"", "3/6");
+		q10.put("Compute the index of coincidence between \"payday\" and \"mayday\"", "5/6");
+		q10.put("Compute the index of coincidence between \"Hello\" and \"\"Seven", "1/5");
+		q10.put("Compute the index of coincidence between \"total\" and \"total\"", "5/5");
 		
 		
 		questionListNoCalc.put(11, (HashMap<String, String>) q11);
@@ -165,7 +171,7 @@ public class Questions {
 		q12.put(,);
 		q12.put(,);
 		q12.put(,);
-		*/
+		
 		
 		questionListCalc.put(0, (HashMap<String, String>) q0c);
 		q0c.put("Find the encryption key of the shift cipher given the plaintext is \"Hello users\" and the ciphertext is \"Wtaad jhtgh\"", "k = 15");
@@ -179,21 +185,19 @@ public class Questions {
 		q2c.put("Find the encryption key for the Vignere cipher given \"I like superheroes\" encrypts to \"P PZYL WLDLVYSYSVG\"" , "HERO");
 		q2c.put("Find the encryption key for the Vignere cipher given \"More practice\" encrypts to \"MPTE QTADVIDG\"" , "ABC");
 		
-		/*
+		
 		questionListCalc.put(1, (HashMap<String, String>) q1c);
-		q1c.put(,);
-		q1c.put(,);
-		q1c.put(,);
-		q1c.put(,);
-		q1c.put(,);
+		q1c.put("Decrypt \"TFULBAR MFU EWH THHLHAC\" given the affine cipher key is (31,13)", "Working for the weekend");
+		q1c.put("Encrypt \"Tomorrow is Sunday\" with an affine cipher key of (57,81)", "UVLVKKVJ RP PZQSDT");
+		q1c.put("Decrypt \"T QTRX ABJRXIABQQ\" given the affine cipher key is (77,1)", "I like basketball");
+		q1c.put("Encrypt \"Baseball is my favorite sport\" with an affine cipher key of (49,39)", "KNLBKNGG PL DT YNCXOPIB LUXOI");
 		
 		
 		questionListCalc.put(3, (HashMap<String, String>) q3c);
-		q3c.put(,);
-		q3c.put(,);
-		q3c.put(,);
-		q3c.put(,);
-		q3c.put(,);
+		q3.put("Decrypt \"FRPWJFTMAWSLRGLXBBENEE\" with the Hill Cipher key of [[18,8],[17,9]]" , "on the threshold of a dream");
+		q3.put("Encrypt \"The Giants Win The Pennant\" with the Hill Cipher key of [[18,8],[17,9]]" , "PWW SOGPCC KBT PWZ VHDANPC");
+		q3.put("Encrypt \"Lets play golf\" with the Hill Cipher key of [[1,2],[-1,3]]" , "TBDJ LSWU IKVE");
+	
 		
 		
 		questionListCalc.put(4, (HashMap<String, String>) q4c);
@@ -212,11 +216,12 @@ public class Questions {
 		q5c.put(,);
 		
 		questionListCalc.put(6, (HashMap<String, String>) q6c);
-		q6c.put(,);
-		q6c.put(,);
-		q6c.put(,);
-		q6c.put(,);
-		q6c.put(,);
+		q6.put("What is φ(790)?","312");
+		q6.put("What is φ(28)?","12");
+		q6.put("What is φ(34)?","16");
+		q6.put("What is φ(68)?","32");
+		q6.put("What is φ(88)?","40");
+		q6.put("What is φ(55)?","40");
 		
 		
 		questionListCalc.put(7, (HashMap<String, String>) q7c);
@@ -244,11 +249,8 @@ public class Questions {
 		
 		
 		questionListCalc.put(10, (HashMap<String, String>) q10c);
-		q10c.put(,);
-		q10c.put(,);
-		q10c.put(,);
-		q10c.put(,);
-		q10c.put(,);
+		q10.put("Compute the index of coincidence between \"grateful\" and \"tracking\"", "2/8");
+		q10.put("Given the index of coincidence between two random English words is 0.064, what is the expected index if one is rotated l spaces?" , "0.064");
 		
 		
 		questionListCalc.put(11, (HashMap<String, String>) q11c);
@@ -265,7 +267,7 @@ public class Questions {
 		q12c.put(,);
 		q12c.put(,);
 		q12c.put(,);	
-		*/	
+	
 	}
 	
 	
