@@ -99,17 +99,14 @@ public class Questions {
 		questionListNoCalc.put(4, (HashMap<String, String>) q4);
 		q4.put("If you are using an RSA Cipher and your secret primes are 3 and 13, is either 5 or 7 a valid choice for a public encryption exponent?","Only 7");
 		q4.put("If you are using an RSA Cipher your secret primes are 3 and 1, and your public encryption exponent is 7, what is the prviate decryption key?", "3");
-		q4.put(,);
-		q4.put(,);
-		q4.put(,);
+		q4.put("If for an RSA Cipher n=91 and the public encryption key is 5, what is the private decryption key?", "29");
+		q4.put("If for an RSA Cipher n=33 and the public encryption key is 3, what is the private decryption key?", "7");
 		
 		
 		questionListNoCalc.put(5, (HashMap<String, String>) q5);
-		q5.put(,);
-		q5.put(,);
-		q5.put(,);
-		q5.put(,);
-		q5.put(,);
+		q5.put("Encrypt \"9\" using the El Gammal Cipher with prime 11, primitive root 2, private key 4, and secret integer 8", "Header: 3 Ciphertext:3");
+
+		
 		
 		questionListNoCalc.put(6, (HashMap<String, String>) q6);
 		q6.put("What is φ(2)?","1");
@@ -194,34 +191,29 @@ public class Questions {
 		
 		
 		questionListCalc.put(3, (HashMap<String, String>) q3c);
-		q3.put("Decrypt \"FRPWJFTMAWSLRGLXBBENEE\" with the Hill Cipher key of [[18,8],[17,9]]" , "on the threshold of a dream");
-		q3.put("Encrypt \"The Giants Win The Pennant\" with the Hill Cipher key of [[18,8],[17,9]]" , "PWW SOGPCC KBT PWZ VHDANPC");
-		q3.put("Encrypt \"Lets play golf\" with the Hill Cipher key of [[1,2],[-1,3]]" , "TBDJ LSWU IKVE");
+		q3c.put("Decrypt \"FRPWJFTMAWSLRGLXBBENEE\" with the Hill Cipher key of [[18,8],[17,9]]" , "on the threshold of a dream");
+		q3c.put("Encrypt \"The Giants Win The Pennant\" with the Hill Cipher key of [[18,8],[17,9]]" , "PWW SOGPCC KBT PWZ VHDANPC");
+		q3c.put("Encrypt \"Lets play golf\" with the Hill Cipher key of [[1,2],[-1,3]]" , "TBDJ LSWU IKVE");
 	
 		
 		
 		questionListCalc.put(4, (HashMap<String, String>) q4c);
-		q4c.put(,);
-		q4c.put(,);
-		q4c.put(,);
-		q4c.put(,);
-		q4c.put(,);
+		q4c.put("If you are using an RSA Cipher and your secret primes are 47 and 139, is either 23 or 29 a valid choice for a public encryption exponent?","Only 29");
+		q4c.put("If you are using an RSA Cipher your secret primes are 23 and 31, and your public encryption exponent is 7, decrypt \"495\"", "123");
+		q4c.put("Encrypt \"348\" using an RSA Cipher with n=551 and public key = 5", "290");
 		
 		
 		questionListCalc.put(5, (HashMap<String, String>) q5c);
-		q5c.put(,);
-		q5c.put(,);
-		q5c.put(,);
-		q5c.put(,);
-		q5c.put(,);
+		q5c.put("Encrypt \"18\" using the El Gammal Cipher with prime 101, primitive root 2, private key 7, and secret integer 10", "Header: 14 Ciphertext: 7");
+
 		
 		questionListCalc.put(6, (HashMap<String, String>) q6c);
-		q6.put("What is φ(790)?","312");
-		q6.put("What is φ(28)?","12");
-		q6.put("What is φ(34)?","16");
-		q6.put("What is φ(68)?","32");
-		q6.put("What is φ(88)?","40");
-		q6.put("What is φ(55)?","40");
+		q6c.put("What is φ(790)?","312");
+		q6c.put("What is φ(28)?","12");
+		q6c.put("What is φ(34)?","16");
+		q6c.put("What is φ(68)?","32");
+		q6c.put("What is φ(88)?","40");
+		q6c.put("What is φ(55)?","40");
 		
 		
 		questionListCalc.put(7, (HashMap<String, String>) q7c);
@@ -249,8 +241,8 @@ public class Questions {
 		
 		
 		questionListCalc.put(10, (HashMap<String, String>) q10c);
-		q10.put("Compute the index of coincidence between \"grateful\" and \"tracking\"", "2/8");
-		q10.put("Given the index of coincidence between two random English words is 0.064, what is the expected index if one is rotated l spaces?" , "0.064");
+		q10c.put("Compute the index of coincidence between \"grateful\" and \"tracking\"", "2/8");
+		q10c.put("Given the index of coincidence between two random English words is 0.064, what is the expected index if one is rotated l spaces?" , "0.064");
 		
 		
 		questionListCalc.put(11, (HashMap<String, String>) q11c);
