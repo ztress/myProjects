@@ -87,7 +87,7 @@ public class Questions {
 		q1.put("Encrypt \"Hello\" with an affine cipher key of (2,4)", "SMAAG");
 		q1.put("What is the decryption function of the affine cipher E(x) = (ax + b) % 26?", "D(x) = ((x-b)/a) % 26");
 		
-		
+		/*
 		questionListNoCalc.put(3, (HashMap<String, String>) q3);
 		q3.put(,);
 		q3.put(,);
@@ -165,22 +165,22 @@ public class Questions {
 		q12.put(,);
 		q12.put(,);
 		q12.put(,);
+		*/
 		
-		
-		questionListCalc.put(100, (HashMap<String, String>) q0c);
+		questionListCalc.put(0, (HashMap<String, String>) q0c);
 		q0c.put("Find the encryption key of the shift cipher given the plaintext is \"Hello users\" and the ciphertext is \"Wtaad jhtgh\"", "k = 15");
 		q0c.put("Find the encryption key of the shift cipher and the decoded message given the encoded message is \"Ivmvijv\"", "Reverse	k = 17");
 		q0c.put("Find the encryption key of the shift cipher given the plaintext is \"Hello world\" and the ciphertext is \"KHOOR ZRUOG\"", "k = 3");
 		q0c.put("Find the encryption key of the shift cipher and the decoded message given the encoded message is \"AWBBSGCHO UCZRSB UCDVSFG\"", "Minnesota Golden Gophers	k = 14");
 		
-		questionListCalc.put(102, (HashMap<String, String>) q2c);
+		questionListCalc.put(2, (HashMap<String, String>) q2c);
 		q2c.put("Find the encryption key for the Vignere cipher given \"I like strawberries\" encrypts to \"U LBRQ SMYMWULDRBLE\"" , "MATH");
 		q2c.put("Find the encryption key for the Vignere cipher given \"What is it\" encrypts to \"GLYD MQ SX\"" , "KEY");
 		q2c.put("Find the encryption key for the Vignere cipher given \"I like superheroes\" encrypts to \"P PZYL WLDLVYSYSVG\"" , "HERO");
 		q2c.put("Find the encryption key for the Vignere cipher given \"More practice\" encrypts to \"MPTE QTADVIDG\"" , "ABC");
 		
-		
-		questionListCalc.put(101, (HashMap<String, String>) q1c);
+		/*
+		questionListCalc.put(1, (HashMap<String, String>) q1c);
 		q1c.put(,);
 		q1c.put(,);
 		q1c.put(,);
@@ -188,7 +188,7 @@ public class Questions {
 		q1c.put(,);
 		
 		
-		questionListCalc.put(103, (HashMap<String, String>) q3c);
+		questionListCalc.put(3, (HashMap<String, String>) q3c);
 		q3c.put(,);
 		q3c.put(,);
 		q3c.put(,);
@@ -196,7 +196,7 @@ public class Questions {
 		q3c.put(,);
 		
 		
-		questionListCalc.put(104, (HashMap<String, String>) q4c);
+		questionListCalc.put(4, (HashMap<String, String>) q4c);
 		q4c.put(,);
 		q4c.put(,);
 		q4c.put(,);
@@ -204,14 +204,14 @@ public class Questions {
 		q4c.put(,);
 		
 		
-		questionListCalc.put(105, (HashMap<String, String>) q5c);
+		questionListCalc.put(5, (HashMap<String, String>) q5c);
 		q5c.put(,);
 		q5c.put(,);
 		q5c.put(,);
 		q5c.put(,);
 		q5c.put(,);
 		
-		questionListCalc.put(106, (HashMap<String, String>) q6c);
+		questionListCalc.put(6, (HashMap<String, String>) q6c);
 		q6c.put(,);
 		q6c.put(,);
 		q6c.put(,);
@@ -219,7 +219,7 @@ public class Questions {
 		q6c.put(,);
 		
 		
-		questionListCalc.put(107, (HashMap<String, String>) q7c);
+		questionListCalc.put(7, (HashMap<String, String>) q7c);
 		q7c.put(,);
 		q7c.put(,);
 		q7c.put(,);
@@ -227,7 +227,7 @@ public class Questions {
 		q7c.put(,);
 		
 		
-		questionListCalc.put(108, (HashMap<String, String>) q8c);
+		questionListCalc.put(8, (HashMap<String, String>) q8c);
 		q8c.put(,);
 		q8c.put(,);
 		q8c.put(,);
@@ -235,7 +235,7 @@ public class Questions {
 		q8c.put(,);
 		
 		
-		questionListCalc.put(109, (HashMap<String, String>) q9c);
+		questionListCalc.put(9, (HashMap<String, String>) q9c);
 		q9c.put(,);
 		q9c.put(,);
 		q9c.put(,);
@@ -243,7 +243,7 @@ public class Questions {
 		q9c.put(,);
 		
 		
-		questionListCalc.put(110, (HashMap<String, String>) q10c);
+		questionListCalc.put(10, (HashMap<String, String>) q10c);
 		q10c.put(,);
 		q10c.put(,);
 		q10c.put(,);
@@ -251,7 +251,7 @@ public class Questions {
 		q10c.put(,);
 		
 		
-		questionListCalc.put(111, (HashMap<String, String>) q11c);
+		questionListCalc.put(11, (HashMap<String, String>) q11c);
 		q11c.put(,);
 		q11c.put(,);
 		q11c.put(,);
@@ -259,12 +259,13 @@ public class Questions {
 		q11c.put(,);
 		
 		
-		questionListCalc.put(112, (HashMap<String, String>) q12c);
+		questionListCalc.put(12, (HashMap<String, String>) q12c);
 		q12c.put(,);
 		q12c.put(,);
 		q12c.put(,);
 		q12c.put(,);
-		q12c.put(,);		
+		q12c.put(,);	
+		*/	
 	}
 	
 	
@@ -429,7 +430,7 @@ public class Questions {
 			//System.out.println("Size: " + s.size());
 			//System.out.println("Size: " + q0.size());
 			usedQuestions = new ArrayList<String>();
-			arr = new String[q0.size()];
+			arr = new String[s.size()];
 			s.toArray(arr);
 			/*
 			for(int i=0; i<arr.length; i++)
@@ -444,6 +445,7 @@ public class Questions {
 		}
 		
 		int index = (int)(Math.random() * s.size());		// Randomly selects next question
+		System.out.println("Array size: " + arr.length);
 		question = arr[index];
 		//System.out.println(question);
 		//System.out.println(activeQuestions.get(question));
