@@ -51,18 +51,6 @@ public class MainScreen {
 		frame.getContentPane().add(panel);
 		panel.setLayout(null);
 		
-		JButton btnNewButton = new JButton("Converters");
-		btnNewButton.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				frame.setVisible(false);
-				String[] args = new String[0];
-                ConverterWindow.main(args); // Runs the main of Practice Window
-			}
-		});
-		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 36));
-		btnNewButton.setBounds(95, 376, 261, 58);
-		panel.add(btnNewButton);
-		
 		JLabel lblNewLabel = new JLabel("Cryptology Game");
 		lblNewLabel.setBounds(95, 16, 591, 96);
 		lblNewLabel.setFont(new Font("Tahoma", Font.BOLD | Font.ITALIC, 64));
@@ -78,7 +66,7 @@ public class MainScreen {
 			}
 		});
 		btnPractice.setFont(new Font("Tahoma", Font.BOLD, 36));
-		btnPractice.setBounds(416, 376, 261, 58);
+		btnPractice.setBounds(238, 378, 261, 58);
 		panel.add(btnPractice);
 	}
 }

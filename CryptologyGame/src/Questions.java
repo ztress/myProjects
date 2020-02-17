@@ -66,45 +66,45 @@ public class Questions {
 	public void fill()
 	{
 		questionListNoCalc.put(0, (HashMap<String, String>) q0);
-		q0.put("Perform an encryption with a shift cipher (k=6) on the following: "
-				+ "This is my homework", "ZNOY OY SE NUSKCUXQ");	
-		q0.put("Decrypt the following, given the shift cipher key is 5: Bjhqtrj", "Welcome");
-		q0.put("Encrypt \"Tricky question\" with a shift cipher key of 26", "Tricky question");
-		q0.put("Encrypt the message \"exams are no fun\" witha a shift cipher (k=2", "GZCOU CTG PQ HWP");
-		q0.put("Given that \"Go Giants\" encrypts to \"Qy Qskxdc\", decrypt \"ROVVY WI XKWO SC JKM", "Hello my name is Zac");
+		q0.put("<html> Perform an encryption with a shift cipher (k=6) on the following: <br/> "
+				+ "\"This is my homework\"", "ZNOY OY SE NUSKCUXQ</html>");	
+		q0.put("<html> Decrypt the following, given the shift cipher key is 5: Bjhqtrj<html/>", "Welcome");
+		q0.put("<html> Encrypt \"Tricky question\" with a shift cipher key of 26", "Tricky question<html/>");
+		q0.put("<html> Encrypt the message \"exams are no fun\" with <br/> a shift cipher (k=2) </html>", "GZCOU CTG PQ HWP");
+		q0.put("<html> Given that \"Go Giants\" encrypts to \"Qy Qskxdc\", <br/> decrypt \"ROVVY WI XKWO SC JKM</html>", "Hello my name is Zac");
 		
 		questionListNoCalc.put(2, (HashMap<String, String>) q2);
-		q2.put("Encrypt the message  \"Today is Tuesday\" with a Vigenere cipher with key \"gopher\"" , "ZCSHC ZY HJLWUGM");
-		q2.put("Knowing the Vignere cipher key is \"Giants\", decrypt the following: \"NMLYH XXQEAWK\"", "Hello friends");
-		q2.put("Encrypt the message  \"Have a nice day\" with a Vigenere cipher with key \"Abe\"" , "HBZE B RIDI DBC");
-		q2.put("Knowing the Vignere cipher key is \"Zoo\", decrypt the following: \"KSOQBWMU WR QCNZ\"", "Learning is cool");
+		q2.put("<html> Encrypt the message  \"Today is Tuesday\" with <br/> a Vigenere cipher with key \"gopher\"<html/>" , "ZCSHC ZY HJLWUGM");
+		q2.put("<html> Knowing the Vignere cipher key is \"Giants\", <br/> decrypt the following: \"NMLYH XXQEAWK\"</html>", "Hello friends");
+		q2.put("<html> Encrypt the message  \"Have a nice day\" with a Vigenere cipher with key \"Abe\"<html/>" , "HBZE B RIDI DBC");
+		q2.put("<html> Knowing the Vignere cipher key is \"Zoo\", <br/> decrypt the following: \"KSOQBWMU WR QCNZ\" <html/>", "Learning is cool");
 		
 		
 		questionListNoCalc.put(1, (HashMap<String, String>) q1);
-		q1.put("Decrypt \"BQQZON\" given the affine cipher key is (3,1)", "Affine");
-		q1.put("Encrypt \"Hello\" with an affine cipher key of (1,1)", "IFMMP");
-		q1.put("Decrypt \"AGFRT UPRKTGJ\" given the affine cipher key is (3,7)", "Prime Numbers");
-		q1.put("Encrypt \"Hello\" with an affine cipher key of (2,4)", "SMAAG");
-		q1.put("What is the decryption function of the affine cipher E(x) = (ax + b) % 26?", "D(x) = ((x-b)/a) % 26");
+		q1.put("<html> Decrypt \"BQQZON\" given the affine cipher key is (3,1)<html/>", "Affine");
+		q1.put("<html> Encrypt \"Hello\" with an affine cipher key of (1,1)<html/>", "IFMMP");
+		q1.put("<html> Decrypt \"AGFRT UPRKTGJ\" given the affine cipher key is (3,7)<html/>", "Prime Numbers");
+		q1.put("<html> Encrypt \"Hello\" with an affine cipher key of (2,4)<html/>", "SMAAG");
+		q1.put("<html> What is the decryption function of the affine cipher <br/> E(x) = (ax + b) % 26? <html/>", "D(x) = ((x-b)/a) % 26");
 		
 		
 		questionListNoCalc.put(3, (HashMap<String, String>) q3);
-		q3.put("Which matrix can be used for a Hill Cipher? K1: [[1,0,2],[0,1,1],[3,0,1]] or K2: [[0,0,1],[2,0,5],[1,1,8]]", "K1");
-		q3.put("Which matrix can be used for a Hill Cipher? K1: [[1,1],[0,1]] or K2: [[1,1],[0,2]]", "K1");
-		q3.put("Suppose \"bead\" gets encrypted using a Hill Cipher and the result is \"FGDD\". What is the key?", "[[1,1],[2,1]]");
-		q3.put("Encrypt \"Michigan\" with the Hill Cipher key of [[1,1],[0,1]]" , "UIJHOGNN");
-		q3.put("Encrypt \"let there be songs to fill the air\" with the Hill Cipher key of [[1,0,2],[0,1,1],[3,0,1]]" , "XXA BLJTF AG GAXYF DT KEWJ BLJ IZR");
+		q3.put("<html> Which matrix can be used for a Hill Cipher? <br/> K1: [[1,0,2],[0,1,1],[3,0,1]] or K2: [[0,0,1],[2,0,5],[1,1,8]]<html/>", "K1");
+		q3.put("<html> Which matrix can be used for a Hill Cipher? <br/> K1: [[1,1],[0,1]] or K2: [[1,1],[0,2]] <html/>", "K1");
+		q3.put("<html> Suppose \"bead\" gets encrypted using a Hill Cipher and the result is \"FGDD\". What is the key?<html/>", "[[1,1],[2,1]]");
+		q3.put("<html> Encrypt \"Michigan\" with the Hill Cipher key of [[1,1],[0,1]]<html/>" , "UIJHOGNN");
+		q3.put("<html> Encrypt \"let there be songs to fill the air\" with the <br/> Hill Cipher key of [[1,0,2],[0,1,1],[3,0,1]] <html/>" , "XXA BLJTF AG GAXYF DT KEWJ BLJ IZR");
 		
 		
 		questionListNoCalc.put(4, (HashMap<String, String>) q4);
-		q4.put("If you are using an RSA Cipher and your secret primes are 3 and 13, is either 5 or 7 a valid choice for a public encryption exponent?","Only 7");
-		q4.put("If you are using an RSA Cipher your secret primes are 3 and 1, and your public encryption exponent is 7, what is the prviate decryption key?", "3");
-		q4.put("If for an RSA Cipher n=91 and the public encryption key is 5, what is the private decryption key?", "29");
-		q4.put("If for an RSA Cipher n=33 and the public encryption key is 3, what is the private decryption key?", "7");
+		q4.put("<html> If you are using an RSA Cipher and your secret primes are 3 and 13, is either 5 or 7 a valid choice for a public encryption exponent? <html/>","Only 7");
+		q4.put("<html> If you are using an RSA Cipher your secret primes are 3 and 1, <br/> and your public encryption exponent is 7, what is the prviate decryption key? <html/>", "3");
+		q4.put("<html> If for an RSA Cipher n=91 and the public encryption key is 5, what is the private decryption key?<html/>", "29");
+		q4.put("<html> If for an RSA Cipher n=33 and the public encryption key is 3, what is the private decryption key?<html/>", "7");
 		
 		
 		questionListNoCalc.put(5, (HashMap<String, String>) q5);
-		q5.put("Encrypt \"9\" using the El Gammal Cipher with prime 11, primitive root 2, private key 4, and secret integer 8", "Header: 3 Ciphertext:3");
+		q5.put("<html> Encrypt \"9\" using the El Gammal Cipher with prime 11, primitive root 2, private key 4, and secret integer 8 <html/>", "Header: 3 Ciphertext:3");
 
 		
 		
@@ -121,7 +121,7 @@ public class Questions {
 		q6.put("What is φ(37)?","36");
 		q6.put("What is φ(103)?","102");
 		
-		
+		/*
 		questionListNoCalc.put(7, (HashMap<String, String>) q7);
 		q7.put(,);
 		q7.put(,);
@@ -147,11 +147,11 @@ public class Questions {
 		
 		
 		questionListNoCalc.put(10, (HashMap<String, String>) q10);
-		q10.put("Compute the index of coincidence between \"blue\" and \"talk\"", "0/4");
-		q10.put("Compute the index of coincidence between \"cheese\" and \"please\"", "3/6");
-		q10.put("Compute the index of coincidence between \"payday\" and \"mayday\"", "5/6");
-		q10.put("Compute the index of coincidence between \"Hello\" and \"\"Seven", "1/5");
-		q10.put("Compute the index of coincidence between \"total\" and \"total\"", "5/5");
+		q10.put("<html> Compute the index of coincidence between \"blue\" and \"talk\"<html/>", "0/4");
+		q10.put("<html> Compute the index of coincidence between \"cheese\" and \"please\"<html/>", "3/6");
+		q10.put("<html> Compute the index of coincidence between \"payday\" and \"mayday\"<html/>", "5/6");
+		q10.put("<html> Compute the index of coincidence between \"Hello\" and \"\"Seven\"<html/>", "1/5");
+		q10.put("<html> Compute the index of coincidence between \"total\" and \"total\"<html/>", "5/5");
 		
 		
 		questionListNoCalc.put(11, (HashMap<String, String>) q11);
@@ -171,40 +171,40 @@ public class Questions {
 		
 		
 		questionListCalc.put(0, (HashMap<String, String>) q0c);
-		q0c.put("Find the encryption key of the shift cipher given the plaintext is \"Hello users\" and the ciphertext is \"Wtaad jhtgh\"", "k = 15");
-		q0c.put("Find the encryption key of the shift cipher and the decoded message given the encoded message is \"Ivmvijv\"", "Reverse	k = 17");
-		q0c.put("Find the encryption key of the shift cipher given the plaintext is \"Hello world\" and the ciphertext is \"KHOOR ZRUOG\"", "k = 3");
-		q0c.put("Find the encryption key of the shift cipher and the decoded message given the encoded message is \"AWBBSGCHO UCZRSB UCDVSFG\"", "Minnesota Golden Gophers	k = 14");
+		q0c.put("<html> Find the encryption key of the shift cipher given the plaintext is \"Hello users\" and the ciphertext is \"Wtaad jhtgh\"<html/>", "k = 15");
+		q0c.put("<html> Find the encryption key of the shift cipher and the decoded message given the encoded message is \"Ivmvijv\"<html/>", "Reverse	k = 17");
+		q0c.put("<html> Find the encryption key of the shift cipher given the plaintext is \"Hello world\" and the ciphertext is \"KHOOR ZRUOG\"<html/>", "k = 3");
+		q0c.put("<html> Find the encryption key of the shift cipher and the decoded message given the encoded message is \"AWBBSGCHO UCZRSB UCDVSFG\"<html/>", "Minnesota Golden Gophers	k = 14");
 		
 		questionListCalc.put(2, (HashMap<String, String>) q2c);
-		q2c.put("Find the encryption key for the Vignere cipher given \"I like strawberries\" encrypts to \"U LBRQ SMYMWULDRBLE\"" , "MATH");
-		q2c.put("Find the encryption key for the Vignere cipher given \"What is it\" encrypts to \"GLYD MQ SX\"" , "KEY");
-		q2c.put("Find the encryption key for the Vignere cipher given \"I like superheroes\" encrypts to \"P PZYL WLDLVYSYSVG\"" , "HERO");
-		q2c.put("Find the encryption key for the Vignere cipher given \"More practice\" encrypts to \"MPTE QTADVIDG\"" , "ABC");
+		q2c.put("<html> Find the encryption key for the Vignere cipher given \"I like strawberries\" encrypts to \"U LBRQ SMYMWULDRBLE\"<html/>" , "MATH");
+		q2c.put("<html> Find the encryption key for the Vignere cipher given \"What is it\" encrypts to \"GLYD MQ SX\"<html/>" , "KEY");
+		q2c.put("<html> Find the encryption key for the Vignere cipher given \"I like superheroes\" encrypts to \"P PZYL WLDLVYSYSVG\"<html/>" , "HERO");
+		q2c.put("<html> Find the encryption key for the Vignere cipher given \"More practice\" encrypts to \"MPTE QTADVIDG\"<html/>" , "ABC");
 		
 		
 		questionListCalc.put(1, (HashMap<String, String>) q1c);
-		q1c.put("Decrypt \"TFULBAR MFU EWH THHLHAC\" given the affine cipher key is (31,13)", "Working for the weekend");
-		q1c.put("Encrypt \"Tomorrow is Sunday\" with an affine cipher key of (57,81)", "UVLVKKVJ RP PZQSDT");
-		q1c.put("Decrypt \"T QTRX ABJRXIABQQ\" given the affine cipher key is (77,1)", "I like basketball");
-		q1c.put("Encrypt \"Baseball is my favorite sport\" with an affine cipher key of (49,39)", "KNLBKNGG PL DT YNCXOPIB LUXOI");
+		q1c.put("<html> Decrypt \"TFULBAR MFU EWH THHLHAC\" given the affine cipher key is (31,13)<html/>", "Working for the weekend");
+		q1c.put("<html> Encrypt \"Tomorrow is Sunday\" with an affine cipher key of (57,81)<html/>", "UVLVKKVJ RP PZQSDT");
+		q1c.put("<html> Decrypt \"T QTRX ABJRXIABQQ\" given the affine cipher key is (77,1)<html/>", "I like basketball");
+		q1c.put("<html> Encrypt \"Baseball is my favorite sport\" with an affine cipher key of (49,39)<html/>", "KNLBKNGG PL DT YNCXOPIB LUXOI");
 		
 		
 		questionListCalc.put(3, (HashMap<String, String>) q3c);
-		q3c.put("Decrypt \"FRPWJFTMAWSLRGLXBBENEE\" with the Hill Cipher key of [[18,8],[17,9]]" , "on the threshold of a dream");
-		q3c.put("Encrypt \"The Giants Win The Pennant\" with the Hill Cipher key of [[18,8],[17,9]]" , "PWW SOGPCC KBT PWZ VHDANPC");
-		q3c.put("Encrypt \"Lets play golf\" with the Hill Cipher key of [[1,2],[-1,3]]" , "TBDJ LSWU IKVE");
+		q3c.put("<html> Decrypt \"FRPWJFTMAWSLRGLXBBENEE\" with the Hill Cipher key of [[18,8],[17,9]]<html/>" , "on the threshold of a dream");
+		q3c.put("<html> Encrypt \"The Giants Win The Pennant\" with the Hill Cipher key of [[18,8],[17,9]]<html/>" , "PWW SOGPCC KBT PWZ VHDANPC");
+		q3c.put("<html> Encrypt \"Lets play golf\" with the Hill Cipher key of [[1,2],[-1,3]]<html/>" , "TBDJ LSWU IKVE");
 	
 		
 		
 		questionListCalc.put(4, (HashMap<String, String>) q4c);
-		q4c.put("If you are using an RSA Cipher and your secret primes are 47 and 139, is either 23 or 29 a valid choice for a public encryption exponent?","Only 29");
-		q4c.put("If you are using an RSA Cipher your secret primes are 23 and 31, and your public encryption exponent is 7, decrypt \"495\"", "123");
-		q4c.put("Encrypt \"348\" using an RSA Cipher with n=551 and public key = 5", "290");
+		q4c.put("<html> If you are using an RSA Cipher and your secret primes are 47 and 139, is either 23 or 29 a valid choice for a public encryption exponent?<html/>","Only 29");
+		q4c.put("<html> If you are using an RSA Cipher your secret primes are 23 and 31, and your public encryption exponent is 7, decrypt \"495\"<html/>", "123");
+		q4c.put("<html> Encrypt \"348\" using an RSA Cipher with n=551 and public key = 5<html/>", "290");
 		
 		
 		questionListCalc.put(5, (HashMap<String, String>) q5c);
-		q5c.put("Encrypt \"18\" using the El Gammal Cipher with prime 101, primitive root 2, private key 7, and secret integer 10", "Header: 14 Ciphertext: 7");
+		q5c.put("<html> Encrypt \"18\" using the El Gammal Cipher with prime 101, primitive root 2, private key 7, and secret integer 10<html/>", "Header: 14 Ciphertext: 7");
 
 		
 		questionListCalc.put(6, (HashMap<String, String>) q6c);
@@ -241,8 +241,8 @@ public class Questions {
 		
 		
 		questionListCalc.put(10, (HashMap<String, String>) q10c);
-		q10c.put("Compute the index of coincidence between \"grateful\" and \"tracking\"", "2/8");
-		q10c.put("Given the index of coincidence between two random English words is 0.064, what is the expected index if one is rotated l spaces?" , "0.064");
+		q10c.put("<html> Compute the index of coincidence between \"grateful\" and \"tracking\"<html/>", "2/8");
+		q10c.put("<html> Given the index of coincidence between two random English words is 0.064, what is the expected index if one is rotated l spaces?<html/>" , "0.064");
 		
 		
 		questionListCalc.put(11, (HashMap<String, String>) q11c);
@@ -259,6 +259,7 @@ public class Questions {
 		q12c.put(,);
 		q12c.put(,);
 		q12c.put(,);	
+		*/
 	
 	}
 	
@@ -273,10 +274,8 @@ public class Questions {
 	// Fills activeQuestions array with possible questions based on user's selections
 	public void fillQuestions()
 	{
-		//System.out.println("Starting fill Questions");
 		if(style[0] == 1)
 		{
-			//System.out.println("LLL");
 			for(int i=0; i<type.length; i++)	// Iterates through all possible types and adds questions for that type if selected
 			{
 				if(type[i] == 1)
@@ -287,7 +286,6 @@ public class Questions {
 					Iterator<String> itr = s.iterator();
 
 					// traversing over HashSet
-					//System.out.println("Traversing over Set using Iterator");
 					while(itr.hasNext())
 					{
 						activeQuestions.put(itr.next(), a.get(itr.next()));
@@ -295,11 +293,9 @@ public class Questions {
 				}
 			}
 		}
-		//System.out.println("Continuing fill Questions");
-		//System.out.println("Style[1] "+style[1]);
+		
 		if(style[1] == 1)
 		{
-			//System.out.println("IN");
 			for(int i=0; i<type.length; i++)
 			{
 				if(type[i] == 1)
@@ -310,7 +306,6 @@ public class Questions {
 					Iterator<String> itr = s.iterator();
 
 					// traversing over HashSet
-					//System.out.println("Traversing over Set using Iterator");
 					while(itr.hasNext())
 					{
 						String n = itr.next();
@@ -327,7 +322,7 @@ public class Questions {
 	 */
 	
 	
-	
+
 
 	/**
 	 * Create the application.
@@ -371,7 +366,6 @@ public class Questions {
 		panel.add(questionLabel);
 		
 		
-		
 		answerLabel = new JLabel("New label");
 		answerLabel.setVisible(false);
 		answerLabel.setForeground(Color.GREEN);
@@ -384,9 +378,7 @@ public class Questions {
 		nextButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				answerLabel.setVisible(false);
-				//System.out.println("Hit next");
 				chooseQuestion(questionLabel);
-				//System.out.println("After");
 			}
 		});
 		nextButton.setFont(new Font("Tahoma", Font.PLAIN, 30));
@@ -398,7 +390,6 @@ public class Questions {
 		showAnswerButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				answerLabel.setVisible(true);
-				//answerLabel.setText(activeQuestions.get(currentQuestion));
 			}
 		});
 		showAnswerButton.setFont(new Font("Tahoma", Font.PLAIN, 30));
@@ -421,28 +412,15 @@ public class Questions {
 		if(a)
 		{
 			s = activeQuestions.keySet();
-			//System.out.println("Size: " + s.size());
-			//System.out.println("Size: " + q0.size());
 			usedQuestions = new ArrayList<String>();
 			arr = new String[s.size()];
-			s.toArray(arr);
-			/*
-			for(int i=0; i<arr.length; i++)
-			{
-				System.out.println("Printing");
-				System.out.println(arr[i]);
-				System.out.println(activeQuestions.get(arr[i]));
-			}
-			*/
-			
+			s.toArray(arr);	
 			a = false;
 		}
 		
 		int index = (int)(Math.random() * s.size());		// Randomly selects next question
-		System.out.println("Array size: " + arr.length);
 		question = arr[index];
-		//System.out.println(question);
-		//System.out.println(activeQuestions.get(question));
+
 		if(usedQuestions.size() == activeQuestions.size())		// Checks if all questions have been asked
 		{
 			JOptionPane.showMessageDialog(frame, "Out of Questions!");
@@ -452,28 +430,17 @@ public class Questions {
 			while(usedQuestions.contains(question))		// Keeps looking through possible questions until it finds a new one
 			{
 				index = (int)(Math.random() * s.size());
-				//System.out.println("Size: " + s.size());
-				//System.out.println("Index: " + index);
+
 				question = arr[index];
 			}
-			//System.out.println("H");
 		}
 		
-		
-		//questionLabel.setText("Hi");
-		//questionLabel.setText(activeQuestions.get(keysAsArray.get(r.next(keysAsArray.size()))));
-		//Random random = new Random();
-		//List<String> keys = new ArrayList<String>(activeQuestions.keySet());
-		//String randomKey = keys.get(random.next(keys.size()));
-		
-		//this.questionLabel.setText("HI");
+
 		questionLabel.setText(question);
 		answerLabel.setText(activeQuestions.get(question));
-		//System.out.println(question);
-		//System.out.println(activeQuestions.get(question));
+
 		usedQuestions.add(question);
 	}
-	
 	
 	
 	public static void main(String[] args) {
