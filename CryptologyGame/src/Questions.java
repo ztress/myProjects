@@ -121,7 +121,7 @@ public class Questions {
 		q6.put("What is φ(37)?","36");
 		q6.put("What is φ(103)?","102");
 		
-		/*
+		
 		questionListNoCalc.put(7, (HashMap<String, String>) q7);
 		q7.put(,);
 		q7.put(,);
@@ -163,11 +163,15 @@ public class Questions {
 		
 		
 		questionListNoCalc.put(12, (HashMap<String, String>) q12);
-		q12.put(,);
-		q12.put(,);
-		q12.put(,);
-		q12.put(,);
-		q12.put(,);
+		q12.put("If it exists, what is the multiplicative inverse of 2 in Mod 3?", "2");
+		q12.put("If it exists, what is the multiplicative inverse of 2 in Mod 5?", "3");
+		q12.put("If it exists, what is the multiplicative inverse of 2 in Mod 4?", "Does not exist");
+		q12.put("If it exists, what is the multiplicative inverse of (n+2) in Mod (5n+9)?", "5");
+		q12.put("If it exists, what is the multiplicative inverse of 5 in Mod 7?", "3");
+		q12.put("If it exists, what is the multiplicative inverse of n in Mod (2n-1)?", "2");
+		q12.put("If it exists, what is the multiplicative inverse of n in Mod (n^2 + 1)?", "-n");
+		
+
 		
 		
 		questionListCalc.put(0, (HashMap<String, String>) q0c);
@@ -254,13 +258,10 @@ public class Questions {
 		
 		
 		questionListCalc.put(12, (HashMap<String, String>) q12c);
-		q12c.put(,);
-		q12c.put(,);
-		q12c.put(,);
-		q12c.put(,);
-		q12c.put(,);	
-		*/
-	
+		q12c.put("If it exists, what is the multiplicative inverse of 17 in Mod 29?", "12");
+		q12c.put("If it exists, what is the multiplicative inverse of 25 in Mod 72?", "49");
+		q12c.put("If it exists, what is the multiplicative inverse of 10 in Mod 27?", "19");
+		q12c.put("If it exists, what is the multiplicative inverse of 124 in Mod 156?", "Does not exist");		
 	}
 	
 	
@@ -367,10 +368,11 @@ public class Questions {
 		
 		
 		answerLabel = new JLabel("New label");
+		answerLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		answerLabel.setVisible(false);
 		answerLabel.setForeground(Color.GREEN);
-		answerLabel.setFont(new Font("Tahoma", Font.PLAIN, 40));
-		answerLabel.setBounds(317, 489, 392, 78);
+		answerLabel.setFont(new Font("Tahoma", Font.PLAIN, 28));
+		answerLabel.setBounds(264, 489, 480, 78);
 		panel.add(answerLabel);
 		
 		// Next button goes to the next question
@@ -392,8 +394,8 @@ public class Questions {
 				answerLabel.setVisible(true);
 			}
 		});
-		showAnswerButton.setFont(new Font("Tahoma", Font.PLAIN, 30));
-		showAnswerButton.setBounds(15, 489, 244, 65);
+		showAnswerButton.setFont(new Font("Tahoma", Font.PLAIN, 28));
+		showAnswerButton.setBounds(15, 489, 211, 65);
 		panel.add(showAnswerButton);
 	}
 
