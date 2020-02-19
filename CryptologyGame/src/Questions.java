@@ -68,16 +68,16 @@ public class Questions {
 		questionListNoCalc.put(0, (HashMap<String, String>) q0);
 		q0.put("<html> Perform an encryption with a shift cipher (k=6) on the following: <br/> "
 				+ "\"This is my homework\"", "ZNOY OY SE NUSKCUXQ</html>");	
-		q0.put("<html> Decrypt the following, given the shift cipher key is 5: Bjhqtrj<html/>", "Welcome");
-		q0.put("<html> Encrypt \"Tricky question\" with a shift cipher key of 26", "Tricky question<html/>");
+		q0.put("<html> Decrypt the following, given the shift cipher key is 5: Bjhqtrj</html>", "Welcome");
+		q0.put("<html> Encrypt \"Tricky question\" with a shift cipher key of 26", "Tricky question </html>");
 		q0.put("<html> Encrypt the message \"exams are no fun\" with <br/> a shift cipher (k=2) </html>", "GZCOU CTG PQ HWP");
-		q0.put("<html> Given that \"Go Giants\" encrypts to \"Qy Qskxdc\", <br/> decrypt \"ROVVY WI XKWO SC JKM</html>", "Hello my name is Zac");
+		q0.put("<html> Given that \"Go Giants\" encrypts to \"Qy Qskxdc\", <br/> decrypt \"ROVVY WI XKWO SC JKM </html>", "Hello my name is Zac");
 		
 		questionListNoCalc.put(2, (HashMap<String, String>) q2);
-		q2.put("<html> Encrypt the message  \"Today is Tuesday\" with <br/> a Vigenere cipher with key \"gopher\"<html/>" , "ZCSHC ZY HJLWUGM");
+		q2.put("<html> Encrypt the message  \"Today is Tuesday\" with <br/> a Vigenere cipher with key \"gopher\"</html>" , "ZCSHC ZY HJLWUGM");
 		q2.put("<html> Knowing the Vignere cipher key is \"Giants\", <br/> decrypt the following: \"NMLYH XXQEAWK\"</html>", "Hello friends");
-		q2.put("<html> Encrypt the message  \"Have a nice day\" with a Vigenere cipher with key \"Abe\"<html/>" , "HBZE B RIDI DBC");
-		q2.put("<html> Knowing the Vignere cipher key is \"Zoo\", <br/> decrypt the following: \"KSOQBWMU WR QCNZ\" <html/>", "Learning is cool");
+		q2.put("<html> Encrypt the message  \"Have a nice day\" with a Vigenere cipher with key \"Abe\"</html>" , "HBZE B RIDI DBC");
+		q2.put("<html> Knowing the Vignere cipher key is \"Zoo\", <br/> decrypt the following: \"KSOQBWMU WR QCNZ\" </html>", "Learning is cool");
 		
 		
 		questionListNoCalc.put(1, (HashMap<String, String>) q1);
@@ -121,7 +121,7 @@ public class Questions {
 		q6.put("What is φ(37)?","36");
 		q6.put("What is φ(103)?","102");
 		
-		
+		/*
 		questionListNoCalc.put(7, (HashMap<String, String>) q7);
 		q7.put(,);
 		q7.put(,);
@@ -144,7 +144,7 @@ public class Questions {
 		q9.put(,);
 		q9.put(,);
 		q9.put(,);
-		
+		*/
 		
 		questionListNoCalc.put(10, (HashMap<String, String>) q10);
 		q10.put("<html> Compute the index of coincidence between \"blue\" and \"talk\"<html/>", "0/4");
@@ -153,14 +153,14 @@ public class Questions {
 		q10.put("<html> Compute the index of coincidence between \"Hello\" and \"\"Seven\"<html/>", "1/5");
 		q10.put("<html> Compute the index of coincidence between \"total\" and \"total\"<html/>", "5/5");
 		
-		
+		/*
 		questionListNoCalc.put(11, (HashMap<String, String>) q11);
 		q11.put(,);
 		q11.put(,);
 		q11.put(,);
 		q11.put(,);
 		q11.put(,);
-		
+		*/
 		
 		questionListNoCalc.put(12, (HashMap<String, String>) q12);
 		q12.put("If it exists, what is the multiplicative inverse of 2 in Mod 3?", "2");
@@ -171,14 +171,14 @@ public class Questions {
 		q12.put("If it exists, what is the multiplicative inverse of n in Mod (2n-1)?", "2");
 		q12.put("If it exists, what is the multiplicative inverse of n in Mod (n^2 + 1)?", "-n");
 		
-
-		
+	
 		
 		questionListCalc.put(0, (HashMap<String, String>) q0c);
 		q0c.put("<html> Find the encryption key of the shift cipher given the plaintext is \"Hello users\" and the ciphertext is \"Wtaad jhtgh\"<html/>", "k = 15");
 		q0c.put("<html> Find the encryption key of the shift cipher and the decoded message given the encoded message is \"Ivmvijv\"<html/>", "Reverse	k = 17");
 		q0c.put("<html> Find the encryption key of the shift cipher given the plaintext is \"Hello world\" and the ciphertext is \"KHOOR ZRUOG\"<html/>", "k = 3");
 		q0c.put("<html> Find the encryption key of the shift cipher and the decoded message given the encoded message is \"AWBBSGCHO UCZRSB UCDVSFG\"<html/>", "Minnesota Golden Gophers	k = 14");
+		
 		
 		questionListCalc.put(2, (HashMap<String, String>) q2c);
 		q2c.put("<html> Find the encryption key for the Vignere cipher given \"I like strawberries\" encrypts to \"U LBRQ SMYMWULDRBLE\"<html/>" , "MATH");
@@ -198,7 +198,6 @@ public class Questions {
 		q3c.put("<html> Decrypt \"FRPWJFTMAWSLRGLXBBENEE\" with the Hill Cipher key of [[18,8],[17,9]]<html/>" , "on the threshold of a dream");
 		q3c.put("<html> Encrypt \"The Giants Win The Pennant\" with the Hill Cipher key of [[18,8],[17,9]]<html/>" , "PWW SOGPCC KBT PWZ VHDANPC");
 		q3c.put("<html> Encrypt \"Lets play golf\" with the Hill Cipher key of [[1,2],[-1,3]]<html/>" , "TBDJ LSWU IKVE");
-	
 		
 		
 		questionListCalc.put(4, (HashMap<String, String>) q4c);
@@ -219,7 +218,7 @@ public class Questions {
 		q6c.put("What is φ(88)?","40");
 		q6c.put("What is φ(55)?","40");
 		
-		
+		/*
 		questionListCalc.put(7, (HashMap<String, String>) q7c);
 		q7c.put(,);
 		q7c.put(,);
@@ -242,20 +241,20 @@ public class Questions {
 		q9c.put(,);
 		q9c.put(,);
 		q9c.put(,);
-		
+		*/
 		
 		questionListCalc.put(10, (HashMap<String, String>) q10c);
 		q10c.put("<html> Compute the index of coincidence between \"grateful\" and \"tracking\"<html/>", "2/8");
 		q10c.put("<html> Given the index of coincidence between two random English words is 0.064, what is the expected index if one is rotated l spaces?<html/>" , "0.064");
 		
-		
+		/*
 		questionListCalc.put(11, (HashMap<String, String>) q11c);
 		q11c.put(,);
 		q11c.put(,);
 		q11c.put(,);
 		q11c.put(,);
 		q11c.put(,);
-		
+		*/
 		
 		questionListCalc.put(12, (HashMap<String, String>) q12c);
 		q12c.put("If it exists, what is the multiplicative inverse of 17 in Mod 29?", "12");
