@@ -67,7 +67,7 @@ public class Questions {
 	{
 		questionListNoCalc.put(0, (HashMap<String, String>) q0);
 		q0.put("<html> Perform an encryption with a shift cipher (k=6) on the following: <br/> "
-				+ "\"This is my homework\"", "ZNOY OY SE NUSKCUXQ</html>");	
+				+ "\"This is my homework\" </html>", "<html>ZNOY OY SE NUSKCUXQ</html>");	
 		q0.put("<html> Decrypt the following, given the shift cipher key is 5: Bjhqtrj</html>", "Welcome");
 		q0.put("<html> Encrypt \"Tricky question\" with a shift cipher key of 26", "Tricky question </html>");
 		q0.put("<html> Encrypt the message \"exams are no fun\" with <br/> a shift cipher (k=2) </html>", "GZCOU CTG PQ HWP");
@@ -420,7 +420,6 @@ public class Questions {
 			a = false;
 		}
 		
-		System.out.println("Size: " + s.size());
 		int index = (int)(Math.random() * s.size());		// Randomly selects next question
 		question = arr[index];
 
