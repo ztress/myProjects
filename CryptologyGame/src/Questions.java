@@ -352,6 +352,7 @@ public class Questions {
 			public void actionPerformed(ActionEvent e) {
 				frame.setVisible(false);
 				String[] args = new String[0];
+				a = true;
                 PracticeWindow.main(args); // Goes back to the Practice Window
 			}
 		});
@@ -419,6 +420,7 @@ public class Questions {
 			a = false;
 		}
 		
+		System.out.println("Size: " + s.size());
 		int index = (int)(Math.random() * s.size());		// Randomly selects next question
 		question = arr[index];
 
