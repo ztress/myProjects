@@ -1,5 +1,6 @@
 import java.awt.EventQueue;
 
+
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import java.awt.BorderLayout;
@@ -14,9 +15,15 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.event.ChangeListener;
+
+import com.sun.javafx.collections.MappingChange.Map;
+
 import javax.swing.event.ChangeEvent;
 import java.awt.event.ItemListener;
+import java.awt.font.TextAttribute;
 import java.awt.event.ItemEvent;
+
+java.awt.font.TextAttribute;
 
 public class PracticeWindow {
 
@@ -93,13 +100,14 @@ public class PracticeWindow {
 		
 		JLabel lblNewLabel = new JLabel("Choose Your Problems");
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 60));
+		lblNewLabel.setFont(new Font("Tahoma", Font.BOLD, 60));
 		lblNewLabel.setForeground(Color.WHITE);
 		lblNewLabel.setBounds(112, 57, 761, 86);
 		panel.add(lblNewLabel);
 		
 		JLabel lblNewLabel_1 = new JLabel("Type");
 		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel_1.setText("<HTML><U>Type</U></HTML>");
 		lblNewLabel_1.setFont(new Font("Tahoma", Font.PLAIN, 36));
 		lblNewLabel_1.setForeground(Color.WHITE);
 		lblNewLabel_1.setBounds(157, 206, 139, 35);
@@ -298,6 +306,7 @@ public class PracticeWindow {
 		panel.add(multCheckbox);
 		
 		JLabel lblStyle = new JLabel("Style");
+		lblStyle.setText("<HTML><U>Type</U></HTML>");
 		lblStyle.setHorizontalAlignment(SwingConstants.CENTER);
 		lblStyle.setForeground(Color.WHITE);
 		lblStyle.setFont(new Font("Tahoma", Font.PLAIN, 36));
