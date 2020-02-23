@@ -23,12 +23,12 @@ import java.awt.event.ItemListener;
 import java.awt.font.TextAttribute;
 import java.awt.event.ItemEvent;
 
-java.awt.font.TextAttribute;
+import java.awt.font.TextAttribute;
 
 public class PracticeWindow {
 
 	private JFrame frame;
-	static int[] type = new int[13];	// Array that holds selections for each type of problem checkbox 
+	static int[] type = new int[12];	// Array that holds selections for each type of problem checkbox 
 	static int[] style = new int[2];	// Array that holds selections for each style checkbox (Calc vs no calc)
 	
 
@@ -289,22 +289,6 @@ public class PracticeWindow {
 		primitiveCheckbox.setBounds(271, 467, 196, 29);
 		panel.add(primitiveCheckbox);
 		
-		JCheckBox multCheckbox = new JCheckBox("Multiplicative Inverses");
-		multCheckbox.addChangeListener(new ChangeListener() {
-			public void stateChanged(ChangeEvent arg0) {
-				if(type[11] == 0)
-				{
-					type[11] = 1;
-				}
-				else
-				{
-					type[11] = 0;
-				}
-			}
-		});
-		multCheckbox.setBounds(271, 504, 196, 29);
-		panel.add(multCheckbox);
-		
 		JLabel lblStyle = new JLabel("Style");
 		lblStyle.setText("<HTML><U>Style</U></HTML>");
 		lblStyle.setHorizontalAlignment(SwingConstants.CENTER);
@@ -348,7 +332,7 @@ public class PracticeWindow {
 					style[1] = 1;
 				}
 				
-				for(int i=0; i<13; i++)	// Checks every checkbox
+				for(int i=0; i<12; i++)	// Checks every checkbox
 				{
 					if(type[i] == 1)
 					{

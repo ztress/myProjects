@@ -29,6 +29,7 @@ public class Questions {
 	private Map<Integer, HashMap<String, String>> questionListNoCalc = new HashMap<Integer, HashMap<String, String>>(); // A dictionary containing questions for the no-calculator selection
 	private static Map<String, String> activeQuestions = new HashMap<String, String>();		// Reflects questions that can be chosen due to selections made by user
 	private static String question;
+	
 	private static Map<String, String> q0 = new HashMap<String, String>();	// Shift Cipher questions with no calculator
 	private static Map<String, String> q1 = new HashMap<String, String>();	// Affine Cipher questions with no calculator
 	private static Map<String, String> q2 = new HashMap<String, String>();	// Vigenere Cipher questions with no calculator
@@ -41,7 +42,6 @@ public class Questions {
 	private static Map<String, String> q9 = new HashMap<String, String>();	// Roots Mod N questions with no calculator
 	private static Map<String, String> q10 = new HashMap<String, String>();	// Index of Coincidence questions with no calculator
 	private static Map<String, String> q11 = new HashMap<String, String>();	// Primitive Roots questions with no calculator
-	private static Map<String, String> q12 = new HashMap<String, String>();	// Multiplicative Inverse questions with no calculator
 	private static Map<String, String> q0c = new HashMap<String, String>();	// What the respective variable is above but with a calculator
 	private static Map<String, String> q1c = new HashMap<String, String>();
 	private static Map<String, String> q2c = new HashMap<String, String>();
@@ -54,7 +54,7 @@ public class Questions {
 	private static Map<String, String> q9c = new HashMap<String, String>();
 	private static Map<String, String> q10c = new HashMap<String, String>();
 	private static Map<String, String> q11c = new HashMap<String, String>();
-	private static Map<String, String> q12c = new HashMap<String, String>();
+	
 	private static JLabel questionLabel;	// Question JLabel that gets updated
 	private static JLabel answerLabel;		// Answer JLabel that gets updated	
 	private static boolean a = true;		// Only true for first question, used in chooseQuestion
@@ -105,7 +105,6 @@ public class Questions {
 		
 		questionListNoCalc.put(5, (HashMap<String, String>) q5);
 		q5.put("<html> Encrypt \"9\" using the El Gammal Cipher with prime 11, primitive root 2, private key 4, and secret integer 8 <html/>", "Header: 3 Ciphertext:3");
-
 		
 		
 		questionListNoCalc.put(6, (HashMap<String, String>) q6);
@@ -121,30 +120,36 @@ public class Questions {
 		q6.put("What is φ(37)?","36");
 		q6.put("What is φ(103)?","102");
 		
-		/*
-		questionListNoCalc.put(7, (HashMap<String, String>) q7);
-		q7.put(,);
-		q7.put(,);
-		q7.put(,);
-		q7.put(,);
-		q7.put(,);
 		
+		questionListNoCalc.put(7, (HashMap<String, String>) q7);
+		q7.put("<html> In Mod 4, how many equivalence classes are there? List them <html/>", "<html> 4. 0, 1, 2, 3 <html/>");
+		q7.put("<html> In Mod N, how many equivalence classes are there? <html/>", "<html> N <html/>");
+		q7.put("<html> What Mod N are you working with if -3, 2, 7, and 12 are in the same equivalence class? <html/>", "<html> Mod 5 <html/>");
+		q7.put("<html> Give an example where x!=0 and xy=xz but y!=z <html/>", "<html> Sample answer: Let n=6, x=2, y=3, and z=6 <html/>");
+		q7.put("<html> True or False: If a and b are both invertible in Mod N, then a+b is invertible in Mod N <html/>", "<html> False. Let a=1 and b=1 in Mod 4 <html/>");
+		q7.put("<html> True or False: If a and b are both invertible in Mod N, then a*b is invertible in Mod N <html/>", "<html> True <html/>");
 		
 		questionListNoCalc.put(8, (HashMap<String, String>) q8);
-		q8.put(,);
-		q8.put(,);
-		q8.put(,);
-		q8.put(,);
-		q8.put(,);
+		q8.put("If it exists, what is the multiplicative inverse of 2 in Mod 3?", "2");
+		q8.put("If it exists, what is the multiplicative inverse of 2 in Mod 5?", "3");
+		q8.put("If it exists, what is the multiplicative inverse of 2 in Mod 4?", "Does not exist");
+		q8.put("If it exists, what is the multiplicative inverse of (n+2) in Mod (5n+9)?", "5");
+		q8.put("If it exists, what is the multiplicative inverse of 5 in Mod 7?", "3");
+		q8.put("If it exists, what is the multiplicative inverse of n in Mod (2n-1)?", "2");
+		q8.put("If it exists, what is the multiplicative inverse of n in Mod (n^2 + 1)?", "-n");
+		
 		
 		
 		questionListNoCalc.put(9, (HashMap<String, String>) q9);
-		q9.put(,);
-		q9.put(,);
-		q9.put(,);
-		q9.put(,);
-		q9.put(,);
-		*/
+		q9.put("<html> Find a square root of 5 in Mod 11 <html/>", "<html> 4 <html/>");
+		q9.put("<html> Find a square root of 5 in Mod 121 <html/>", "<html> 48 <html/>");
+		q9.put("<html> Find a cube root of 7 in Mod 105 <html/>", "<html> 28 <html/>");
+		q9.put("<html> Find a cube root of 2 in Mod 11 <html/>", "<html> 7 <html/>");
+		q9.put("<html> Find a cube root of 3 in Mod 11 <html/>", "<html> 9 <html/>");
+		q9.put("<html> Does 2 have a square root in Mod 19? <html/>", "<html> No <html/>");
+		q9.put("<html> Does 3 have a square root in Mod 13? <html/>", "<html> Yes <html/>");
+		
+		
 		
 		questionListNoCalc.put(10, (HashMap<String, String>) q10);
 		q10.put("<html> Compute the index of coincidence between \"blue\" and \"talk\"<html/>", "0/4");
@@ -153,25 +158,14 @@ public class Questions {
 		q10.put("<html> Compute the index of coincidence between \"Hello\" and \"\"Seven\"<html/>", "1/5");
 		q10.put("<html> Compute the index of coincidence between \"total\" and \"total\"<html/>", "5/5");
 		
-		/*
+
 		questionListNoCalc.put(11, (HashMap<String, String>) q11);
-		q11.put(,);
-		q11.put(,);
-		q11.put(,);
-		q11.put(,);
-		q11.put(,);
-		*/
-		
-		questionListNoCalc.put(12, (HashMap<String, String>) q12);
-		q12.put("If it exists, what is the multiplicative inverse of 2 in Mod 3?", "2");
-		q12.put("If it exists, what is the multiplicative inverse of 2 in Mod 5?", "3");
-		q12.put("If it exists, what is the multiplicative inverse of 2 in Mod 4?", "Does not exist");
-		q12.put("If it exists, what is the multiplicative inverse of (n+2) in Mod (5n+9)?", "5");
-		q12.put("If it exists, what is the multiplicative inverse of 5 in Mod 7?", "3");
-		q12.put("If it exists, what is the multiplicative inverse of n in Mod (2n-1)?", "2");
-		q12.put("If it exists, what is the multiplicative inverse of n in Mod (n^2 + 1)?", "-n");
-		
-	
+		q11.put("<html> Are there any primitive roots in Mod 10? If so, find them <html/>", "<html> 3, 7, and 9 <html/>");
+		q11.put("<html> Are there any primitive roots in Mod 12? If so, find them <html/>", "<html> There are none <html/>");
+		q11.put("<html> Are there any primitive roots in Mod 8? If so, find them <html/>", "<html> There are none <html/>");
+		q11.put("<html> Which of the following are primitive roots in Mod 9? 1, 2, 4, and 4 <html/>", "<html> 2 <html/>");
+		q11.put("<html> Is 3 a primitive root in Mod 5? <html/>", "<html> Yes <html/>");
+
 		
 		questionListCalc.put(0, (HashMap<String, String>) q0c);
 		q0c.put("<html> Find the encryption key of the shift cipher given the plaintext is \"Hello users\" and the ciphertext is \"Wtaad jhtgh\"<html/>", "k = 15");
@@ -218,49 +212,40 @@ public class Questions {
 		q6c.put("What is φ(88)?","40");
 		q6c.put("What is φ(55)?","40");
 		
-		/*
+		
 		questionListCalc.put(7, (HashMap<String, String>) q7c);
-		q7c.put(,);
-		q7c.put(,);
-		q7c.put(,);
-		q7c.put(,);
-		q7c.put(,);
-		
-		
+		q7c.put("<html> In Mod 4, what is 17*2? </html>", "<html> 2 <html/>");
+		q7c.put("<html> In Mod 15, what is 6*32? </html>", "<html> 2 <html/>");
+		q7c.put("<html> In Mod 23, what is 3*7? </html>", "<html> 21 <html/>");
+		q7c.put("<html> In Mod 74, what is 99*74? </html>", "<html> 74 <html/>");
+		q7c.put("<html> In Mod 54, what is 344*267? </html>", "<html> 6 <html/>");
+
 		questionListCalc.put(8, (HashMap<String, String>) q8c);
-		q8c.put(,);
-		q8c.put(,);
-		q8c.put(,);
-		q8c.put(,);
-		q8c.put(,);
+		q8c.put("If it exists, what is the multiplicative inverse of 17 in Mod 29?", "12");
+		q8c.put("If it exists, what is the multiplicative inverse of 25 in Mod 72?", "49");
+		q8c.put("If it exists, what is the multiplicative inverse of 10 in Mod 27?", "19");
+		q8c.put("If it exists, what is the multiplicative inverse of 124 in Mod 156?", "Does not exist");	
 		
 		
 		questionListCalc.put(9, (HashMap<String, String>) q9c);
-		q9c.put(,);
-		q9c.put(,);
-		q9c.put(,);
-		q9c.put(,);
-		q9c.put(,);
-		*/
+		q9c.put("<html> Find all square roots of 29 in Mod 140 <html/>", "<html> 13, 27, 43, 57, 83, 97, 113, 127 <html/>");
+		q9c.put("<html> Find a cube root of 6 in Mod 154 <html/>", "<html> 118 <html/>");
+		q9c.put("<html> Find a cube root of 3 in Mod 125 <html/>", "<html> 87 <html/>");
+		q9c.put("<html> Find a square root of 41 in Mod 103 <html/>", "<html> 91 <html/>");
+		q9c.put("<html> Find the fifth root of 8 in Mod 47 <html/>", "<html> 3 <html/>");
+	
 		
 		questionListCalc.put(10, (HashMap<String, String>) q10c);
 		q10c.put("<html> Compute the index of coincidence between \"grateful\" and \"tracking\"<html/>", "2/8");
 		q10c.put("<html> Given the index of coincidence between two random English words is 0.064, what is the expected index if one is rotated l spaces?<html/>" , "0.064");
 		
-		/*
+
 		questionListCalc.put(11, (HashMap<String, String>) q11c);
-		q11c.put(,);
-		q11c.put(,);
-		q11c.put(,);
-		q11c.put(,);
-		q11c.put(,);
-		*/
-		
-		questionListCalc.put(12, (HashMap<String, String>) q12c);
-		q12c.put("If it exists, what is the multiplicative inverse of 17 in Mod 29?", "12");
-		q12c.put("If it exists, what is the multiplicative inverse of 25 in Mod 72?", "49");
-		q12c.put("If it exists, what is the multiplicative inverse of 10 in Mod 27?", "19");
-		q12c.put("If it exists, what is the multiplicative inverse of 124 in Mod 156?", "Does not exist");		
+		q11c.put("<html> Is 3 a primitive root in Mod 11? <html/>", "<html> Yes <html/>");
+		q11c.put("<html> Is 3 a primitive root in Mod 14? <html/>", "<html> Yes <html/>");
+		q11c.put("<html> Find all primitive roots of 13. <html/>", "<html> 2, 6, 7, and 11 <html/>");
+		q11c.put("<html> Is 7 a primitive root in Mod 59? <html/>", "<html> No <html/>");
+		q11c.put("<html> Is 23 a primitive root in Mod 59? <html/>", "<html> Yes <html/>");
 	}
 	
 	
