@@ -105,13 +105,13 @@ public class PracticeWindow {
 		lblNewLabel.setBounds(112, 57, 761, 86);
 		panel.add(lblNewLabel);
 		
-		JLabel lblNewLabel_1 = new JLabel("Type");
-		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_1.setText("<HTML><U>Type</U></HTML>");
-		lblNewLabel_1.setFont(new Font("Tahoma", Font.PLAIN, 36));
-		lblNewLabel_1.setForeground(Color.WHITE);
-		lblNewLabel_1.setBounds(157, 206, 139, 35);
-		panel.add(lblNewLabel_1);
+		JLabel lblType = new JLabel("Type");
+		lblType.setHorizontalAlignment(SwingConstants.CENTER);
+		lblType.setText("<HTML><U>Type</U></HTML>");
+		lblType.setFont(new Font("Tahoma", Font.PLAIN, 36));
+		lblType.setForeground(Color.WHITE);
+		lblType.setBounds(157, 206, 139, 35);
+		panel.add(lblType);
 		
 		JCheckBox shiftCheckbox = new JCheckBox("Shift Cipher");
 		shiftCheckbox.addChangeListener(new ChangeListener() {
@@ -306,7 +306,7 @@ public class PracticeWindow {
 		panel.add(multCheckbox);
 		
 		JLabel lblStyle = new JLabel("Style");
-		lblStyle.setText("<HTML><U>Type</U></HTML>");
+		lblStyle.setText("<HTML><U>Style</U></HTML>");
 		lblStyle.setHorizontalAlignment(SwingConstants.CENTER);
 		lblStyle.setForeground(Color.WHITE);
 		lblStyle.setFont(new Font("Tahoma", Font.PLAIN, 36));
