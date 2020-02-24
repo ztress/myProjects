@@ -51,6 +51,16 @@ public class PracticeWindow {
 				try {
 					PracticeWindow window = new PracticeWindow();
 					window.frame.setVisible(true);
+					
+					for(int i=0; i<type.length; i++)
+					{
+						type[i] = 0;
+					}
+					
+					style[0] = 0;
+					style[1] = 0;
+					
+					
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -80,23 +90,9 @@ public class PracticeWindow {
 		frame.getContentPane().add(panel);
 		panel.setLayout(null);
 		
+		
 		// When the state of any checkbox is changed, its value in the respective array is changed
 		// 1 represents selected, 0 not selected
-		JCheckBox phiCheckbox = new JCheckBox("Phi Function");
-		phiCheckbox.addChangeListener(new ChangeListener() {
-			public void stateChanged(ChangeEvent arg0) {
-				if(type[6] == 0)
-				{
-					type[6] = 1;
-				}
-				else
-				{
-					type[6] = 0;
-				}
-			}
-		});
-		phiCheckbox.setBounds(271, 282, 196, 29);
-		panel.add(phiCheckbox);
 		
 		JLabel lblNewLabel = new JLabel("Choose Your Problems");
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
@@ -116,7 +112,7 @@ public class PracticeWindow {
 		JCheckBox shiftCheckbox = new JCheckBox("Shift Cipher");
 		shiftCheckbox.addChangeListener(new ChangeListener() {
 			public void stateChanged(ChangeEvent arg0) {
-				if(type[0] == 0)
+				if(shiftCheckbox.isSelected())
 				{
 					type[0] = 1;
 				}
@@ -131,8 +127,8 @@ public class PracticeWindow {
 		
 		JCheckBox affineCheckbox = new JCheckBox("Affine Cipher");
 		affineCheckbox.addChangeListener(new ChangeListener() {
-			public void stateChanged(ChangeEvent arg0) {
-				if(type[1] == 0)
+			public void stateChanged(ChangeEvent e) {
+				if(affineCheckbox.isSelected())
 				{
 					type[1] = 1;
 				}
@@ -142,13 +138,14 @@ public class PracticeWindow {
 				}
 			}
 		});
+	
 		affineCheckbox.setBounds(40, 319, 161, 29);
 		panel.add(affineCheckbox);
 		
 		JCheckBox vigenereCheckbox = new JCheckBox("Vigenere Cipher");
 		vigenereCheckbox.addChangeListener(new ChangeListener() {
 			public void stateChanged(ChangeEvent arg0) {
-				if(type[2] == 0)
+				if(vigenereCheckbox.isSelected())
 				{
 					type[2] = 1;
 				}
@@ -164,7 +161,7 @@ public class PracticeWindow {
 		JCheckBox hillCheckbox = new JCheckBox("Hill Cipher");
 		hillCheckbox.addChangeListener(new ChangeListener() {
 			public void stateChanged(ChangeEvent arg0) {
-				if(type[3] == 0)
+				if(hillCheckbox.isSelected())
 				{
 					type[3] = 1;
 				}
@@ -180,7 +177,7 @@ public class PracticeWindow {
 		JCheckBox RsaCheckbox = new JCheckBox("RSA Cipher");
 		RsaCheckbox.addChangeListener(new ChangeListener() {
 			public void stateChanged(ChangeEvent arg0) {
-				if(type[4] == 0)
+				if(RsaCheckbox.isSelected())
 				{
 					type[4] = 1;
 				}
@@ -193,10 +190,26 @@ public class PracticeWindow {
 		RsaCheckbox.setBounds(40, 430, 161, 29);
 		panel.add(RsaCheckbox);
 		
+		JCheckBox phiCheckbox = new JCheckBox("Phi Function");
+		phiCheckbox.addChangeListener(new ChangeListener() {
+			public void stateChanged(ChangeEvent arg0) {
+				if(phiCheckbox.isSelected())
+				{
+					type[6] = 1;
+				}
+				else
+				{
+					type[6] = 0;
+				}
+			}
+		});
+		phiCheckbox.setBounds(271, 282, 196, 29);
+		panel.add(phiCheckbox);
+		
 		JCheckBox rootsCheckbox = new JCheckBox("Roots Mod N");
 		rootsCheckbox.addChangeListener(new ChangeListener() {
 			public void stateChanged(ChangeEvent arg0) {
-				if(type[9] == 0)
+				if(rootsCheckbox.isSelected())
 				{
 					type[9] = 1;
 				}
@@ -212,7 +225,7 @@ public class PracticeWindow {
 		JCheckBox inversesCheckbox = new JCheckBox("Inverses Mod N");
 		inversesCheckbox.addChangeListener(new ChangeListener() {
 			public void stateChanged(ChangeEvent arg0) {
-				if(type[8] == 0)
+				if(inversesCheckbox.isSelected())
 				{
 					type[8] = 1;
 				}
@@ -228,7 +241,7 @@ public class PracticeWindow {
 		JCheckBox arithmeticCheckbox = new JCheckBox("Arithmetic Mod N");
 		arithmeticCheckbox.addChangeListener(new ChangeListener() {
 			public void stateChanged(ChangeEvent arg0) {
-				if(type[7] == 0)
+				if(arithmeticCheckbox.isSelected())
 				{
 					type[7] = 1;
 				}
@@ -244,13 +257,13 @@ public class PracticeWindow {
 		JCheckBox indexCheckbox = new JCheckBox("Index of Coincidence");
 		indexCheckbox.addChangeListener(new ChangeListener() {
 			public void stateChanged(ChangeEvent arg0) {
-				if(type[9] == 0)
+				if(indexCheckbox.isSelected())
 				{
-					type[9] = 1;
+					type[10] = 1;
 				}
 				else
 				{
-					type[9] = 0;
+					type[10] = 0;
 				}
 			}
 		});
@@ -260,7 +273,7 @@ public class PracticeWindow {
 		JCheckBox elGammalCheckbox = new JCheckBox("El Gammal Cipher");
 		elGammalCheckbox.addChangeListener(new ChangeListener() {
 			public void stateChanged(ChangeEvent arg0) {
-				if(type[5] == 0)
+				if(elGammalCheckbox.isSelected())
 				{
 					type[5] = 1;
 				}
@@ -276,13 +289,13 @@ public class PracticeWindow {
 		JCheckBox primitiveCheckbox = new JCheckBox("Primitive Roots");
 		primitiveCheckbox.addChangeListener(new ChangeListener() {
 			public void stateChanged(ChangeEvent arg0) {
-				if(type[10] == 0)
+				if(primitiveCheckbox.isSelected())
 				{
-					type[10] = 1;
+					type[11] = 1;
 				}
 				else
 				{
-					type[10] = 0;
+					type[11] = 0;
 				}
 			}
 		});
@@ -300,7 +313,7 @@ public class PracticeWindow {
 		JCheckBox calcCheckbox = new JCheckBox("Calculator");
 		calcCheckbox.addChangeListener(new ChangeListener() {
 			public void stateChanged(ChangeEvent arg0) {
-				if(style[0] == 0)
+				if(calcCheckbox.isSelected())
 				{
 					style[0] = 1;
 				}
@@ -314,8 +327,18 @@ public class PracticeWindow {
 		panel.add(calcCheckbox);
 		
 		JCheckBox noCalcCheckbox = new JCheckBox("No Calculator");
-		
-		
+		noCalcCheckbox.addChangeListener(new ChangeListener() {
+			public void stateChanged(ChangeEvent arg0) {
+				if(noCalcCheckbox.isSelected())
+				{
+					style[1] = 1;
+				}
+				else
+				{
+					style[1] = 0;
+				}
+			}
+		});
 		noCalcCheckbox.setBounds(728, 319, 145, 29);
 		panel.add(noCalcCheckbox);
 		
@@ -326,12 +349,10 @@ public class PracticeWindow {
 				
 				boolean a = false;
 				boolean b = false;
+				System.out.println("style 0: " + style[0]);
+				System.out.println("style 1: " + style[1]);
 				
-				if(noCalcCheckbox.isSelected())
-				{
-					style[1] = 1;
-				}
-				
+		
 				for(int i=0; i<12; i++)	// Checks every checkbox
 				{
 					if(type[i] == 1)
@@ -354,7 +375,6 @@ public class PracticeWindow {
 					Questions q = new Questions(type, style);
 					q.setStyle(style);
 					q.setType(type);
-					System.out.println("FIEWOi " + style[1]);
 	                Questions.main(args); // Runs the main of Practice Window
 				}
 				else
