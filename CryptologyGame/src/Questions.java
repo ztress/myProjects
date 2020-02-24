@@ -137,8 +137,7 @@ public class Questions {
 		q8.put("If it exists, what is the multiplicative inverse of n in Mod (2n-1)?", "2");
 		q8.put("If it exists, what is the multiplicative inverse of n in Mod (n^2 + 1)?", "-n");
 		
-		
-		
+			
 		questionListNoCalc.put(9, (HashMap<String, String>) q9);
 		q9.put("<html> Find a square root of 5 in Mod 11 <html/>", "<html> 4 <html/>");
 		q9.put("<html> Find a square root of 5 in Mod 121 <html/>", "<html> 48 <html/>");
@@ -147,8 +146,7 @@ public class Questions {
 		q9.put("<html> Find a cube root of 3 in Mod 11 <html/>", "<html> 9 <html/>");
 		q9.put("<html> Does 2 have a square root in Mod 19? <html/>", "<html> No <html/>");
 		q9.put("<html> Does 3 have a square root in Mod 13? <html/>", "<html> Yes <html/>");
-		
-		
+			
 		
 		questionListNoCalc.put(10, (HashMap<String, String>) q10);
 		q10.put("<html> Compute the index of coincidence between \"blue\" and \"talk\"<html/>", "0/4");
@@ -184,27 +182,21 @@ public class Questions {
 		q2c.put("<html> Find the encryption key for the Vignere cipher given \"I like superheroes\" encrypts to \"P PZYL WLDLVYSYSVG\"<html/>" , "HERO");
 		q2c.put("<html> Find the encryption key for the Vignere cipher given \"More practice\" encrypts to \"MPTE QTADVIDG\"<html/>" , "ABC");
 		
-		//
+		
 		questionListCalc.put(3, (HashMap<String, String>) q3c);
 		q3c.put("<html> Decrypt \"FRPWJFTMAWSLRGLXBBENEE\" with the Hill Cipher key of [[18,8],[17,9]]<html/>" , "on the threshold of a dream");
 		q3c.put("<html> Encrypt \"The Giants Win The Pennant\" with the Hill Cipher key of [[18,8],[17,9]]<html/>" , "PWW SOGPCC KBT PWZ VHDANPC");
 		q3c.put("<html> Encrypt \"Lets play golf\" with the Hill Cipher key of [[1,2],[-1,3]]<html/>" , "TBDJ LSWU IKVE");
 		
-		//
+		
 		questionListCalc.put(4, (HashMap<String, String>) q4c);
 		q4c.put("<html> If you are using an RSA Cipher and your secret primes are 47 and 139, is either 23 or 29 a valid choice for a public encryption exponent?<html/>","Only 29");
 		q4c.put("<html> If you are using an RSA Cipher your secret primes are 23 and 31, and your public encryption exponent is 7, decrypt \"495\"<html/>", "123");
 		q4c.put("<html> Encrypt \"348\" using an RSA Cipher with n=551 and public key = 5<html/>", "290");
 		
-		//
+		
 		questionListCalc.put(5, (HashMap<String, String>) q5c);
-		q5c.put("Hi", "Hi");
-		q5c.put("Hi", "Hi");
-		q5c.put("Hi", "Hi");
-		q5c.put("Hi", "Hi");
-		q5c.put("Hi", "Hi");
-		q5c.put("Hi", "Hi");
-		//q5c.put("<html> Encrypt \"18\" using the El Gammal Cipher with prime 101, primitive root 2, private key 7, and secret integer 10<html/>", "Header: 14 Ciphertext: 7");
+		q5c.put("<html> Encrypt \"18\" using the El Gammal Cipher with prime 101, primitive root 2, private key 7, and secret integer 10<html/>", "Header: 14 Ciphertext: 7");
 
 		
 		questionListCalc.put(6, (HashMap<String, String>) q6c);
