@@ -67,11 +67,11 @@ public class Questions {
 	{
 		questionListNoCalc.put(0, (HashMap<String, String>) q0);
 		q0.put("<html> Perform an encryption with a shift cipher (k=6) on the following: <br/> "
-				+ "\"This is my homework\" </html>", "<html>ZNOY OY SE NUSKCUXQ</html>");	
-		q0.put("<html> Decrypt the following, given the shift cipher key is 5: Bjhqtrj</html>", "Welcome");
-		q0.put("<html> Encrypt \"Tricky question\" with a shift cipher key of 26", "Tricky question </html>");
-		q0.put("<html> Encrypt the message \"exams are no fun\" with <br/> a shift cipher (k=2) </html>", "GZCOU CTG PQ HWP");
-		q0.put("<html> Given that \"Go Giants\" encrypts to \"Qy Qskxdc\", <br/> decrypt \"ROVVY WI XKWO SC JKM </html>", "Hello my name is Zac");
+				+ "\"This is my homework\" </html>", "<html>ZNOY OY SE NUSKCUXQ<html/>");	
+		q0.put("<html> Decrypt the following, given the shift cipher key is 5: Bjhqtrj<html/>", "Welcome");
+		q0.put("<html> Encrypt \"Tricky question\" with a shift cipher key of 26", "Tricky question <html/>");
+		q0.put("<html> Encrypt the message \"exams are no fun\" with <br/> a shift cipher (k=2) <html/>", "GZCOU CTG PQ HWP");
+		q0.put("<html> Given that \"Go Giants\" encrypts to \"Qy Qskxdc\", <br/> decrypt \"ROVVY WI XKWO SC JKM <html/>", "Hello my name is Zac");
 		
 		questionListNoCalc.put(1, (HashMap<String, String>) q1);
 		q1.put("<html> Decrypt \"BQQZON\" given the affine cipher key is (3,1)<html/>", "Affine");
@@ -92,7 +92,7 @@ public class Questions {
 		q3.put("<html> Which matrix can be used for a Hill Cipher? <br/> K1: [[1,1],[0,1]] or K2: [[1,1],[0,2]] <html/>", "K1");
 		q3.put("<html> Suppose \"bead\" gets encrypted using a Hill Cipher and the result is \"FGDD\". What is the key?<html/>", "[[1,1],[2,1]]");
 		q3.put("<html> Encrypt \"Michigan\" with the Hill Cipher key of [[1,1],[0,1]]<html/>" , "UIJHOGNN");
-		q3.put("<html> Encrypt \"let there be songs to fill the air\" with the <br/> Hill Cipher key of [[1,0,2],[0,1,1],[3,0,1]] <html/>" , "XXA BLJTF AG GAXYF DT KEWJ BLJ IZR");
+		q3.put("<html> Encrypt \"let there be songs to fill the air\" with the <br/> Hill Cipher key of [[1,0,2],[0,1,1],[3,0,1]] <html/>" , "<html>XXA BLJTF AG GAXYF DT KEWJ BLJ IZR<html/>");
 		
 		
 		questionListNoCalc.put(4, (HashMap<String, String>) q4);
@@ -168,7 +168,7 @@ public class Questions {
 		q0c.put("<html> Find the encryption key of the shift cipher given the plaintext is \"Hello users\" and the ciphertext is \"Wtaad jhtgh\"<html/>", "k = 15");
 		q0c.put("<html> Find the encryption key of the shift cipher and the decoded message given the encoded message is \"Ivmvijv\"<html/>", "Reverse	k = 17");
 		q0c.put("<html> Find the encryption key of the shift cipher given the plaintext is \"Hello world\" and the ciphertext is \"KHOOR ZRUOG\"<html/>", "k = 3");
-		q0c.put("<html> Find the encryption key of the shift cipher and the decoded message given the encoded message is \"AWBBSGCHO UCZRSB UCDVSFG\"<html/>", "Minnesota Golden Gophers	k = 14");
+		q0c.put("<html> Find the encryption key of the shift cipher and the decoded message given the encoded message is \"AWBBSGCHO UCZRSB UCDVSFG\"<html/>", "Minnesota Golden Gophers \t k = 14");
 			
 		questionListCalc.put(1, (HashMap<String, String>) q1c);
 		q1c.put("<html> Decrypt \"TFULBAR MFU EWH THHLHAC\" given the affine cipher key is (31,13)<html/>", "Working for the weekend");
@@ -216,10 +216,10 @@ public class Questions {
 		q7c.put("<html> In Mod 54, what is 344*267? </html>", "<html> 6 <html/>");
 
 		questionListCalc.put(8, (HashMap<String, String>) q8c);
-		q8c.put("If it exists, what is the multiplicative inverse of 17 in Mod 29?", "12");
-		q8c.put("If it exists, what is the multiplicative inverse of 25 in Mod 72?", "49");
-		q8c.put("If it exists, what is the multiplicative inverse of 10 in Mod 27?", "19");
-		q8c.put("If it exists, what is the multiplicative inverse of 124 in Mod 156?", "Does not exist");	
+		q8c.put("<html>If it exists, what is the multiplicative inverse of 17 in Mod 29?<html/>", "12");
+		q8c.put("<html>If it exists, what is the multiplicative inverse of 25 in Mod 72?<html/>", "49");
+		q8c.put("<html>If it exists, what is the multiplicative inverse of 10 in Mod 27?<html/>", "19");
+		q8c.put("<html>If it exists, what is the multiplicative inverse of 124 in Mod 156?<html/>", "Does not exist");	
 		
 		
 		questionListCalc.put(9, (HashMap<String, String>) q9c);
