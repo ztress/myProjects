@@ -256,10 +256,8 @@ public class Questions {
 	{
 		if(style[0] == 1)
 		{
-			System.out.println("Length: "+ type.length);
 			for(int i=0; i<type.length; i++)	// Iterates through all possible types and adds questions for that type if selected
 			{
-				System.out.println("type" + i + " = " + type[i]);
 				if(type[i] == 1)
 				{
 					HashMap<String, String> a = questionListCalc.get(i);
@@ -358,6 +356,7 @@ public class Questions {
 		answerLabel.setBounds(264, 489, 480, 78);
 		panel.add(answerLabel);
 		
+		
 		// Next button goes to the next question
 		JButton nextButton = new JButton("Next");
 		nextButton.addActionListener(new ActionListener() {
@@ -370,6 +369,7 @@ public class Questions {
 		nextButton.setBounds(799, 489, 154, 65);
 		panel.add(nextButton);
 		
+		
 		// Show Answer button shows the answer for the current question
 		JButton showAnswerButton = new JButton("Show Answer");
 		showAnswerButton.addActionListener(new ActionListener() {
@@ -381,6 +381,7 @@ public class Questions {
 		showAnswerButton.setBounds(15, 489, 211, 65);
 		panel.add(showAnswerButton);
 	}
+	
 
 	public void setStyle(int[] style) {
 		this.style = style;

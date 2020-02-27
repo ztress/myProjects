@@ -348,10 +348,7 @@ public class PracticeWindow {
 			public void actionPerformed(ActionEvent e) {
 				
 				boolean a = false;
-				boolean b = false;
-				System.out.println("style 0: " + style[0]);
-				System.out.println("style 1: " + style[1]);
-				
+				boolean b = false;				
 		
 				for(int i=0; i<12; i++)	// Checks every checkbox
 				{
