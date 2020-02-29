@@ -365,7 +365,7 @@ public class Questions {
 				chooseQuestion(questionLabel);
 			}
 		});
-		nextButton.setFont(new Font("Tahoma", Font.PLAIN, 30));
+		nextButton.setFont(new Font("Tahoma", Font.PLAIN, 36));
 		nextButton.setBounds(799, 489, 154, 65);
 		panel.add(nextButton);
 		
